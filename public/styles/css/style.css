@@ -10782,11 +10782,21 @@ textarea.form-control-lg {
   font-weight: 900;
   font-family: "MonumentExtended", sans-serif;
   font-stretch: extra-expanded;
+  font-size: 3rem;
+}
+@media (min-width: 576px) {
+  .display-2--intro {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .display-2--intro {
+    font-size: 5rem;
+  }
 }
 @media (min-width: 992px) {
   .display-2--intro {
     font-size: 6rem;
-    line-height: 6rem;
   }
 }
 .display-2--description {
@@ -10804,6 +10814,7 @@ textarea.form-control-lg {
 }
 
 .avatar {
+  position: absolute;
   width: 7.5rem;
   height: 7.5rem;
   border-radius: 50%;
@@ -10815,22 +10826,115 @@ textarea.form-control-lg {
   transform: translate(-50%, -50%);
   max-width: 80%;
 }
+.avatar-1 {
+  background: linear-gradient(180deg, #E2DAFD 0%, #D6CBFC 100%);
+  transform: rotate(-10.22deg);
+}
+@media (min-width: 768px) {
+  .avatar-1 {
+    width: 6.25rem;
+    height: 6.25rem;
+    transform: translate(-50%, 112.5%);
+  }
+}
+@media (min-width: 992px) {
+  .avatar-1 {
+    width: 7.5rem;
+    height: 7.5rem;
+    transform: translate(-50%, 110%);
+  }
+}
+.avatar-4 {
+  background: linear-gradient(180deg, #DDFFE7 4.12%, #ECBAF0 100%);
+}
 .avatar-4 {
   background: linear-gradient(180deg, #DDFFE7 4.12%, #ECBAF0 100%);
 }
 
-.avatar-3 {
+.avatar-x {
   background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-  width: 3rem;
-  height: 3rem;
+  height: 3.5rem;
   border-radius: 50%;
-  vertical-align: bottom;
+  transform: translate(-5%, 50%);
 }
-.avatar-3 img {
+.avatar-x img {
   display: inline;
-  max-width: 90%;
-  margin-top: -50%;
-  margin-right: -50%;
+  transform: translateY(-60%);
+}
+
+.avatar-3-wrapper {
+  display: inline-flex;
+  font-size: 3rem;
+}
+.avatar-3-wrapper span {
+  background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
+  width: 1.7142857143rem;
+  height: 1.7142857143rem;
+  border-radius: 50%;
+  transform: translate(-5%, 75%);
+}
+.avatar-3-wrapper span img {
+  display: inline;
+  max-width: 80%;
+  min-width: 80%;
+  transform: translate(12.5%, -100%);
+}
+@media (min-width: 576px) {
+  .avatar-3-wrapper {
+    display: inline-flex;
+    font-size: 4rem;
+  }
+  .avatar-3-wrapper span {
+    background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
+    width: 2.2857142857rem;
+    height: 2.2857142857rem;
+    border-radius: 50%;
+    transform: translate(-5%, 75%);
+  }
+  .avatar-3-wrapper span img {
+    display: inline;
+    max-width: 80%;
+    min-width: 80%;
+    transform: translate(12.5%, -100%);
+  }
+}
+@media (min-width: 768px) {
+  .avatar-3-wrapper {
+    display: inline-flex;
+    font-size: 5rem;
+  }
+  .avatar-3-wrapper span {
+    background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
+    width: 2.8571428571rem;
+    height: 2.8571428571rem;
+    border-radius: 50%;
+    transform: translate(-5%, 75%);
+  }
+  .avatar-3-wrapper span img {
+    display: inline;
+    max-width: 80%;
+    min-width: 80%;
+    transform: translate(12.5%, -100%);
+  }
+}
+@media (min-width: 992px) {
+  .avatar-3-wrapper {
+    display: inline-flex;
+    font-size: 6rem;
+  }
+  .avatar-3-wrapper span {
+    background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
+    width: 3.4285714286rem;
+    height: 3.4285714286rem;
+    border-radius: 50%;
+    transform: translate(-5%, 75%);
+  }
+  .avatar-3-wrapper span img {
+    display: inline;
+    max-width: 80%;
+    min-width: 80%;
+    transform: translate(12.5%, -100%);
+  }
 }
 
 .hero {

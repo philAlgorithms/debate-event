@@ -23,13 +23,28 @@
         font-weight: 900;
         font-family: 'MonumentExtended', sans-serif;
         font-stretch: extra-expanded;
+        //line-height: 4rem;
 
-        @include media-breakpoint-up(lg) {
-            //max-width: 70%;
-            font-size: 6rem;
-            line-height: 6rem;
-            //display: inline-block;
+        @include media-breakpoint-up(xs) {
+            font-size: $intro-size-xs;
         }
+        @include media-breakpoint-up(sm) {
+            font-size: $intro-size-sm;
+        }
+        @include media-breakpoint-up(md) {
+            font-size: $intro-size-md;
+            //line-height: -1rem;
+        }
+        @include media-breakpoint-up(lg) {
+            font-size: $intro-size-lg;
+        }
+        // }
+        // @include media-breakpoint-up(lg) {
+        //     //max-width: 70%;
+        //     font-size: 6rem;
+        //     //line-height: 6rem;
+        //     //display: inline-block;
+        // }
     }
 
     &--description {
