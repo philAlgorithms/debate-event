@@ -1,0 +1,19 @@
+// THEME COLORS
+$blue:  #5656FF;
+$purple: #867DE1;
+$green: #67B98D;  
+
+// OVERRIDE GRAY COLORS
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #212127;//#495057;
+$gray-800: #343a40;
+$gray-900: #1E1E1E;
+$black:    #000;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
