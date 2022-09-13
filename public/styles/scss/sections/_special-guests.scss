@@ -1,7 +1,40 @@
+@use '../custom' as *;
+
 .special-guests {
+    padding: 4rem auto;
     .guest {
-        width:  11.25rem;
-        height: 11.25rem;
-        //margin: 0.5rem;
+        width:  10.5rem;
+        height: 10.5rem;
+        
+	@include media-breakpoint-up(md) {
+	    width:  13.5rem;
+	    height: 13.5rem;
+	}
+
+	@include media-breakpoint-up(lg) {
+            width:  18.75rem;
+            height: 18.75rem;
+        }
+
+	&:nth-child(1n+0){
+	    .card {
+		background-color: $blue;
+	    }
+	}
+	&:nth-child(2n+0){
+	    .card {
+		background-color: $green;
+	    }
+	}
+	&:nth-child(3n+0){
+	    .card {
+		background-color: $purple;
+	    }
+	}
+	&:nth-child(4n+0){
+            .card {
+                background-color: $gray-700;
+            }
+        }
     }
 }

@@ -11199,7 +11199,6 @@ textarea.form-control-lg {
 }
 
 .special-guest-card {
-  background-color: #67B98D;
   border-radius: 1rem;
   border-width: 0;
   border-color: transparent;
@@ -11252,9 +11251,36 @@ textarea.form-control-lg {
   height: 80%;
 }
 
+.special-guests {
+  padding: 4rem auto;
+}
 .special-guests .guest {
-  width: 11.25rem;
-  height: 11.25rem;
+  width: 10.5rem;
+  height: 10.5rem;
+}
+@media (min-width: 768px) {
+  .special-guests .guest {
+    width: 13.5rem;
+    height: 13.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .special-guests .guest {
+    width: 18.75rem;
+    height: 18.75rem;
+  }
+}
+.special-guests .guest:nth-child(1n+0) .card {
+  background-color: #5656FF;
+}
+.special-guests .guest:nth-child(2n+0) .card {
+  background-color: #67B98D;
+}
+.special-guests .guest:nth-child(3n+0) .card {
+  background-color: #867DE1;
+}
+.special-guests .guest:nth-child(4n+0) .card {
+  background-color: #212127;
 }
 
 /*# sourceMappingURL=style.css.map */

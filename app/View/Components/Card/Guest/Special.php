@@ -11,9 +11,11 @@ class Special extends Component
      *
      * @return void
      */
-    public function __construct()
+    public $index;
+
+    public function __construct($index)
     {
-        //
+        $this->index = $index;
     }
 
     /**
