@@ -10856,6 +10856,11 @@ textarea.form-control-lg {
   font-family: "DM Sans", sans-serif;
   font-weight: 800;
 }
+@media (max-width: 575.98px) {
+  .display-3 {
+    font-size: 1.75rem;
+  }
+}
 
 .lead {
   font-family: "DM Sans", sans-serif;
@@ -11163,6 +11168,16 @@ textarea.form-control-lg {
   }
 }
 
+.card .full-background {
+  background-position: 50%;
+  background-size: cover;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 0.75rem;
+}
+
 .schedule-card {
   background-color: #212127;
   color: #fff;
@@ -11181,6 +11196,24 @@ textarea.form-control-lg {
   text-transform: capitalize;
   font-size: 1.25rem;
   font-weight: 400;
+}
+
+.special-guest-card {
+  background-color: #67B98D;
+  border-radius: 1rem;
+  border-width: 0;
+  width: 12rem;
+  height: 12rem;
+}
+.special-guest-card img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .hero {
@@ -11216,6 +11249,12 @@ textarea.form-control-lg {
   transform: translate(-50%, -50%);
   width: 90%;
   height: 80%;
+}
+
+.special-guests .guest {
+  width: 12rem;
+  height: 12rem;
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
