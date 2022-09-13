@@ -10785,17 +10785,17 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .display-2--intro {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 @media (min-width: 576px) {
   .display-2--intro {
-    font-size: 4.375rem;
+    font-size: 4rem;
   }
 }
 @media (min-width: 768px) {
   .display-2--intro {
-    font-size: 4.75rem;
+    font-size: 4.5rem;
   }
 }
 @media (min-width: 992px) {
@@ -10810,7 +10810,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 986px) and (max-width: 1175px) {
   .display-2--intro {
-    font-size: 4.975rem;
+    font-size: 4.85rem;
   }
 }
 @media (min-width: 1180px) and (max-width: 1267px) {
@@ -11028,12 +11028,12 @@ textarea.form-control-lg {
 
 .avatar-3-wrapper {
   display: inline-flex;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .avatar-3-wrapper span {
   background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-  width: 2.2857142857rem;
-  height: 2.2857142857rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   transform: translate(-5%, 75%);
 }
@@ -11046,12 +11046,12 @@ textarea.form-control-lg {
 @media (min-width: 576px) {
   .avatar-3-wrapper {
     display: inline-flex;
-    font-size: 4.375rem;
+    font-size: 4rem;
   }
   .avatar-3-wrapper span {
     background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.2857142857rem;
+    height: 2.2857142857rem;
     border-radius: 50%;
     transform: translate(-5%, 75%);
   }
@@ -11065,12 +11065,12 @@ textarea.form-control-lg {
 @media (min-width: 768px) {
   .avatar-3-wrapper {
     display: inline-flex;
-    font-size: 4.75rem;
+    font-size: 4.5rem;
   }
   .avatar-3-wrapper span {
     background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-    width: 2.7142857143rem;
-    height: 2.7142857143rem;
+    width: 2.5714285714rem;
+    height: 2.5714285714rem;
     border-radius: 50%;
     transform: translate(-5%, 75%);
   }
