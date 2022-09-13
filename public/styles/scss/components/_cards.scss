@@ -1,0 +1,23 @@
+@use '../custom' as *;
+@use './mixins' as *;
+
+.event-card {
+    .placeholder {
+	position: absolute;
+	//min-width: 100px;
+	width: 5px;
+	max-height: 40rem;
+	border-radius: 20px;
+	background-color: green;
+
+	img {
+	    @include absoluteCenter;
+	    min-width: 100%;
+	    max-height: 20rem;
+	    height: 20rem;
+	    overflow: hidden;
+	    object-fit: cover;
+	    background-color: green;
+	}
+    }
+}

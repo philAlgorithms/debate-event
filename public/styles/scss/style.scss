@@ -6,6 +6,8 @@
 @use 'components/mixins';
 @use 'components/typography';
 @use 'components/avatars';
+@use 'components/cards';
 
 // IMPORT SECTIONS
 @use 'sections/hero';
+@use 'sections/event-schedule';

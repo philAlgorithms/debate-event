@@ -10850,6 +10850,13 @@ textarea.form-control-lg {
   }
 }
 
+.display-3 {
+  text-transform: "capitalise";
+  font-size: 1.75rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 800;
+}
+
 .avatar {
   position: absolute;
   width: 3.75rem;
@@ -10983,7 +10990,7 @@ textarea.form-control-lg {
     width: 6.25rem;
     height: 6.25rem;
     top: 33.25rem;
-    right: 3rem;
+    right: 1.5rem;
   }
 }
 @media (min-width: 576px) {
@@ -11149,6 +11156,26 @@ textarea.form-control-lg {
     min-width: 80%;
     transform: translate(12.5%, -100%);
   }
+}
+
+.event-card .placeholder {
+  position: absolute;
+  width: 5px;
+  max-height: 40rem;
+  border-radius: 20px;
+  background-color: green;
+}
+.event-card .placeholder img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  max-height: 20rem;
+  height: 20rem;
+  overflow: hidden;
+  object-fit: cover;
+  background-color: green;
 }
 
 .hero {
