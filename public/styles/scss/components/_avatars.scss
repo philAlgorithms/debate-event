@@ -3,10 +3,8 @@
 
 .avatar {
     position: absolute;
-    width: 7.5rem;
-    height: 7.5rem;
-    //top: 50%;
-    //right: 5px;
+    width: 3.75rem;
+    height: 3.75rem;
     border-radius: 50%;
 
     img {
@@ -16,50 +14,112 @@
 
     &-1 {
         background: linear-gradient(180deg, #E2DAFD 0%, #D6CBFC 100%);
-        transform: rotate(-10.22deg);
+        //transform: rotate(-10.22deg);
 
         @include media-breakpoint-up(xs){
-            //transform: translate(50%);
+            //width: 6.25rem;
+            //height: 6.25rem;
+            //transform: translate(0%, -75%);
         }
         @include media-breakpoint-up(sm){
-            //@include image-o($intro-size-sm);
+            width: 6.25rem;
+            height: 6.25rem;
+            //transform: translate(0%, -75%);
         }
         @include media-breakpoint-up(md){
             width: 6.25rem;
             height: 6.25rem;
-            transform: translate(-50%, 112.5%);
+            //transform: translate(-50%, 122.5%);
         }
         @include media-breakpoint-up(lg){
             width: 7.5rem;
             height: 7.5rem;
-            transform: translate(-50%, 110%);
+            //transform: translate(-50%, 100%);
         }
     }
-    &-4 {
-        background: linear-gradient(180deg, #DDFFE7 4.12%, #ECBAF0 100%);
-    }
-    &-4 {
-        background: linear-gradient(180deg, #DDFFE7 4.12%, #ECBAF0 100%);
-    }
-}
 
-.avatar-x {
-    //position: relative;
-    //display: inline;
-    background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-    //width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 50%;
-    transform: translate(-5%, 50%);
-    //vertical-align: bottom;
+    // AVATAR 2
+    &-2 {
+        background: linear-gradient(180deg, #E2DAFD 0%, #D6CBFC 100%);
 
-    img {
-        display: inline;
-        //max-width: 90%;
-        //min-width: 90%;
-        transform: translateY(-60%);
-        //margin-top: -50%;
-        //margin-right: -50%;
+        @include media-breakpoint-up(none){
+            width: 3.75rem;
+            height: 3.75rem;
+            //transform: translate(400%, -75%);
+        }
+        @include media-breakpoint-up(sm){
+            width: 6.25rem;
+            height: 6.25rem;
+            //transform: translate(400%, -75%);
+        }
+        @include media-breakpoint-up(md){
+            width: 6.25rem;
+            height: 6.25rem;
+            //transform: translate(350%, 122.5%);
+        }
+        @include media-breakpoint-up(lg){
+            width: 7.5rem;
+            height: 7.5rem;
+            //transform: translate(350%, 100%);
+        }
+    }
+
+    &-4 {
+        background: linear-gradient(180deg, black 4.12%, black 100%);
+        @include media-breakpoint-up(xs){
+            width: 6.25rem;
+            height: 6.25rem;
+            //transform: translate(0%, -75%);
+        }
+        @include media-breakpoint-up(sm){
+            width: 6.25rem;
+            height: 6.25rem;
+            //transform: translate(0%, -75%);
+        }
+        @include media-breakpoint-up(md){
+            width: 6.25rem;
+            height: 6.25rem;
+            //transform: translate(-50%, 600.5%);
+        }
+        @include media-breakpoint-up(lg){
+            width: 9rem;
+            height: 9rem;
+            //transform: translate(-50%, 475%);
+        }
+        @include media-breakpoint-up(xl){
+            width: 12rem;
+            height: 12rem;
+            //transform: translate(-50%, 270%);
+        }
+    }
+    &-5 {
+        background: linear-gradient(180deg, #DDFFE7 4.12%, #ECBAF0 100%);
+        
+        @include media-breakpoint-up(xs){
+            width: 6.25rem;
+            height: 6.25rem;
+            //transform: translate(0%, -75%);
+        }
+        @include media-breakpoint-up(sm){
+            width: 6.25rem;
+            height: 6.25rem;
+            //transform: translate(0%, -75%);
+        }
+        @include media-breakpoint-up(md){
+            width: 6.25rem;
+            height: 6.25rem;
+            //transform: translate(-50%, 600.5%);
+        }
+        @include media-breakpoint-up(lg){
+            width: 12rem;
+            height: 12rem;
+            //transform: translate(370%, 290%);
+        }
+        @include media-breakpoint-up(xl){
+            width: 12rem;
+            height: 12rem;
+            //transform: translate(470%, 250%);
+        }
     }
 }
 
@@ -75,5 +135,8 @@
    }
    @include media-breakpoint-up(lg){
     @include image-o($intro-size-lg);
+   }
+   @include media-breakpoint-up(xl){
+    @include image-o($intro-size-xl);
    }
 }

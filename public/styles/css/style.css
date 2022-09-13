@@ -10782,7 +10782,7 @@ textarea.form-control-lg {
   font-weight: 900;
   font-family: "MonumentExtended", sans-serif;
   font-stretch: extra-expanded;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 @media (min-width: 576px) {
   .display-2--intro {
@@ -10791,16 +10791,22 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .display-2--intro {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
 }
 @media (min-width: 992px) {
   .display-2--intro {
-    font-size: 6rem;
+    font-size: 5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .display-2--intro {
+    font-size: 6.25rem;
   }
 }
 .display-2--description {
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-family: "DM Sans", sans-serif;
   display: block;
   margin-top: 1.2rem;
   text-transform: none;
@@ -10815,8 +10821,8 @@ textarea.form-control-lg {
 
 .avatar {
   position: absolute;
-  width: 7.5rem;
-  height: 7.5rem;
+  width: 3.75rem;
+  height: 3.75rem;
   border-radius: 50%;
 }
 .avatar img {
@@ -10828,48 +10834,115 @@ textarea.form-control-lg {
 }
 .avatar-1 {
   background: linear-gradient(180deg, #E2DAFD 0%, #D6CBFC 100%);
-  transform: rotate(-10.22deg);
+}
+@media (min-width: 576px) {
+  .avatar-1 {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
 }
 @media (min-width: 768px) {
   .avatar-1 {
     width: 6.25rem;
     height: 6.25rem;
-    transform: translate(-50%, 112.5%);
   }
 }
 @media (min-width: 992px) {
   .avatar-1 {
     width: 7.5rem;
     height: 7.5rem;
-    transform: translate(-50%, 110%);
+  }
+}
+.avatar-2 {
+  background: linear-gradient(180deg, #E2DAFD 0%, #D6CBFC 100%);
+  width: 3.75rem;
+  height: 3.75rem;
+}
+@media (min-width: 576px) {
+  .avatar-2 {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+}
+@media (min-width: 768px) {
+  .avatar-2 {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+}
+@media (min-width: 992px) {
+  .avatar-2 {
+    width: 7.5rem;
+    height: 7.5rem;
   }
 }
 .avatar-4 {
+  background: linear-gradient(180deg, black 4.12%, black 100%);
+  width: 6.25rem;
+  height: 6.25rem;
+}
+@media (min-width: 576px) {
+  .avatar-4 {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+}
+@media (min-width: 768px) {
+  .avatar-4 {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+}
+@media (min-width: 992px) {
+  .avatar-4 {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+@media (min-width: 1200px) {
+  .avatar-4 {
+    width: 12rem;
+    height: 12rem;
+  }
+}
+.avatar-5 {
   background: linear-gradient(180deg, #DDFFE7 4.12%, #ECBAF0 100%);
+  width: 6.25rem;
+  height: 6.25rem;
 }
-.avatar-4 {
-  background: linear-gradient(180deg, #DDFFE7 4.12%, #ECBAF0 100%);
+@media (min-width: 576px) {
+  .avatar-5 {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
 }
-
-.avatar-x {
-  background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-  height: 3.5rem;
-  border-radius: 50%;
-  transform: translate(-5%, 50%);
+@media (min-width: 768px) {
+  .avatar-5 {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
 }
-.avatar-x img {
-  display: inline;
-  transform: translateY(-60%);
+@media (min-width: 992px) {
+  .avatar-5 {
+    width: 12rem;
+    height: 12rem;
+  }
+}
+@media (min-width: 1200px) {
+  .avatar-5 {
+    width: 12rem;
+    height: 12rem;
+  }
 }
 
 .avatar-3-wrapper {
   display: inline-flex;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 .avatar-3-wrapper span {
   background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-  width: 1.7142857143rem;
-  height: 1.7142857143rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   transform: translate(-5%, 75%);
 }
@@ -10901,6 +10974,25 @@ textarea.form-control-lg {
 @media (min-width: 768px) {
   .avatar-3-wrapper {
     display: inline-flex;
+    font-size: 4.5rem;
+  }
+  .avatar-3-wrapper span {
+    background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
+    width: 2.5714285714rem;
+    height: 2.5714285714rem;
+    border-radius: 50%;
+    transform: translate(-5%, 75%);
+  }
+  .avatar-3-wrapper span img {
+    display: inline;
+    max-width: 80%;
+    min-width: 80%;
+    transform: translate(12.5%, -100%);
+  }
+}
+@media (min-width: 992px) {
+  .avatar-3-wrapper {
+    display: inline-flex;
     font-size: 5rem;
   }
   .avatar-3-wrapper span {
@@ -10917,15 +11009,15 @@ textarea.form-control-lg {
     transform: translate(12.5%, -100%);
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .avatar-3-wrapper {
     display: inline-flex;
-    font-size: 6rem;
+    font-size: 6.25rem;
   }
   .avatar-3-wrapper span {
     background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-    width: 3.4285714286rem;
-    height: 3.4285714286rem;
+    width: 3.5714285714rem;
+    height: 3.5714285714rem;
     border-radius: 50%;
     transform: translate(-5%, 75%);
   }
@@ -10940,24 +11032,36 @@ textarea.form-control-lg {
 .hero {
   width: 100%;
   height: 100%;
+  padding: 7.5rem 1rem;
 }
-.hero--centered {
-  min-width: 90%;
+@media (min-width: 576px) {
+  .hero {
+    padding: 7.5rem 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .hero {
+    padding: 7.5rem 2rem;
+    height: 75%;
+  }
+}
+@media (min-width: 992px) {
+  .hero {
+    padding: 7.5rem 3.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .hero {
+    padding: 7.5rem 3.5rem;
+  }
+}
+.hero .avatars {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-@media (min-width: 768px) {
-  .hero--centered {
-    min-width: 66.67%;
-    max-width: 70%;
-  }
-}
-@media (min-width: 768px) {
-  .hero h1 {
-    margin-top: 10rem;
-  }
+  width: 90%;
+  height: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */
