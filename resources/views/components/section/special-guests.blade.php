@@ -5,7 +5,7 @@
 	</div>
 	<div class="row d-flex justify-content-center">
         @for ($i=0; $i<16; $i++)
-        <div class="col-6 col-md-3 col-lg-3 px-1 guest">
+        <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 px-1 guest">
             <x-card.guest.special />
         </div>
         @endfor
