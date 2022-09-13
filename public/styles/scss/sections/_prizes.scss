@@ -1,0 +1,11 @@
+@use '../custom' as *;
+
+.prizes {
+    height: 50rem;
+    background-color: $info;
+    padding: 4rem auto;
+
+    .prize {
+	//height: 100uv;
+    }
+}

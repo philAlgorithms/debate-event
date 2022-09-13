@@ -10765,6 +10765,29 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/*
+@mixin image-o ($font-size, $line-height:$font-size) {
+    display: inline-flex;
+    font-size: $font-size;
+
+    span {
+        //position: relative;
+        //display: inline;
+        background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
+        width: calc($font-size/1.75);
+        height: calc($font-size/1.75);
+        border-radius: 50%;
+        transform: translate(-5%, 75%);
+        //vertical-align: bottom;
+
+        img {
+            display: inline;
+            max-width: 80%;
+            min-width: 80%;
+            transform: translate(12.5%, -100%);
+        }
+    }
+}*/
 @font-face {
   font-family: "Monument Extended";
   font-style: normal;
@@ -11045,13 +11068,13 @@ textarea.form-control-lg {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  transform: translate(-5%, 75%);
+  transform: translate(-5%, 100%);
 }
 .avatar-3-wrapper span img {
   display: inline;
   max-width: 80%;
   min-width: 80%;
-  transform: translate(12.5%, -100%);
+  transform: translate(12.5%, -132.5%);
 }
 @media (min-width: 576px) {
   .avatar-3-wrapper {
@@ -11063,13 +11086,13 @@ textarea.form-control-lg {
     width: 2.2857142857rem;
     height: 2.2857142857rem;
     border-radius: 50%;
-    transform: translate(-5%, 75%);
+    transform: translate(-5%, 100%);
   }
   .avatar-3-wrapper span img {
     display: inline;
     max-width: 80%;
     min-width: 80%;
-    transform: translate(12.5%, -100%);
+    transform: translate(12.5%, -132.5%);
   }
 }
 @media (min-width: 768px) {
@@ -11082,13 +11105,13 @@ textarea.form-control-lg {
     width: 2.5714285714rem;
     height: 2.5714285714rem;
     border-radius: 50%;
-    transform: translate(-5%, 75%);
+    transform: translate(-5%, 100%);
   }
   .avatar-3-wrapper span img {
     display: inline;
     max-width: 80%;
     min-width: 80%;
-    transform: translate(12.5%, -100%);
+    transform: translate(12.5%, -132.5%);
   }
 }
 @media (min-width: 992px) {
@@ -11101,13 +11124,13 @@ textarea.form-control-lg {
     width: 2.9714285714rem;
     height: 2.9714285714rem;
     border-radius: 50%;
-    transform: translate(-5%, 75%);
+    transform: translate(-5%, 100%);
   }
   .avatar-3-wrapper span img {
     display: inline;
     max-width: 80%;
     min-width: 80%;
-    transform: translate(12.5%, -100%);
+    transform: translate(12.5%, -132.5%);
   }
 }
 @media (min-width: 1200px) {
@@ -11120,13 +11143,13 @@ textarea.form-control-lg {
     width: 3.7142857143rem;
     height: 3.7142857143rem;
     border-radius: 50%;
-    transform: translate(-5%, 75%);
+    transform: translate(-5%, 100%);
   }
   .avatar-3-wrapper span img {
     display: inline;
     max-width: 80%;
     min-width: 80%;
-    transform: translate(12.5%, -100%);
+    transform: translate(12.5%, -132.5%);
   }
 }
 @media (min-width: 993px) and (max-width: 1070px) {
@@ -11139,13 +11162,13 @@ textarea.form-control-lg {
     width: 2.5714285714rem;
     height: 2.5714285714rem;
     border-radius: 50%;
-    transform: translate(-5%, 75%);
+    transform: translate(-5%, 100%);
   }
   .avatar-3-wrapper span img {
     display: inline;
     max-width: 80%;
     min-width: 80%;
-    transform: translate(12.5%, -100%);
+    transform: translate(12.5%, -132.5%);
   }
 }
 @media (min-width: 1201px) and (max-width: 1300px) {
@@ -11158,13 +11181,13 @@ textarea.form-control-lg {
     width: 3.4285714286rem;
     height: 3.4285714286rem;
     border-radius: 50%;
-    transform: translate(-5%, 75%);
+    transform: translate(-5%, 100%);
   }
   .avatar-3-wrapper span img {
     display: inline;
     max-width: 80%;
     min-width: 80%;
-    transform: translate(12.5%, -100%);
+    transform: translate(12.5%, -132.5%);
   }
 }
 
@@ -11251,6 +11274,11 @@ textarea.form-control-lg {
   height: 80%;
 }
 
+.prizes {
+  height: 50rem;
+  background-color: #0dcaf0;
+  padding: 4rem auto;
+}
 .special-guests {
   padding: 4rem auto;
 }
