@@ -14,20 +14,14 @@
                     </span>
                 </h1>
             </div>
+            <span class="avatar avatar-1"><img src="/images/avatars/avatar-1.png" alt="memoji 1"></span>
+            <span class="avatar avatar-2"><img src="/images/avatars/avatar-2.png" alt="memoji 2"></span>
+            <span class="avatar avatar-4"><img src="/images/avatars/avatar-4.png" alt="memoji 4"></span>
+            <span class="avatar avatar-5"><img src="/images/avatars/avatar-5.png" alt="memoji 5"></span>
         </div>
         <div class="row avatars">
-            <div class="col-6 bg-primar" style="opacity: 1">
-                <span class="avatar avatar-1"><img src="/images/avatars/avatar-1.png" alt="memoji 1"></span>
-            </div>
-            <div class="col-6 text-center bg-success"  style="opacity: 0.1">
-                <span class="avatar avatar-2"><img src="/images/avatars/avatar-2.png" alt="memoji 2"></span>                
-            </div>
-            <div class="col-6 bg-warning"  style="opacity: 0.1">
-                <span class="avatar avatar-4"><img src="/images/avatars/avatar-4.png" alt="memoji 4"></span>
-            </div>
-            <div class="col-6 text-end bg-info"  style="opacity: 0.1">
-                <span class="avatar avatar-5"><img src="/images/avatars/avatar-5.png" alt="memoji 5"></span>
-            </div>
+            
+            
             {{--
                 <span class="avatar avatar-6"><img src="/images/avatars/avatar-6.png" alt="memoji 6"></span>
             <span class="avatar avatar-7"><img src="/images/avatars/avatar-7.png" alt="memoji 7"></span>

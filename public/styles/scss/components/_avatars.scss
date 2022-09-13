@@ -14,27 +14,34 @@
 
     &-1 {
         background: linear-gradient(180deg, #E2DAFD 0%, #D6CBFC 100%);
-        //transform: rotate(-10.22deg);
+        transform: rotate(-10.22deg);
 
-        @include media-breakpoint-up(xs){
-            //width: 6.25rem;
-            //height: 6.25rem;
-            //transform: translate(0%, -75%);
+        @include media-breakpoint-up(none){
+            top: 5rem;
         }
         @include media-breakpoint-up(sm){
-            width: 6.25rem;
-            height: 6.25rem;
-            //transform: translate(0%, -75%);
+            width: 4rem;
+            height: 4rem;
+            top: 5rem;
+            left: 5rem;
         }
         @include media-breakpoint-up(md){
-            width: 6.25rem;
-            height: 6.25rem;
-            //transform: translate(-50%, 122.5%);
+            width: 6rem;
+            height: 6rem;
+            top: 4rem;
+            left: 5rem;
+        }
+        @include media-breakpoint-up(lg){
+            width: 6.5rem;
+            height: 6.5rem;
+            top: 5rem;
+            left: 3rem;
         }
         @include media-breakpoint-up(lg){
             width: 7.5rem;
             height: 7.5rem;
-            //transform: translate(-50%, 100%);
+            top: 5rem;
+            left: 3.75rem;
         }
     }
 
@@ -43,100 +50,121 @@
         background: linear-gradient(180deg, #E2DAFD 0%, #D6CBFC 100%);
 
         @include media-breakpoint-up(none){
-            width: 3.75rem;
-            height: 3.75rem;
-            //transform: translate(400%, -75%);
+            width: 4rem;
+            height: 4rem;
+            top: 5rem;
+            right: 2.5rem;
         }
         @include media-breakpoint-up(sm){
             width: 6.25rem;
             height: 6.25rem;
-            //transform: translate(400%, -75%);
+            right: 5rem;
         }
         @include media-breakpoint-up(md){
             width: 6.25rem;
             height: 6.25rem;
-            //transform: translate(350%, 122.5%);
+            right: 8.75rem;
         }
         @include media-breakpoint-up(lg){
             width: 7.5rem;
             height: 7.5rem;
-            //transform: translate(350%, 100%);
+            right: 15rem;
+        }
+        @include media-breakpoint-up(xl){
+            width: 7.5rem;
+            height: 7.5rem;
+            right: 15rem;
         }
     }
 
     &-4 {
         background: linear-gradient(180deg, black 4.12%, black 100%);
-        @include media-breakpoint-up(xs){
-            width: 6.25rem;
-            height: 6.25rem;
-            //transform: translate(0%, -75%);
+        max-width: 70%;
+        @include media-breakpoint-down(sm){
+            width: 5.5rem;
+            height: 5.5rem;
+            top: 36.25rem;
         }
         @include media-breakpoint-up(sm){
             width: 6.25rem;
             height: 6.25rem;
-            //transform: translate(0%, -75%);
+            top: 30rem;
         }
         @include media-breakpoint-up(md){
             width: 6.25rem;
             height: 6.25rem;
-            //transform: translate(-50%, 600.5%);
+            top: 32.5rem;
         }
         @include media-breakpoint-up(lg){
             width: 9rem;
             height: 9rem;
-            //transform: translate(-50%, 475%);
+            top:37.5rem
         }
         @include media-breakpoint-up(xl){
-            width: 12rem;
-            height: 12rem;
-            //transform: translate(-50%, 270%);
+            width: 9rem;
+            height: 9rem;
+            top: 39.25rem;
         }
     }
     &-5 {
         background: linear-gradient(180deg, #DDFFE7 4.12%, #ECBAF0 100%);
         
-        @include media-breakpoint-up(xs){
+        @include media-breakpoint-down(sm){
             width: 6.25rem;
             height: 6.25rem;
-            //transform: translate(0%, -75%);
+            top: 33.25rem;
+            right: 3rem;
+        }
+        @include media-breakpoint-between(432, 553){
+            top: 1rem;
         }
         @include media-breakpoint-up(sm){
             width: 6.25rem;
             height: 6.25rem;
-            //transform: translate(0%, -75%);
+            top: 30rem;
+            right: 5rem;
         }
         @include media-breakpoint-up(md){
-            width: 6.25rem;
-            height: 6.25rem;
-            //transform: translate(-50%, 600.5%);
+            width: 7.5rem;
+            height: 7.5rem;
+            top: 30rem;
+            right: 5rem;
         }
         @include media-breakpoint-up(lg){
-            width: 12rem;
-            height: 12rem;
-            //transform: translate(370%, 290%);
+            width: 9.5rem;
+            height: 9.5rem;
+            top: 32rem;
+            right: 4rem;
         }
         @include media-breakpoint-up(xl){
-            width: 12rem;
-            height: 12rem;
-            //transform: translate(470%, 250%);
+            width: 10rem;
+            height: 10rem;
+            top: 35rem;
+            right: 6rem;
         }
     }
 }
 
 .avatar-3-wrapper {
-   @include media-breakpoint-up(xs){
-    @include image-o($intro-size-xs);
-   }
-   @include media-breakpoint-up(sm){
-    @include image-o($intro-size-sm);
-   }
-   @include media-breakpoint-up(md){
-    @include image-o($intro-size-md);
-   }
-   @include media-breakpoint-up(lg){
-    @include image-o($intro-size-lg);
-   }
-   @include media-breakpoint-up(xl){
-    @include image-o($intro-size-xl);
-   }
+    @include media-breakpoint-up(xs){
+        @include image-o($intro-size-xs);
+    }
+    @include media-breakpoint-up(sm){
+        @include image-o($intro-size-sm);
+    }
+    @include media-breakpoint-up(md){
+        @include image-o($intro-size-md);
+    }
+    @include media-breakpoint-up(lg){
+        @include image-o($intro-size-lg);
+    }
+    @include media-breakpoint-up(xl){
+        @include image-o($intro-size-xl);
+    }
+    @media (min-width: 993px) and (max-width: 1070px) {
+        @include image-o(4.5rem);
+    }
+    @media (min-width: 1201px) and (max-width: 1300px) {
+        @include image-o(6rem);
+    }
 }
