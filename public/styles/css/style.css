@@ -10785,7 +10785,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .display-2--intro {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 @media (min-width: 576px) {
@@ -10834,6 +10834,13 @@ textarea.form-control-lg {
   display: block;
   margin-top: 1.2rem;
   text-transform: none;
+}
+@media (max-width: 575.98px) {
+  .display-2--description {
+    max-width: 95%;
+    font-size: 1rem;
+    display: inline-block;
+  }
 }
 @media (min-width: 576px) {
   .display-2--description {
@@ -11038,12 +11045,12 @@ textarea.form-control-lg {
 
 .avatar-3-wrapper {
   display: inline-flex;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 .avatar-3-wrapper span {
   background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-  width: 2rem;
-  height: 2rem;
+  width: 1.7142857143rem;
+  height: 1.7142857143rem;
   border-radius: 50%;
   transform: translate(-5%, 75%);
 }
@@ -11197,6 +11204,11 @@ textarea.form-control-lg {
   object-fit: cover;
   overflow: hidden;
   border-radius: 0.75rem;
+}
+@media (min-width: 992px) {
+  .schedule-card .card-header {
+    height: 12rem;
+  }
 }
 .schedule-card--date {
   display: block;

@@ -30,6 +30,10 @@
 	    overflow: hidden;
 	    border-radius: 0.75rem;
 	}
+
+	@include media-breakpoint-up(lg) {
+	    height: 12rem;
+	}
     }
 
     &--date {
