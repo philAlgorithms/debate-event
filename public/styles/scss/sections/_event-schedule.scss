@@ -1,0 +1,21 @@
+@use '../custom' as *;
+
+.event-schedule {
+    .activity {
+	&:nth-child(1n + 0) {
+	    .card-header {
+		background-color: $purple;
+	    }
+	}
+	&:nth-child(2n + 0) {
+	    .card-header {
+		background-color: $green;
+	    }
+	}
+	&:nth-child(3n + 0) {
+	    .card-header {
+		background-color: $blue;
+	    }
+	}
+    }
+}

@@ -3,16 +3,18 @@
 .special-guests {
     padding: 4rem auto;
     .guest {
-        width:  10.5rem;
-        height: 10.5rem;
+        //width:  10.5rem;
+        //height: 10.5rem;
         
+	@include media-breakpoint-up(sm) {
+	    height: 10rem;
+	}
+
 	@include media-breakpoint-up(md) {
-	    width:  13.5rem;
 	    height: 13.5rem;
 	}
 
 	@include media-breakpoint-up(lg) {
-            width:  18.75rem;
             height: 18.75rem;
         }
 

@@ -10765,29 +10765,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/*
-@mixin image-o ($font-size, $line-height:$font-size) {
-    display: inline-flex;
-    font-size: $font-size;
-
-    span {
-        //position: relative;
-        //display: inline;
-        background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-        width: calc($font-size/1.75);
-        height: calc($font-size/1.75);
-        border-radius: 50%;
-        transform: translate(-5%, 75%);
-        //vertical-align: bottom;
-
-        img {
-            display: inline;
-            max-width: 80%;
-            min-width: 80%;
-            transform: translate(12.5%, -100%);
-        }
-    }
-}*/
 @font-face {
   font-family: "Monument Extended";
   font-style: normal;
@@ -11068,13 +11045,13 @@ textarea.form-control-lg {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  transform: translate(-5%, 100%);
+  transform: translate(-5%, 75%);
 }
 .avatar-3-wrapper span img {
   display: inline;
   max-width: 80%;
   min-width: 80%;
-  transform: translate(12.5%, -132.5%);
+  transform: translate(12.5%, -85%);
 }
 @media (min-width: 576px) {
   .avatar-3-wrapper {
@@ -11086,13 +11063,13 @@ textarea.form-control-lg {
     width: 2.2857142857rem;
     height: 2.2857142857rem;
     border-radius: 50%;
-    transform: translate(-5%, 100%);
+    transform: translate(-5%, 75%);
   }
   .avatar-3-wrapper span img {
     display: inline;
     max-width: 80%;
     min-width: 80%;
-    transform: translate(12.5%, -132.5%);
+    transform: translate(12.5%, -85%);
   }
 }
 @media (min-width: 768px) {
@@ -11105,13 +11082,13 @@ textarea.form-control-lg {
     width: 2.5714285714rem;
     height: 2.5714285714rem;
     border-radius: 50%;
-    transform: translate(-5%, 100%);
+    transform: translate(-5%, 75%);
   }
   .avatar-3-wrapper span img {
     display: inline;
     max-width: 80%;
     min-width: 80%;
-    transform: translate(12.5%, -132.5%);
+    transform: translate(12.5%, -85%);
   }
 }
 @media (min-width: 992px) {
@@ -11124,13 +11101,13 @@ textarea.form-control-lg {
     width: 2.9714285714rem;
     height: 2.9714285714rem;
     border-radius: 50%;
-    transform: translate(-5%, 100%);
+    transform: translate(-5%, 75%);
   }
   .avatar-3-wrapper span img {
     display: inline;
     max-width: 80%;
     min-width: 80%;
-    transform: translate(12.5%, -132.5%);
+    transform: translate(12.5%, -85%);
   }
 }
 @media (min-width: 1200px) {
@@ -11143,13 +11120,13 @@ textarea.form-control-lg {
     width: 3.7142857143rem;
     height: 3.7142857143rem;
     border-radius: 50%;
-    transform: translate(-5%, 100%);
+    transform: translate(-5%, 75%);
   }
   .avatar-3-wrapper span img {
     display: inline;
     max-width: 80%;
     min-width: 80%;
-    transform: translate(12.5%, -132.5%);
+    transform: translate(12.5%, -85%);
   }
 }
 @media (min-width: 993px) and (max-width: 1070px) {
@@ -11162,13 +11139,13 @@ textarea.form-control-lg {
     width: 2.5714285714rem;
     height: 2.5714285714rem;
     border-radius: 50%;
-    transform: translate(-5%, 100%);
+    transform: translate(-5%, 75%);
   }
   .avatar-3-wrapper span img {
     display: inline;
     max-width: 80%;
     min-width: 80%;
-    transform: translate(12.5%, -132.5%);
+    transform: translate(12.5%, -85%);
   }
 }
 @media (min-width: 1201px) and (max-width: 1300px) {
@@ -11181,13 +11158,13 @@ textarea.form-control-lg {
     width: 3.4285714286rem;
     height: 3.4285714286rem;
     border-radius: 50%;
-    transform: translate(-5%, 100%);
+    transform: translate(-5%, 75%);
   }
   .avatar-3-wrapper span img {
     display: inline;
     max-width: 80%;
     min-width: 80%;
-    transform: translate(12.5%, -132.5%);
+    transform: translate(12.5%, -85%);
   }
 }
 
@@ -11202,11 +11179,23 @@ textarea.form-control-lg {
 }
 
 .schedule-card {
-  background-color: #212127;
   color: #fff;
+  border-radius: 0.75rem;
+  background-color: #212127;
+}
+.schedule-card .card-header {
+  height: 8.75rem;
   border-radius: 0.75rem;
 }
 .schedule-card .card-header img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  max-height: 102%;
+  object-fit: cover;
+  overflow: hidden;
   border-radius: 0.75rem;
 }
 .schedule-card--date {
@@ -11226,7 +11215,7 @@ textarea.form-control-lg {
   border-width: 0;
   border-color: transparent;
   width: 100%;
-  height: 100%;
+  min-height: 10rem;
 }
 .special-guest-card img {
   position: absolute;
@@ -11238,7 +11227,31 @@ textarea.form-control-lg {
   object-fit: cover;
   overflow: hidden;
 }
+@media (min-width: 768px) {
+  .special-guest-card {
+    min-height: 12.5rem;
+  }
+}
 
+.prize-card {
+  border-radius: 1rem;
+  border-width: 0;
+  border-color: transparent;
+  width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  background-color: #212127;
+}
+.prize-card img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
 .hero {
   width: 100%;
   height: 100%;
@@ -11274,27 +11287,44 @@ textarea.form-control-lg {
   height: 80%;
 }
 
-.prizes {
-  height: 50rem;
-  background-color: #0dcaf0;
-  padding: 4rem auto;
+.event-schedule .activity:nth-child(1n+0) .card-header {
+  background-color: #867DE1;
 }
+.event-schedule .activity:nth-child(2n+0) .card-header {
+  background-color: #67B98D;
+}
+.event-schedule .activity:nth-child(3n+0) .card-header {
+  background-color: #5656FF;
+}
+
+.prizes {
+  height: 100%;
+}
+.prizes .prize-1 {
+  height: 30rem;
+}
+.prizes .prize-2 {
+  height: 18rem;
+}
+.prizes .prize-3 {
+  height: 12rem;
+}
+
 .special-guests {
   padding: 4rem auto;
 }
-.special-guests .guest {
-  width: 10.5rem;
-  height: 10.5rem;
+@media (min-width: 576px) {
+  .special-guests .guest {
+    height: 10rem;
+  }
 }
 @media (min-width: 768px) {
   .special-guests .guest {
-    width: 13.5rem;
     height: 13.5rem;
   }
 }
 @media (min-width: 992px) {
   .special-guests .guest {
-    width: 18.75rem;
     height: 18.75rem;
   }
 }

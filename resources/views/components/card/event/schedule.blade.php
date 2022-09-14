@@ -2,7 +2,7 @@
     <!-- Card image -->
     <div class="card-header p-0 position-relative mt-3 mx-3 z-index-2">
       <img class="border-radius-lg w-100" 
-        src="https://images.unsplash.com/photo-1531512073830-ba890ca4eba2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80" 
+        src="https://i.pravatar.cc/505" 
         alt="Image placeholder">
      </div>
     <!-- Card body -->
