@@ -18,6 +18,10 @@
             height: 18.75rem;
         }
 
+	@include media-breakpoint-up(lg) {
+            height: 15rem;
+        }
+
 	&:nth-child(1n+0){
 	    .card {
 		background-color: $blue;

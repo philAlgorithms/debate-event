@@ -11340,6 +11340,11 @@ textarea.form-control-lg {
     height: 18.75rem;
   }
 }
+@media (min-width: 992px) {
+  .special-guests .guest {
+    height: 15rem;
+  }
+}
 .special-guests .guest:nth-child(1n+0) .card {
   background-color: #5656FF;
 }
