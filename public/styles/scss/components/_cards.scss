@@ -2,70 +2,93 @@
 @use './mixins' as *;
 
 .card {
-	.full-background {
+    .full-background {
 	background-position: 50%;
-    	background-size: cover;
-    	margin-bottom: 30px;
-    	width: 100%;
-    	height: 100%;
-    	position: absolute;
-    	border-radius: 0.75rem;
-	}
+	background-size: cover;
+	margin-bottom: 30px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	border-radius: 0.75rem;
+    }
 }
 
 .schedule-card {
-	background-color: $gray-700;
-	color: $white;
+    color: $white;
+    border-radius: 0.75rem;
+    background-color: $gray-700;
+
+    .card-header {
+	height: 8.75rem;
 	border-radius: 0.75rem;
-	.card-header {
-		img {
-			border-radius: 0.75rem;
-		}
+
+	img {
+	    @include absoluteCenter;
+	    min-width: 100%;
+	    max-height: 102%;
+	    object-fit: cover;
+	    overflow: hidden;
+	    border-radius: 0.75rem;
 	}
 
-	&--date {
-		display: block;
-		font-size: 1rem;
-		color: $green;
+	@include media-breakpoint-up(lg) {
+	    height: 12rem;
 	}
+    }
 
-	&--activity {
-		display: block;
-		text-transform: capitalize;
-		font-size: 1.25rem;
-		font-weight: 400;
-	}	
+    &--date {
+	display: block;
+	font-size: 1rem;
+	color: $green;
+    }
+
+    &--activity {
+	display: block;
+	text-transform: capitalize;
+	font-size: 1.25rem;
+	font-weight: 400;
+    }	
 }
 
 .special-guest-card {
-	background-color: $green;
-	border-radius: 1rem;
-	border-width: 0;
-	border-color: transparent;
-
-	position: relative;
+    //background-color: $green;
+    border-radius: 1rem;
+    border-width: 0;
+    border-color: transparent;
     width: 100%;
-	min-height: 10rem;
-    max-height: 18.5rem;
-       
-	@include media-breakpoint-up(md) {
-	    height: 13.5rem;
-	}
+    min-height: 10rem;
 
-	@include media-breakpoint-up(lg) {
-        height: 13.75rem;
+    img {
+	@include absoluteCenter;
+	min-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+	overflow: hidden;
     }
 
-	@include media-breakpoint-up(lg) {
-        height: 10.75rem;
+    @include media-breakpoint-up(md) {
+	min-height: 12.5rem;
     }
-
-	img {
-		@include absoluteCenter;
-		min-width: 100%;
-		max-height: 100%;
-		object-fit: cover;
-		overflow: hidden;
-	}
 }
 
+.prize-card {
+    border-radius: 1rem;
+    border-width: 0;
+    border-color: transparent;
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    background-color: $gray-700;
+
+    img {
+	@include absoluteCenter;
+	min-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+    }
+
+    @include media-breakpoint-up(md) {
+	//min-height: 12.5rem;
+    }
+}
