@@ -1,5 +1,5 @@
 <section id="prizes" class="prizes mt-5">
-    <div class="container">
+    <div class="container position-relative px-md-2 px-lg-4">
 	<div class="row text-center text-white mb-2">
 	    <h1 class="display-3">Prizes</h1>
 	</div>

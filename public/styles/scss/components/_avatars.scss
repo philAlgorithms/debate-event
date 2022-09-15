@@ -83,7 +83,7 @@
         @include media-breakpoint-down(sm){
             width: 5.5rem;
             height: 5.5rem;
-            top: 36.25rem;
+            top: 30.25rem;
         }
         @include media-breakpoint-up(sm){
             width: 6.25rem;
@@ -112,7 +112,7 @@
         @include media-breakpoint-down(sm){
             width: 6.25rem;
             height: 6.25rem;
-            top: 33.25rem;
+            top: 26.25rem;
             right: 1.5rem;
         }
         @include media-breakpoint-between(432, 553){

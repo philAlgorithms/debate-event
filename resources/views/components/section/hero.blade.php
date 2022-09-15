@@ -1,5 +1,5 @@
 <section id="hero" class="hero">
-    <div class="container">
+    <div class="container pb-sm-5">
         <div class="row text-white">
             <div class="col-sm-12 col-md-11 col-lg-9 col-xl-10">
                 <h1 class="display-2">
