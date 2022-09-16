@@ -11303,17 +11303,14 @@ textarea.form-control-lg {
 }
 
 .meet {
-  height: 100vh;
+  padding: 0;
 }
 .meet .container {
   position: relative;
-  min-width: 100vw;
-  min-height: 100%;
+  height: 100%;
 }
 .meet .container .meet--text {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  height: 100%;
 }
 .meet .container .meet--text h1 {
   font-size: 2.5rem;
@@ -11327,7 +11324,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .meet .container .meet--text {
-    padding: 40% 20%;
+    padding: 0 25%;
   }
   .meet .container .meet--text h1 {
     font-size: 4rem;
@@ -11338,66 +11335,206 @@ textarea.form-control-lg {
 }
 @media (min-width: 1200px) {
   .meet .container .meet--text {
-    padding: 0 22.5%;
+    padding: 0 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .meet .container .meet--text {
+    padding: 0 28.75%;
   }
 }
 .meet .container .ribbons {
-  position: relative;
-  max-width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.meet .container .ribbons .ribbon {
+  position: absolute;
+  width: inherit;
 }
 .meet .container .ribbons .ribbon-1 {
-  right: 0;
-  top: 8%;
-  width: 45vw;
+  right: -80px;
+  top: 1%;
+  width: 45%;
+}
+@media (min-width: 768px) {
+  .meet .container .ribbons .ribbon-1 {
+    top: 10%;
+    right: -80px;
+  }
+}
+@media (min-width: 1200px) {
+  .meet .container .ribbons .ribbon-1 {
+    top: 5%;
+    width: 50%;
+  }
 }
 .meet .container .ribbons .ribbon-2 {
-  left: -1rem;
+  left: -80px;
   top: 10%;
-  width: 27.5vw;
+  width: 27.5%;
+}
+@media (min-width: 1200px) {
+  .meet .container .ribbons .ribbon-2 {
+    top: 8.75%;
+    width: 30%;
+  }
 }
 .meet .container .ribbons .ribbon-3 {
   left: -1rem;
   top: 50%;
-  width: 30vw;
+  width: 30%;
+}
+@media (min-width: 768px) {
+  .meet .container .ribbons .ribbon-3 {
+    left: -80px;
+    width: 37.5%;
+  }
 }
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-3 {
-    width: 33.25vw;
+    width: 33.25%;
   }
 }
 .meet .container .ribbons .ribbon-4 {
-  left: -1rem;
-  bottom: 0;
-  width: 45vw;
+  left: -5rem;
+  bottom: -3%;
+  width: 45%;
+}
+@media (min-width: 768px) {
+  .meet .container .ribbons .ribbon-4 {
+    left: -80px;
+  }
 }
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-4 {
-    bottom: -11.55vh;
+    bottom: -5%;
+    width: 51.25%;
   }
 }
 .meet .container .ribbons .ribbon-5 {
   right: 0;
-  bottom: 14vh;
-  width: 52vw;
+  bottom: 14%;
+  width: 55%;
+}
+@media (min-width: 768px) {
+  .meet .container .ribbons .ribbon-5 {
+    right: -80px;
+  }
 }
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-5 {
-    bottom: 10vh;
+    bottom: 15%;
   }
 }
 .meet .container .ribbons .ribbon-6 {
   top: 15%;
   left: 31.25%;
-  width: 12.5vw;
+  width: 12.5%;
+}
+@media (min-width: 1200px) {
+  .meet .container .ribbons .ribbon-6 {
+    top: 13.5%;
+    width: 15%;
+  }
 }
 .meet .container .ribbons .ribbon-7 {
-  left: 5vw;
+  left: 15%;
   bottom: 0;
-  width: 25vw;
+  width: 15%;
 }
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-7 {
-    bottom: 11.55vh;
+    top: 35%;
+    right: 15%;
+    width: 15%;
+  }
+}
+@media (min-width: 1200px) {
+  .meet .container .ribbons .ribbon-8 {
+    right: -3%;
+    width: 10%;
+    top: -3%;
+  }
+}
+@media (min-width: 1200px) {
+  .meet .container .ribbons .ribbon-9 {
+    left: -78px;
+    width: 11.25%;
+    bottom: 10%;
+  }
+}
+@media (min-width: 1200px) {
+  .meet .container .ribbons .ribbon-10 {
+    left: 35%;
+    width: 10%;
+    bottom: 3.5%;
+  }
+}
+@media (min-width: 768px) {
+  .meet .container .ribbons .ribbon-11 {
+    right: -80px;
+  }
+}
+@media (min-width: 1200px) {
+  .meet .container .ribbons .ribbon-11 {
+    width: 12.5%;
+    bottom: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .meet .container .ribbons .ribbon-12 {
+    right: 1%;
+    width: 15%;
+    top: 40%;
+  }
+}
+@media (min-width: 768px) {
+  .meet .container .ribbons .ribbon-13 {
+    right: -80px;
+  }
+}
+@media (min-width: 1200px) {
+  .meet .container .ribbons .ribbon-13 {
+    right: 20%;
+    width: 13.5%;
+    top: 35%;
+  }
+}
+@media (min-width: 768px) {
+  .meet .container .ribbons .ribbon-14 {
+    left: -50px;
+  }
+}
+@media (min-width: 1200px) {
+  .meet .container .ribbons .ribbon-14 {
+    width: 7%;
+    top: 1%;
+  }
+}
+@media (max-width: 575.98px) {
+  .meet {
+    height: 667px;
+  }
+}
+@media (min-width: 576px) {
+  .meet {
+    height: 780px;
+  }
+}
+@media (min-width: 768px) {
+  .meet {
+    height: 500px;
+  }
+}
+@media (min-width: 992px) {
+  .meet {
+    height: 600px;
+  }
+}
+@media (min-width: 1200px) {
+  .meet {
+    height: 800px;
   }
 }
 

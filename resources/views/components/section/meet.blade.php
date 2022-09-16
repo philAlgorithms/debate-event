@@ -1,13 +1,13 @@
 <section id="meet" class="meet mt-5">
     <div class="container position-relative">
-        <div class="row text-center text-white meet--text mx-5">
+        <div class="row flex-column justify-content-center align-items-center text-white text-center meet--text">
             <h1 class="display-3">Meet IRL</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Excepturi, quis quas? Dignissimos, ex cumque. Quasi excepturi 
                 accusamus assumenda aliquid.
             </p>
         </div>
-        <div class="row ribbons">
+        <div class="row ribbons w-100">
             <img src="/images/ribbons/Vector 35.svg" class="ribbon ribbon-1" />
             <img src="/images/ribbons/Vector 31.svg" class="ribbon ribbon-2" />
             <img src="/images/ribbons/Vector 28.svg" class="ribbon ribbon-3" />
@@ -15,6 +15,13 @@
             <img src="/images/ribbons/Vector 34.svg" class="ribbon ribbon-5" />
             <img src="/images/ribbons/Vector 32.svg" class="ribbon ribbon-6" />
             <img src="/images/ribbons/Vector 42.svg" class="ribbon ribbon-7" />
+            <img src="/images/ribbons/Vector 39.svg" class="ribbon ribbon-8" />
+            <img src="/images/ribbons/Vector 41.svg" class="ribbon ribbon-9" />
+            <img src="/images/ribbons/Vector 43.svg" class="ribbon ribbon-10" />
+            <img src="/images/ribbons/Vector 37.svg" class="ribbon ribbon-11" />
+            <img src="/images/ribbons/Vector 38.svg" class="ribbon ribbon-12" />
+            <img src="/images/ribbons/Vector 36.svg" class="ribbon ribbon-13" />
+            <img src="/images/ribbons/Vector 40.svg" class="ribbon ribbon-14" />
         </div>
     </div> 
 </section>
