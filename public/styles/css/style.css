@@ -11348,19 +11348,36 @@ textarea.form-control-lg {
   height: 100%;
   top: 0;
 }
+@media (max-width: 575.98px) {
+  .meet .container .ribbons {
+    width: 100%;
+    overflow: hidden;
+  }
+}
 .meet .container .ribbons .ribbon {
   position: absolute;
   width: inherit;
+  overflow: hidden;
 }
 .meet .container .ribbons .ribbon-1 {
   right: -80px;
   top: 1%;
   width: 45%;
 }
-@media (min-width: 768px) {
+@media (max-width: 575.98px) {
   .meet .container .ribbons .ribbon-1 {
-    top: 10%;
-    right: -80px;
+    transform: rotate(-47.5deg);
+    top: 5%;
+    right: -45px;
+    width: 70%;
+  }
+}
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-1 {
+    transform: rotate(-47.5deg);
+    top: 5%;
+    right: -45px;
+    width: 70%;
   }
 }
 @media (min-width: 1200px) {
@@ -11374,6 +11391,20 @@ textarea.form-control-lg {
   top: 10%;
   width: 27.5%;
 }
+@media (max-width: 575.98px) {
+  .meet .container .ribbons .ribbon-2 {
+    display: none;
+    top: 10%;
+    right: -80px;
+  }
+}
+@media (max-width: 575.98px) {
+  .meet .container .ribbons .ribbon-2 {
+    display: none;
+    top: 10%;
+    right: -80px;
+  }
+}
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-2 {
     top: 8.75%;
@@ -11385,10 +11416,20 @@ textarea.form-control-lg {
   top: 50%;
   width: 30%;
 }
-@media (min-width: 768px) {
+@media (max-width: 575.98px) {
   .meet .container .ribbons .ribbon-3 {
-    left: -80px;
-    width: 37.5%;
+    transform: rotate(52.5deg);
+    top: 5%;
+    left: -45px;
+    width: 65%;
+  }
+}
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-3 {
+    transform: rotate(52.5deg);
+    top: 5%;
+    left: -45px;
+    width: 65%;
   }
 }
 @media (min-width: 1200px) {
@@ -11401,9 +11442,20 @@ textarea.form-control-lg {
   bottom: -3%;
   width: 45%;
 }
-@media (min-width: 768px) {
+@media (max-width: 575.98px) {
   .meet .container .ribbons .ribbon-4 {
-    left: -80px;
+    transform: rotate(-17.5deg);
+    bottom: 5%;
+    right: -45px;
+    width: 70%;
+  }
+}
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-4 {
+    transform: rotate(-17.5deg);
+    bottom: 5%;
+    right: -45px;
+    width: 70%;
   }
 }
 @media (min-width: 1200px) {
@@ -11417,9 +11469,20 @@ textarea.form-control-lg {
   bottom: 14%;
   width: 55%;
 }
-@media (min-width: 768px) {
+@media (max-width: 575.98px) {
   .meet .container .ribbons .ribbon-5 {
-    right: -80px;
+    transform: rotate(45deg);
+    bottom: 7.5%;
+    right: -35px;
+    width: 70%;
+  }
+}
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-5 {
+    transform: rotate(45deg);
+    bottom: 7.5%;
+    right: -35px;
+    width: 70%;
   }
 }
 @media (min-width: 1200px) {
@@ -11432,6 +11495,20 @@ textarea.form-control-lg {
   left: 31.25%;
   width: 12.5%;
 }
+@media (max-width: 575.98px) {
+  .meet .container .ribbons .ribbon-6 {
+    display: none;
+    top: 10%;
+    right: -80px;
+  }
+}
+@media (max-width: 575.98px) {
+  .meet .container .ribbons .ribbon-6 {
+    display: none;
+    top: 10%;
+    right: -80px;
+  }
+}
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-6 {
     top: 13.5%;
@@ -11443,11 +11520,41 @@ textarea.form-control-lg {
   bottom: 0;
   width: 15%;
 }
+@media (max-width: 575.98px) {
+  .meet .container .ribbons .ribbon-7 {
+    top: 26.25%;
+    transform: rotate(47.5deg);
+    left: 0;
+    width: 30%;
+  }
+}
+@media (max-width: 575.98px) {
+  .meet .container .ribbons .ribbon-7 {
+    top: 26.25%;
+    transform: rotate(47.5deg);
+    left: 0;
+    width: 30%;
+  }
+}
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-7 {
     top: 35%;
     right: 15%;
     width: 15%;
+  }
+}
+@media (max-width: 575.98px) {
+  .meet .container .ribbons .ribbon-8 {
+    display: none;
+    top: 10%;
+    right: -80px;
+  }
+}
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-8 {
+    display: none;
+    top: 10%;
+    right: -80px;
   }
 }
 @media (min-width: 1200px) {
@@ -11457,11 +11564,43 @@ textarea.form-control-lg {
     top: -3%;
   }
 }
+@media (max-width: 575.98px) {
+  .meet .container .ribbons .ribbon-9 {
+    transform: rotate(-17.5deg);
+    bottom: 15%;
+    left: -40px;
+    width: 25%;
+  }
+}
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-9 {
+    transform: rotate(-17.5deg);
+    bottom: 15%;
+    left: -40px;
+    width: 25%;
+  }
+}
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-9 {
     left: -78px;
     width: 11.25%;
     bottom: 10%;
+  }
+}
+@media (max-width: 575.98px) {
+  .meet .container .ribbons .ribbon-10 {
+    transform: rotate(-22.5deg);
+    bottom: 5%;
+    left: 27.5%;
+    width: 25%;
+  }
+}
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-10 {
+    transform: rotate(-22.5deg);
+    bottom: 5%;
+    left: 27.5%;
+    width: 25%;
   }
 }
 @media (min-width: 1200px) {
@@ -11471,15 +11610,38 @@ textarea.form-control-lg {
     bottom: 3.5%;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 575.98px) {
   .meet .container .ribbons .ribbon-11 {
-    right: -80px;
+    transform: rotate(45deg);
+    bottom: 15%;
+    right: -40px;
+    width: 25%;
+  }
+}
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-11 {
+    transform: rotate(45deg);
+    bottom: 15%;
+    right: -40px;
+    width: 25%;
   }
 }
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-11 {
     width: 12.5%;
     bottom: 25%;
+  }
+}
+@media (max-width: 575.98px) {
+  .meet .container .ribbons .ribbon-12 {
+    display: none;
+    top: 10%;
+    right: -80px;
+  }
+}
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-12 {
+    display: none;
   }
 }
 @media (min-width: 1200px) {
@@ -11489,9 +11651,20 @@ textarea.form-control-lg {
     top: 40%;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 575.98px) {
   .meet .container .ribbons .ribbon-13 {
-    right: -80px;
+    transform: rotate(-35deg);
+    top: 27.5%;
+    right: 1%;
+    width: 30%;
+  }
+}
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-13 {
+    transform: rotate(-35deg);
+    top: 27.5%;
+    right: 1%;
+    width: 30%;
   }
 }
 @media (min-width: 1200px) {
@@ -11501,8 +11674,16 @@ textarea.form-control-lg {
     top: 35%;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 575.98px) {
   .meet .container .ribbons .ribbon-14 {
+    display: none;
+    top: 10%;
+    right: -80px;
+  }
+}
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-14 {
+    display: none;
     left: -50px;
   }
 }

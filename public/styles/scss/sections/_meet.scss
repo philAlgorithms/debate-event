@@ -6,7 +6,8 @@
     padding: 0;
 
     .container {
-        $margin: 80px;
+	$margin-xs: 40px;
+        $margin-xl: 80px;
 
         position: relative;
         //width: 100%;
@@ -53,18 +54,34 @@
             //min-width: 100vw;
             height: 100%;
             top: 0;
+
+	    @include media-breakpoint-down(sm){
+		width: 100%;
+		overflow: hidden;
+	    }
+
             .ribbon {
                 position: absolute;
                 width: inherit;
-                //overflow: hidden;
-                &-1 {
-                    right: -$margin;
-                    top: 1%;
-                    width: 45%;
+                overflow: hidden;
 
-                    @include media-breakpoint-up(md) {
-                        top: 10%;
-                        right: -$margin;
+                &-1 {
+                    right: -$margin-xl;
+                    top: 1%;
+                    width: 45%; 
+		    
+		    @include media-breakpoint-down(sm) {
+			transform: rotate(-47.5deg);
+                        top: 5%;
+                        right: calc(-1 * ($margin-xs + 5px));
+			width: 70%;
+                    }
+                    @include media-breakpoint-up(sm) {
+                        transform: rotate(-47.5deg);
+                        top: 5%;
+                        right: calc(-1 * ($margin-xs + 5px));
+			width: 70%;
+
                     }
 
                     @include media-breakpoint-up(xl) {
@@ -74,9 +91,21 @@
                 }
     
                 &-2 {
-                    left: -$margin;
+                    left: -$margin-xl;
                     top: 10%;
                     width: 27.5%;
+		    
+		    @include media-breakpoint-down(sm) {
+			display: none;
+                        top: 10%;
+                        right: -$margin-xl;
+                    }
+
+		    @include media-breakpoint-down(sm) {
+			display: none;
+                        top: 10%;
+                        right: -$margin-xl;
+                    }
 
                     @include media-breakpoint-up(xl) {
                         top: 8.75%;
@@ -88,10 +117,21 @@
                     left: -1rem;
                     top: 50%;
                     width: 30%;
-                    //transform: translateY(-42.5%);
-                    @include media-breakpoint-up(md) {
-                        left: -$margin;
-                        width: 37.5%;
+                    //transform: translateY(-42.5%);		    
+		    @include media-breakpoint-down(sm) {
+			transform: rotate(52.5deg);
+                        top: 5%;
+                        left: calc(-1 * ($margin-xs + 5px));
+			width: 65%;
+
+                    }
+
+                    @include media-breakpoint-up(sm) {
+                        transform: rotate(52.5deg);
+                        top: 5%;
+                        left: calc(-1 * ($margin-xs + 5px));
+			width: 65%;
+
                     }
                     
                     @include media-breakpoint-up(xl) {
@@ -104,9 +144,21 @@
                     left: -5rem;
                     bottom: -3%;
                     width: 45%;
-    
-                    @include media-breakpoint-up(md) {
-                        left: -$margin;
+    		    
+		    @include media-breakpoint-down(sm) {
+                        transform: rotate(-17.5deg);
+                        bottom: 5%;
+                        right: calc(-1 * ($margin-xs + 5px));
+			width: 70%;
+
+                    }
+
+                    @include media-breakpoint-up(sm) {
+                        transform: rotate(-17.5deg);
+                        bottom: 5%;
+                        right: calc(-1 * ($margin-xs + 5px));
+			width: 70%;
+
                     }
 
                     @include media-breakpoint-up(xl) {
@@ -119,9 +171,21 @@
                     right: 0;
                     bottom: 14%;
                     width: 55%;
-    
-                    @include media-breakpoint-up(md) {
-                        right: -$margin;
+    		    
+		    @include media-breakpoint-down(sm) {
+			transform: rotate(45deg);
+                        bottom: 7.5%;
+                        right: calc(-1 * ($margin-xs - 5px));
+			width: 70%;
+
+                    }
+
+                    @include media-breakpoint-up(sm) {
+                        transform: rotate(45deg);
+                        bottom: 7.5%;
+                        right: calc(-1 * ($margin-xs - 5px));
+			width: 70%;
+
                     }
 
                     @include media-breakpoint-up(xl) {
@@ -134,7 +198,19 @@
                     left: 31.25%;
                     width: 12.5%;
                     //transform: translateY(-42.5%);
-    
+    		    
+		    @include media-breakpoint-down(sm) {
+			display: none;
+                        top: 10%;
+                        right: -$margin-xl;
+                    }
+
+		    @include media-breakpoint-down(sm) {
+			display: none;
+                        top: 10%;
+                        right: -$margin-xl;
+                    }
+
                     @include media-breakpoint-up(xl) {
                         top: 13.5%;
                         width: 15%;
@@ -145,7 +221,23 @@
                     left: 15%;
                     bottom: 0;
                     width: 15%;
-    
+    		    
+		    @include media-breakpoint-down(sm) {
+                        top: 26.25%;
+                        transform: rotate(47.5deg);
+                        left: 0;
+			width: 30%;
+
+                    }
+
+		    @include media-breakpoint-down(sm) {
+                        top: 26.25%;
+                        transform: rotate(47.5deg);
+                        left: 0;
+			width: 30%;
+
+                    }
+
                     @include media-breakpoint-up(xl) {
                         top: 35%;
                         right: 15%;
@@ -154,9 +246,17 @@
                 }
 
                 &-8 {
-    
-                    @include media-breakpoint-up(md) {
-                        //right: -$margin;
+		    @include media-breakpoint-down(sm) {
+			display: none;
+                        top: 10%;
+                        right: -$margin-xl;
+                    }
+
+                    @include media-breakpoint-up(sm) {
+                        display: none;
+                        top: 10%;
+                        right: -$margin-xl;
+
                     }
 
                     @include media-breakpoint-up(xl) {
@@ -166,10 +266,21 @@
                     }
                 }
 
-                &-9 {
-    
-                    @include media-breakpoint-up(md) {
-                        //right: -$margin;
+                &-9 { 
+		    @include media-breakpoint-down(sm) {
+			transform: rotate(-17.5deg);
+                        bottom: 15%;
+			left: calc(-1 * ($margin-xs));
+			width: 25%;
+
+                    }
+
+                    @include media-breakpoint-up(sm) {
+                        transform: rotate(-17.5deg);
+                        bottom: 15%;
+			left: calc(-1 * ($margin-xs));
+			width: 25%;
+
                     }
 
                     @include media-breakpoint-up(xl) {
@@ -179,10 +290,21 @@
                     }
                 }
 
-                &-10 {
-    
-                    @include media-breakpoint-up(md) {
-                        //right: -$margin;
+                &-10 { 
+		    @include media-breakpoint-down(sm) {
+			transform: rotate(-22.5deg);
+                        bottom: 5%;
+                        left: 27.5%;
+			width: 25%;
+
+                    }
+
+                    @include media-breakpoint-up(sm) {
+                        transform: rotate(-22.5deg);
+                        bottom: 5%;
+                        left: 27.5%;
+			width: 25%;
+
                     }
 
                     @include media-breakpoint-up(xl) {
@@ -192,10 +314,21 @@
                     }
                 }
 
-                &-11 {
-    
-                    @include media-breakpoint-up(md) {
-                        right: -$margin;
+                &-11 { 
+		    @include media-breakpoint-down(sm) {
+			transform: rotate(45deg);
+                        bottom: 15%;
+                        right: calc(-1 * ($margin-xs));
+			width: 25%;
+
+                    }
+
+                    @include media-breakpoint-up(sm) {
+                        transform: rotate(45deg);
+                        bottom: 15%;
+                        right: calc(-1 * ($margin-xs));
+			width: 25%;
+
                     }
 
                     @include media-breakpoint-up(xl) {
@@ -205,9 +338,16 @@
                 }
 
                 &-12 {
-    
-                    @include media-breakpoint-up(md) {
-                        //right: -$margin;
+    		    
+		    @include media-breakpoint-down(sm) {
+			display: none;
+                        top: 10%;
+                        right: -$margin-xl;
+                    }
+
+                    @include media-breakpoint-up(sm) {
+			display: none;
+                        //right: -$margin-xl;
                     }
 
                     @include media-breakpoint-up(xl) {
@@ -218,9 +358,21 @@
                 }
 
                 &-13 {
-    
-                    @include media-breakpoint-up(md) {
-                        right: -$margin;
+    		    
+		    @include media-breakpoint-down(sm) {
+			transform: rotate(-35deg);
+                        top: 27.5%;
+                        right: 1%;
+			width: 30%;
+
+                    }
+
+                    @include media-breakpoint-up(sm) {
+                        transform: rotate(-35deg);
+                        top: 27.5%;
+                        right: 1%;
+			width: 30%;
+
                     }
 
                     @include media-breakpoint-up(xl) {       
@@ -232,8 +384,15 @@
                 }
 
                 &-14 {
-    
-                    @include media-breakpoint-up(md) {
+    		    
+		    @include media-breakpoint-down(sm) {
+			display: none;
+                        top: 10%;
+                        right: -$margin-xl;
+                    }
+
+                    @include media-breakpoint-up(sm) {
+			display: none;
                         left: -50px;
                     }
 
