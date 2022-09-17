@@ -11372,12 +11372,11 @@ textarea.form-control-lg {
     width: 70%;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .meet .container .ribbons .ribbon-1 {
-    transform: rotate(-47.5deg);
-    top: 5%;
+    top: 0%;
     right: -45px;
-    width: 70%;
+    width: 50%;
   }
 }
 @media (min-width: 1200px) {
@@ -11398,11 +11397,10 @@ textarea.form-control-lg {
     right: -80px;
   }
 }
-@media (max-width: 575.98px) {
+@media (min-width: 768px) {
   .meet .container .ribbons .ribbon-2 {
-    display: none;
-    top: 10%;
-    right: -80px;
+    top: 3%;
+    width: 35%;
   }
 }
 @media (min-width: 1200px) {
@@ -11424,21 +11422,20 @@ textarea.form-control-lg {
     width: 65%;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .meet .container .ribbons .ribbon-3 {
-    transform: rotate(52.5deg);
-    top: 5%;
-    left: -45px;
-    width: 65%;
+    top: 45%;
+    left: -80px;
+    width: 32.5%;
   }
 }
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-3 {
+    transform: rotate(0deg);
     width: 33.25%;
   }
 }
 .meet .container .ribbons .ribbon-4 {
-  left: -5rem;
   bottom: -3%;
   width: 45%;
 }
@@ -11450,24 +11447,25 @@ textarea.form-control-lg {
     width: 70%;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .meet .container .ribbons .ribbon-4 {
-    transform: rotate(-17.5deg);
-    bottom: 5%;
-    right: -45px;
-    width: 70%;
+    transform: rotate(7.5deg);
+    bottom: -5%;
+    left: -45px;
+    width: 51.25%;
   }
 }
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-4 {
+    transform: rotate(0deg);
     bottom: -5%;
+    left: -80px;
     width: 51.25%;
   }
 }
 .meet .container .ribbons .ribbon-5 {
   right: 0;
   bottom: 14%;
-  width: 55%;
 }
 @media (max-width: 575.98px) {
   .meet .container .ribbons .ribbon-5 {
@@ -11479,15 +11477,17 @@ textarea.form-control-lg {
 }
 @media (min-width: 576px) {
   .meet .container .ribbons .ribbon-5 {
-    transform: rotate(45deg);
     bottom: 7.5%;
-    right: -35px;
-    width: 70%;
+    right: -80px;
+    width: 55%;
   }
 }
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-5 {
+    transform: rotate(0deg);
     bottom: 15%;
+    right: -80px;
+    width: 55%;
   }
 }
 .meet .container .ribbons .ribbon-6 {
@@ -11499,18 +11499,17 @@ textarea.form-control-lg {
   .meet .container .ribbons .ribbon-6 {
     display: none;
     top: 10%;
-    right: -80px;
   }
 }
-@media (max-width: 575.98px) {
+@media (min-width: 768px) {
   .meet .container .ribbons .ribbon-6 {
-    display: none;
-    top: 10%;
-    right: -80px;
+    top: 7.5%;
+    width: 15%;
   }
 }
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-6 {
+    transform: rotate(0deg);
     top: 13.5%;
     width: 15%;
   }
@@ -11528,16 +11527,17 @@ textarea.form-control-lg {
     width: 30%;
   }
 }
-@media (max-width: 575.98px) {
+@media (min-width: 768px) {
   .meet .container .ribbons .ribbon-7 {
-    top: 26.25%;
-    transform: rotate(47.5deg);
-    left: 0;
-    width: 30%;
+    transform: rotate(0deg);
+    top: 35%;
+    left: 12.5%;
+    width: 15%;
   }
 }
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-7 {
+    transform: rotate(0deg);
     top: 35%;
     right: 15%;
     width: 15%;
@@ -11559,6 +11559,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-8 {
+    transform: rotate(0deg);
     right: -3%;
     width: 10%;
     top: -3%;
@@ -11574,14 +11575,15 @@ textarea.form-control-lg {
 }
 @media (min-width: 576px) {
   .meet .container .ribbons .ribbon-9 {
-    transform: rotate(-17.5deg);
-    bottom: 15%;
-    left: -40px;
-    width: 25%;
+    transform: rotate(0deg);
+    left: -78px;
+    width: 12.5%;
+    bottom: 10%;
   }
 }
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-9 {
+    transform: rotate(0deg);
     left: -78px;
     width: 11.25%;
     bottom: 10%;
@@ -11595,16 +11597,17 @@ textarea.form-control-lg {
     width: 25%;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .meet .container .ribbons .ribbon-10 {
-    transform: rotate(-22.5deg);
-    bottom: 5%;
-    left: 27.5%;
-    width: 25%;
+    transform: rotate(0deg);
+    left: 35%;
+    width: 12%;
+    bottom: 2.5%;
   }
 }
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-10 {
+    transform: rotate(0deg);
     left: 35%;
     width: 10%;
     bottom: 3.5%;
@@ -11618,16 +11621,17 @@ textarea.form-control-lg {
     width: 25%;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .meet .container .ribbons .ribbon-11 {
-    transform: rotate(45deg);
+    transform: rotate(0deg);
+    width: 12.5%;
     bottom: 15%;
-    right: -40px;
-    width: 25%;
+    right: -80px;
   }
 }
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-11 {
+    transform: rotate(0deg);
     width: 12.5%;
     bottom: 25%;
   }
@@ -11639,9 +11643,12 @@ textarea.form-control-lg {
     right: -80px;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .meet .container .ribbons .ribbon-12 {
-    display: none;
+    transform: rotate(0deg);
+    right: 1%;
+    width: 15%;
+    top: 37.5%;
   }
 }
 @media (min-width: 1200px) {
@@ -11659,12 +11666,12 @@ textarea.form-control-lg {
     width: 30%;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .meet .container .ribbons .ribbon-13 {
-    transform: rotate(-35deg);
-    top: 27.5%;
-    right: 1%;
-    width: 30%;
+    transform: rotate(0deg);
+    right: 15%;
+    width: 13.5%;
+    top: 30%;
   }
 }
 @media (min-width: 1200px) {
