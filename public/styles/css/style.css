@@ -11244,6 +11244,11 @@ textarea.form-control-lg {
     min-height: 12.5rem;
   }
 }
+@media (min-width: 992px) {
+  .special-guest-card {
+    min-height: 100%;
+  }
+}
 
 .prize-card {
   border-radius: 1rem;

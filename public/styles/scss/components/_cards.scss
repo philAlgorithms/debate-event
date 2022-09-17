@@ -69,6 +69,10 @@
     @include media-breakpoint-up(md) {
 	min-height: 12.5rem;
     }
+
+	@include media-breakpoint-up(lg) {
+		min-height: 100%;
+	}
 }
 
 .prize-card {
