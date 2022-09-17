@@ -11372,8 +11372,17 @@ textarea.form-control-lg {
     width: 70%;
   }
 }
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-1 {
+    transform: rotate(-47.5deg);
+    top: 5%;
+    right: -45px;
+    width: 70%;
+  }
+}
 @media (min-width: 768px) {
   .meet .container .ribbons .ribbon-1 {
+    transform: rotate(0deg);
     top: 0%;
     right: -45px;
     width: 50%;
@@ -11397,8 +11406,16 @@ textarea.form-control-lg {
     right: -80px;
   }
 }
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-2 {
+    display: none;
+    top: 10%;
+    right: -80px;
+  }
+}
 @media (min-width: 768px) {
   .meet .container .ribbons .ribbon-2 {
+    display: block;
     top: 3%;
     width: 35%;
   }
@@ -11422,8 +11439,17 @@ textarea.form-control-lg {
     width: 65%;
   }
 }
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-3 {
+    transform: rotate(52.5deg);
+    top: 5%;
+    left: -45px;
+    width: 65%;
+  }
+}
 @media (min-width: 768px) {
   .meet .container .ribbons .ribbon-3 {
+    transform: rotate(0deg);
     top: 45%;
     left: -80px;
     width: 32.5%;
@@ -11443,8 +11469,16 @@ textarea.form-control-lg {
   .meet .container .ribbons .ribbon-4 {
     transform: rotate(-17.5deg);
     bottom: 5%;
-    right: -45px;
-    width: 70%;
+    left: -45px;
+    width: 65%;
+  }
+}
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-4 {
+    transform: rotate(-17.5deg);
+    bottom: 5%;
+    left: -45px;
+    width: 60%;
   }
 }
 @media (min-width: 768px) {
@@ -11472,11 +11506,20 @@ textarea.form-control-lg {
     transform: rotate(45deg);
     bottom: 7.5%;
     right: -35px;
-    width: 70%;
+    width: 65%;
   }
 }
 @media (min-width: 576px) {
   .meet .container .ribbons .ribbon-5 {
+    transform: rotate(45deg);
+    bottom: 7.5%;
+    right: -35px;
+    width: 60%;
+  }
+}
+@media (min-width: 768px) {
+  .meet .container .ribbons .ribbon-5 {
+    transform: rotate(0deg);
     bottom: 7.5%;
     right: -80px;
     width: 55%;
@@ -11501,8 +11544,15 @@ textarea.form-control-lg {
     top: 10%;
   }
 }
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-6 {
+    display: none;
+    top: 10%;
+  }
+}
 @media (min-width: 768px) {
   .meet .container .ribbons .ribbon-6 {
+    display: block;
     top: 7.5%;
     width: 15%;
   }
@@ -11520,6 +11570,14 @@ textarea.form-control-lg {
   width: 15%;
 }
 @media (max-width: 575.98px) {
+  .meet .container .ribbons .ribbon-7 {
+    top: 26.25%;
+    transform: rotate(47.5deg);
+    left: 0;
+    width: 30%;
+  }
+}
+@media (min-width: 576px) {
   .meet .container .ribbons .ribbon-7 {
     top: 26.25%;
     transform: rotate(47.5deg);
@@ -11557,6 +11615,13 @@ textarea.form-control-lg {
     right: -80px;
   }
 }
+@media (min-width: 768px) {
+  .meet .container .ribbons .ribbon-8 {
+    display: none;
+    top: 10%;
+    right: -80px;
+  }
+}
 @media (min-width: 1200px) {
   .meet .container .ribbons .ribbon-8 {
     transform: rotate(0deg);
@@ -11567,13 +11632,21 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .meet .container .ribbons .ribbon-9 {
-    transform: rotate(-17.5deg);
+    transform: rotate(7.5deg);
     bottom: 15%;
     left: -40px;
-    width: 25%;
+    width: 30%;
   }
 }
 @media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-9 {
+    transform: rotate(7.5deg);
+    bottom: 15%;
+    left: -40px;
+    width: 30%;
+  }
+}
+@media (min-width: 768px) {
   .meet .container .ribbons .ribbon-9 {
     transform: rotate(0deg);
     left: -78px;
@@ -11591,6 +11664,16 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .meet .container .ribbons .ribbon-10 {
+    display: none;
+    transform: rotate(-22.5deg);
+    bottom: 5%;
+    left: 27.5%;
+    width: 25%;
+  }
+}
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-10 {
+    display: none;
     transform: rotate(-22.5deg);
     bottom: 5%;
     left: 27.5%;
@@ -11616,9 +11699,17 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .meet .container .ribbons .ribbon-11 {
     transform: rotate(45deg);
-    bottom: 15%;
+    bottom: 17.5%;
     right: -40px;
-    width: 25%;
+    width: 30%;
+  }
+}
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-11 {
+    transform: rotate(45deg);
+    bottom: 17.5%;
+    right: -40px;
+    width: 30%;
   }
 }
 @media (min-width: 768px) {
@@ -11643,6 +11734,13 @@ textarea.form-control-lg {
     right: -80px;
   }
 }
+@media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-12 {
+    display: none;
+    top: 10%;
+    right: -80px;
+  }
+}
 @media (min-width: 768px) {
   .meet .container .ribbons .ribbon-12 {
     transform: rotate(0deg);
@@ -11659,6 +11757,14 @@ textarea.form-control-lg {
   }
 }
 @media (max-width: 575.98px) {
+  .meet .container .ribbons .ribbon-13 {
+    transform: rotate(-35deg);
+    top: 27.5%;
+    right: 1%;
+    width: 30%;
+  }
+}
+@media (min-width: 576px) {
   .meet .container .ribbons .ribbon-13 {
     transform: rotate(-35deg);
     top: 27.5%;
@@ -11689,6 +11795,13 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 576px) {
+  .meet .container .ribbons .ribbon-14 {
+    display: none;
+    top: 10%;
+    right: -80px;
+  }
+}
+@media (min-width: 768px) {
   .meet .container .ribbons .ribbon-14 {
     display: none;
     left: -50px;

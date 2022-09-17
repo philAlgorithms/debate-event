@@ -76,8 +76,16 @@
                         right: calc(-1 * ($margin-xs + 5px));
 			            width: 70%;
                     }
+
+                    @include media-breakpoint-up(sm) {
+			            transform: rotate(-47.5deg);
+                        top: 5%;
+                        right: calc(-1 * ($margin-xs + 5px));
+			            width: 70%;
+                    }
+
                     @include media-breakpoint-up(md) {
-                        //transform: rotate(-47.5deg);
+                        transform: rotate(0deg);
                         top: 0%;
                         right: calc(-1 * ($margin-xs + 5px));
 			            width: 50%;
@@ -100,7 +108,14 @@
                         right: -$margin-xl;
                     }
 
+                    @include media-breakpoint-up(sm) {
+                        display: none;
+                        top: 10%;
+                        right: -$margin-xl;
+                    }
+
                     @include media-breakpoint-up(md) {
+                        display: block;
                         top: 3%;
                         //left: -$margin-xl;
                         width: 35%;
@@ -124,8 +139,15 @@
 			            width: 65%;
                     }
 
+                    @include media-breakpoint-up(sm) {
+                        transform: rotate(52.5deg);
+                        top: 5%;
+                        left: calc(-1 * ($margin-xs + 5px));
+			            width: 65%;
+                    }
+
                     @include media-breakpoint-up(md) {
-                        //transform: rotate(52.5deg);
+                        transform: rotate(0deg);
                         top: 45%;
                         left: -$margin-xl;
 			            width: 32.5%;
@@ -145,8 +167,15 @@
 		            @include media-breakpoint-down(sm) {
                         transform: rotate(-17.5deg);
                         bottom: 5%;
-                        right: calc(-1 * ($margin-xs + 5px));
-			            width: 70%;
+                        left: calc(-1 * ($margin-xs + 5px));
+			            width: 65%;
+                    }
+
+                    @include media-breakpoint-up(sm) {
+                        transform: rotate(-17.5deg);
+                        bottom: 5%;
+                        left: calc(-1 * ($margin-xs + 5px));
+			            width: 60%;
                     }
 
                     @include media-breakpoint-up(md) {
@@ -173,11 +202,18 @@
 			            transform: rotate(45deg);
                         bottom: 7.5%;
                         right: calc(-1 * ($margin-xs - 5px));
-			            width: 70%;
+			            width: 65%;
                     }
 
                     @include media-breakpoint-up(sm) {
-                        //transform: rotate(45deg);
+			            transform: rotate(45deg);
+                        bottom: 7.5%;
+                        right: calc(-1 * ($margin-xs - 5px));
+			            width: 60%;
+                    }
+
+                    @include media-breakpoint-up(md) {
+                        transform: rotate(0deg);
                         bottom: 7.5%;
                         right: -$margin-xl;
 			            width: 55%;
@@ -203,7 +239,14 @@
                         //right: -$margin-xl;
                     }
 
+                    @include media-breakpoint-up(sm) {
+			            display: none;
+                        top: 10%;
+                        //right: -$margin-xl;
+                    }
+
 		            @include media-breakpoint-up(md) {
+                        display: block;
                         top: 7.5%;
                         //right: -$margin-xl;
                         width: 15%;
@@ -222,6 +265,13 @@
                     width: 15%;
     		    
 		            @include media-breakpoint-down(sm) {
+                        top: 26.25%;
+                        transform: rotate(47.5deg);
+                        left: 0;
+			            width: 30%;
+                    }
+
+                    @include media-breakpoint-up(sm) {
                         top: 26.25%;
                         transform: rotate(47.5deg);
                         left: 0;
@@ -251,6 +301,12 @@
                     }
 
                     @include media-breakpoint-up(sm) {
+			            display: none;
+                        top: 10%;
+                        right: -$margin-xl;
+                    }
+
+                    @include media-breakpoint-up(md) {
                         display: none;
                         top: 10%;
                         right: -$margin-xl;
@@ -267,13 +323,20 @@
 
                 &-9 { 
                     @include media-breakpoint-down(sm) {
-                        transform: rotate(-17.5deg);
+                        transform: rotate(7.5deg);
                         bottom: 15%;
                         left: calc(-1 * ($margin-xs));
-                        width: 25%;
+                        width: 30%;
                     }
 
                     @include media-breakpoint-up(sm) {
+                        transform: rotate(7.5deg);
+                        bottom: 15%;
+                        left: calc(-1 * ($margin-xs));
+                        width: 30%;
+                    }
+
+                    @include media-breakpoint-up(md) {
                         transform: rotate(0deg); 
                         left: -78px;
                         width: 12.5%;
@@ -290,6 +353,15 @@
 
                 &-10 { 
                     @include media-breakpoint-down(sm) {
+                        display: none;
+                        transform: rotate(-22.5deg);
+                        bottom: 5%;
+                        left: 27.5%;
+			            width: 25%;
+                    }
+
+                    @include media-breakpoint-up(sm) {
+                        display: none;
                         transform: rotate(-22.5deg);
                         bottom: 5%;
                         left: 27.5%;
@@ -314,9 +386,16 @@
                 &-11 { 
                     @include media-breakpoint-down(sm) {
                         transform: rotate(45deg);
-                        bottom: 15%;
+                        bottom: 17.5%;
                         right: calc(-1 * ($margin-xs));
-			            width: 25%;
+			            width: 30%;
+                    }
+
+                    @include media-breakpoint-up(sm) {
+                        transform: rotate(45deg);
+                        bottom: 17.5%;
+                        right: calc(-1 * ($margin-xs));
+			            width: 30%;
                     }
 
                     @include media-breakpoint-up(md) {
@@ -334,8 +413,13 @@
                 }
 
                 &-12 {
-    		    
 		            @include media-breakpoint-down(sm) {
+                        display: none;
+                        top: 10%;
+                        right: -$margin-xl;
+                    }
+
+                    @include media-breakpoint-up(sm) {
 			            display: none;
                         top: 10%;
                         right: -$margin-xl;
@@ -357,6 +441,13 @@
 
                 &-13 {    
                     @include media-breakpoint-down(sm) {
+                        transform: rotate(-35deg);
+                        top: 27.5%;
+                        right: 1%;
+			            width: 30%;
+                    }
+
+                    @include media-breakpoint-up(sm) {
                         transform: rotate(-35deg);
                         top: 27.5%;
                         right: 1%;
@@ -385,7 +476,13 @@
                     }
 
                     @include media-breakpoint-up(sm) {
-			display: none;
+			            display: none;
+                        top: 10%;
+                        right: -$margin-xl;
+                    }
+
+                    @include media-breakpoint-up(md) {
+			            display: none;
                         left: -50px;
                     }
 
