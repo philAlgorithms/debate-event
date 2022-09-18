@@ -1,4 +1,4 @@
-<section id="meet" class="meet mt-5">
+<section id="meet" class="meet">
     <div class="container position-relative">
         <div class="row flex-column justify-content-center align-items-center text-white text-center meet--text">
             <h1 class="display-3">Meet IRL</h1>

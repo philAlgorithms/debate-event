@@ -168,3 +168,28 @@
         @include image-o(6rem);
     }
 }
+
+.avatar-6-wrapper {
+    @include media-breakpoint-down(sm){
+        @include avatar-6-wrap($attend-size-xs);
+    }
+    @include media-breakpoint-up(sm){
+        @include avatar-6-wrap($attend-size-sm);
+    }
+    @include media-breakpoint-up(md){
+        @include avatar-6-wrap($attend-size-md);
+    }
+    @include media-breakpoint-up(lg){
+        @include avatar-6-wrap($attend-size-lg);
+    }
+    @include media-breakpoint-up(xl){
+        @include avatar-6-wrap($attend-size-xl);
+    }
+    // @media (min-width: 993px) and (max-width: 1070px) {
+    //     @include avatar-6-wrap(4.5rem);
+    // }
+    // @media (min-width: 1201px) and (max-width: 1300px) {
+    //     @include avatar-6-wrap(4.5rem);
+    // }
+}
+

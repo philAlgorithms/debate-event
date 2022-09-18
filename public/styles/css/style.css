@@ -10785,17 +10785,17 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .display-2--intro {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 @media (min-width: 576px) {
   .display-2--intro {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 @media (min-width: 768px) {
   .display-2--intro {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 }
 @media (min-width: 992px) {
@@ -10810,7 +10810,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 986px) and (max-width: 1175px) {
   .display-2--intro {
-    font-size: 4.85rem;
+    font-size: 4.35rem;
   }
 }
 @media (min-width: 1180px) and (max-width: 1267px) {
@@ -11045,12 +11045,12 @@ textarea.form-control-lg {
 
 .avatar-3-wrapper {
   display: inline-flex;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .avatar-3-wrapper span {
   background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-  width: 1.7142857143rem;
-  height: 1.7142857143rem;
+  width: 1.1428571429rem;
+  height: 1.1428571429rem;
   border-radius: 50%;
   transform: translate(-5%, 75%);
 }
@@ -11063,12 +11063,12 @@ textarea.form-control-lg {
 @media (min-width: 576px) {
   .avatar-3-wrapper {
     display: inline-flex;
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .avatar-3-wrapper span {
     background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-    width: 2.2857142857rem;
-    height: 2.2857142857rem;
+    width: 1.7142857143rem;
+    height: 1.7142857143rem;
     border-radius: 50%;
     transform: translate(-5%, 75%);
   }
@@ -11082,12 +11082,12 @@ textarea.form-control-lg {
 @media (min-width: 768px) {
   .avatar-3-wrapper {
     display: inline-flex;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
   .avatar-3-wrapper span {
     background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-    width: 2.5714285714rem;
-    height: 2.5714285714rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     transform: translate(-5%, 75%);
   }
@@ -11172,6 +11172,107 @@ textarea.form-control-lg {
     max-width: 80%;
     min-width: 80%;
     transform: translate(12.5%, -85%);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .avatar-6-wrapper {
+    display: inline-flex;
+    font-size: 1.5rem;
+  }
+  .avatar-6-wrapper span {
+    background: linear-gradient(180deg, #E3D7D2 0%, #CDB9B0 100%);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    transform: translate(-5%, 42.5%);
+    margin-left: 3.75px;
+  }
+  .avatar-6-wrapper span img {
+    display: inline;
+    max-width: 80%;
+    min-width: 80%;
+    transform: translate(2.5%, -70%);
+  }
+}
+@media (min-width: 576px) {
+  .avatar-6-wrapper {
+    display: inline-flex;
+    font-size: 2rem;
+  }
+  .avatar-6-wrapper span {
+    background: linear-gradient(180deg, #E3D7D2 0%, #CDB9B0 100%);
+    width: 1.3333333333rem;
+    height: 1.3333333333rem;
+    border-radius: 50%;
+    transform: translate(-5%, 42.5%);
+    margin-left: 3.75px;
+  }
+  .avatar-6-wrapper span img {
+    display: inline;
+    max-width: 80%;
+    min-width: 80%;
+    transform: translate(2.5%, -70%);
+  }
+}
+@media (min-width: 768px) {
+  .avatar-6-wrapper {
+    display: inline-flex;
+    font-size: 2.5rem;
+  }
+  .avatar-6-wrapper span {
+    background: linear-gradient(180deg, #E3D7D2 0%, #CDB9B0 100%);
+    width: 1.6666666667rem;
+    height: 1.6666666667rem;
+    border-radius: 50%;
+    transform: translate(-5%, 42.5%);
+    margin-left: 3.75px;
+  }
+  .avatar-6-wrapper span img {
+    display: inline;
+    max-width: 80%;
+    min-width: 80%;
+    transform: translate(2.5%, -70%);
+  }
+}
+@media (min-width: 992px) {
+  .avatar-6-wrapper {
+    display: inline-flex;
+    font-size: 3rem;
+  }
+  .avatar-6-wrapper span {
+    background: linear-gradient(180deg, #E3D7D2 0%, #CDB9B0 100%);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    transform: translate(-5%, 42.5%);
+    margin-left: 3.75px;
+  }
+  .avatar-6-wrapper span img {
+    display: inline;
+    max-width: 80%;
+    min-width: 80%;
+    transform: translate(2.5%, -70%);
+  }
+}
+@media (min-width: 1200px) {
+  .avatar-6-wrapper {
+    display: inline-flex;
+    font-size: 4rem;
+  }
+  .avatar-6-wrapper span {
+    background: linear-gradient(180deg, #E3D7D2 0%, #CDB9B0 100%);
+    width: 2.6666666667rem;
+    height: 2.6666666667rem;
+    border-radius: 50%;
+    transform: translate(-5%, 42.5%);
+    margin-left: 3.75px;
+  }
+  .avatar-6-wrapper span img {
+    display: inline;
+    max-width: 80%;
+    min-width: 80%;
+    transform: translate(2.5%, -70%);
   }
 }
 
@@ -11307,6 +11408,161 @@ textarea.form-control-lg {
   height: 80%;
 }
 
+.attend {
+  padding: 0;
+}
+.attend .container {
+  position: relative;
+  height: 100%;
+}
+.attend .container .attend--heading h1 {
+  font-family: "Monument Exended", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+@media (max-width: 575.98px) {
+  .attend .container .attend--heading h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .attend .container .attend--heading h1 {
+    font-size: 3rem;
+  }
+}
+.attend .container .attend--heading .date .day {
+  position: relative;
+  color: #1E1E1E;
+}
+.attend .container .attend--heading .date .day--background {
+  position: absolute;
+  top: 2.5%;
+  left: -10%;
+  z-index: -999;
+}
+.attend .container .attend--heading .date-start .day--background {
+  width: 125%;
+}
+.attend .container .attend--heading .date-end .day--background {
+  width: 130%;
+  left: -12.5%;
+}
+.attend .container .attend--text h1 {
+  display: block;
+  font-size: 1.5rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+.attend .container .attend--text h1 .total-prize {
+  position: relative;
+  color: #67B98D;
+}
+.attend .container .attend--text h1 .total-prize--vectors {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.attend .container .attend--text h1 .total-prize--vectors .vector {
+  position: absolute;
+}
+.attend .container .attend--text h1 .total-prize--vectors .vector-1 {
+  width: 15%;
+  left: 22.5%;
+  top: -40%;
+}
+.attend .container .attend--text h1 .total-prize--vectors .vector-2 {
+  width: 11.5%;
+  right: -7.5%;
+  top: -20%;
+}
+.attend .container .attend--text h1 .total-prize--vectors .vector-3 {
+  width: 10%;
+  left: 12%;
+  bottom: -30%;
+}
+.attend .container .attend--text h1 .total-prize--vectors .vector-4 {
+  width: 10%;
+  left: -13.5%;
+  top: 5%;
+}
+.attend .container .attend--text h1 .total-prize--vectors .vector-5 {
+  width: 8.75%;
+  right: 10%;
+  bottom: -5.625%;
+}
+.attend .container .attend--text h1 .total-prize--vectors .vector-6 {
+  width: 6.25%;
+  right: 27.5%;
+  top: -25%;
+}
+@media (max-width: 575.98px) {
+  .attend .container .attend--text h1 {
+    font-size: 1.5rem;
+    padding: 0 10%;
+  }
+}
+@media (min-width: 576px) {
+  .attend .container .attend--text h1 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .attend .container .attend--text h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .attend .container .attend--text h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .attend .container .attend--text h1 {
+    font-size: 4rem;
+  }
+}
+.attend .container .attend--text p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+@media (max-width: 575.98px) {
+  .attend .container .attend--text p {
+    padding: 0 12.5%;
+    font-size: 0.875rem;
+  }
+}
+@media (min-width: 576px) {
+  .attend .container .attend--text p {
+    padding: 0 15%;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .attend {
+    height: 667px;
+  }
+}
+@media (min-width: 576px) {
+  .attend {
+    height: 780px;
+  }
+}
+@media (min-width: 768px) {
+  .attend {
+    height: 500px;
+  }
+}
+@media (min-width: 992px) {
+  .attend {
+    height: 600px;
+  }
+}
+@media (min-width: 1200px) {
+  .attend {
+    height: 800px;
+  }
+}
+
 .meet {
   padding: 0;
 }
@@ -11362,7 +11618,6 @@ textarea.form-control-lg {
 .meet .container .ribbons .ribbon {
   position: absolute;
   width: inherit;
-  overflow: hidden;
 }
 .meet .container .ribbons .ribbon-1 {
   right: -80px;
@@ -11373,15 +11628,15 @@ textarea.form-control-lg {
   .meet .container .ribbons .ribbon-1 {
     transform: rotate(-47.5deg);
     top: 5%;
-    right: -45px;
+    right: -25%;
     width: 70%;
   }
 }
 @media (min-width: 576px) {
   .meet .container .ribbons .ribbon-1 {
-    transform: rotate(-47.5deg);
+    transform: rotate(-37.5deg);
     top: 5%;
-    right: -45px;
+    right: -15%;
     width: 70%;
   }
 }
@@ -11389,7 +11644,7 @@ textarea.form-control-lg {
   .meet .container .ribbons .ribbon-1 {
     transform: rotate(0deg);
     top: 0%;
-    right: -45px;
+    right: -40px;
     width: 50%;
   }
 }
@@ -11415,7 +11670,7 @@ textarea.form-control-lg {
   .meet .container .ribbons .ribbon-2 {
     display: none;
     top: 10%;
-    right: -80px;
+    right: -25%;
   }
 }
 @media (min-width: 768px) {
@@ -11446,9 +11701,9 @@ textarea.form-control-lg {
 }
 @media (min-width: 576px) {
   .meet .container .ribbons .ribbon-3 {
-    transform: rotate(52.5deg);
+    transform: rotate(42.5deg);
     top: 5%;
-    left: -45px;
+    left: -25%;
     width: 65%;
   }
 }
@@ -11480,9 +11735,9 @@ textarea.form-control-lg {
 }
 @media (min-width: 576px) {
   .meet .container .ribbons .ribbon-4 {
-    transform: rotate(-17.5deg);
+    transform: rotate(-7.5deg);
     bottom: 5%;
-    left: -45px;
+    left: -20%;
     width: 60%;
   }
 }
@@ -11490,7 +11745,7 @@ textarea.form-control-lg {
   .meet .container .ribbons .ribbon-4 {
     transform: rotate(7.5deg);
     bottom: -5%;
-    left: -45px;
+    left: -80px;
     width: 51.25%;
   }
 }
@@ -11516,9 +11771,9 @@ textarea.form-control-lg {
 }
 @media (min-width: 576px) {
   .meet .container .ribbons .ribbon-5 {
-    transform: rotate(45deg);
+    transform: rotate(35deg);
     bottom: 7.5%;
-    right: -35px;
+    right: -40px;
     width: 60%;
   }
 }
@@ -11526,7 +11781,6 @@ textarea.form-control-lg {
   .meet .container .ribbons .ribbon-5 {
     transform: rotate(0deg);
     bottom: 7.5%;
-    right: -80px;
     width: 55%;
   }
 }
@@ -11647,7 +11901,7 @@ textarea.form-control-lg {
   .meet .container .ribbons .ribbon-9 {
     transform: rotate(7.5deg);
     bottom: 15%;
-    left: -40px;
+    left: -20%;
     width: 30%;
   }
 }
@@ -11713,7 +11967,7 @@ textarea.form-control-lg {
   .meet .container .ribbons .ribbon-11 {
     transform: rotate(45deg);
     bottom: 17.5%;
-    right: -40px;
+    right: 0;
     width: 30%;
   }
 }
@@ -11722,7 +11976,7 @@ textarea.form-control-lg {
     transform: rotate(0deg);
     width: 12.5%;
     bottom: 15%;
-    right: -80px;
+    right: -40px;
   }
 }
 @media (min-width: 1200px) {
