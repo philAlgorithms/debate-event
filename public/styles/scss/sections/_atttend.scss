@@ -151,4 +151,10 @@
     }
 
     @include fullHeight;
+    @include media-breakpoint-down(sm){
+        height: 500px;
+    }
+    @include media-breakpoint-between(sm, md){
+        height: 400px;
+    }
 }

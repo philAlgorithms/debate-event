@@ -15,134 +15,271 @@
     &-1 {
         background: linear-gradient(180deg, #E2DAFD 0%, #D6CBFC 100%);
         transform: rotate(-10.22deg);
+        width: 4.5rem;
+        height: 4.5rem;
 
-        @include media-breakpoint-up(none){
-            top: 5rem;
+        @include media-breakpoint-down(sm){
+            top: 10%;
+            left: 2%;
         }
         @include media-breakpoint-up(sm){
-            width: 4rem;
-            height: 4rem;
-            top: 5rem;
-            left: 5rem;
+            width: 5.5rem;
+            height: 5.5rem;
+            top: 7.5%;
+            left: 5%;
         }
         @include media-breakpoint-up(md){
-            width: 6rem;
-            height: 6rem;
-            top: 4rem;
-            left: 5rem;
+            width: 5.5rem;
+            height: 5.5rem;
+            top: 10%;
+            left: 3%;
         }
         @include media-breakpoint-up(lg){
-            width: 6.5rem;
-            height: 6.5rem;
-            top: 5rem;
-            left: 3rem;
-        }
-        @include media-breakpoint-up(lg){
-            width: 7.5rem;
-            height: 7.5rem;
-            top: 5rem;
-            left: 3.75rem;
-        }
-    }
-
-    // AVATAR 2
-    &-2 {
-        background: linear-gradient(180deg, #E2DAFD 0%, #D6CBFC 100%);
-
-        @include media-breakpoint-up(none){
-            width: 4rem;
-            height: 4rem;
-            top: 5rem;
-            right: 2.5rem;
-        }
-        @include media-breakpoint-up(sm){
-            width: 6.25rem;
-            height: 6.25rem;
-            right: 5rem;
-        }
-        @include media-breakpoint-up(md){
-            width: 6.25rem;
-            height: 6.25rem;
-            right: 8.75rem;
-        }
-        @include media-breakpoint-up(lg){
-            width: 7.5rem;
-            height: 7.5rem;
-            right: 15rem;
+            top: 7.5%;
+            left: 0%;
         }
         @include media-breakpoint-up(xl){
-            width: 7.5rem;
+            height: 6.25rem;
+            width: 6.25rem;
+            // top: %;
+            // left: 3%;
+        }
+        // @include media-breakpoint-up(md){
+        //     width: 6rem;
+        //     height: 6rem;
+        //     top: 4rem;
+        //     left: 5rem;
+        // }
+        // @include media-breakpoint-up(lg){
+        //     width: 6.5rem;
+        //     height: 6.5rem;
+        //     top: 5rem;
+        //     left: 3rem;
+        // }
+        // @include media-breakpoint-up(lg){
+        //     width: 7.5rem;
+        //     height: 7.5rem;
+        //     top: 5rem;
+        //     left: 3.75rem;
+        // }
+    }
+
+    &-2 {
+        background: linear-gradient(180deg, #E2DAFD 0%, #D6CBFC 100%);
+        width: 5rem;
+        height: 5rem;
+
+        img {
+            max-width: 60%;
+        }
+
+        @include media-breakpoint-down(sm){
+            top: 10%;
+            right: 5%;
+        }
+        @include media-breakpoint-up(sm){
+            width: 7rem;
+            height: 7rem;
+            top: 10%;
+            right: 5%;
+        }
+        @include media-breakpoint-up(md){
+            width: 6.5rem;
+            height: 6.5rem;
+            top: 10%;
+            right: 15%;
+        }
+        @include media-breakpoint-up(lg){
             height: 7.5rem;
-            right: 15rem;
+            width: 7.5rem;
+            top: 7.5%;
+            right: 17.5%;
+        }
+        @include media-breakpoint-up(xl){
+            height: 8.5rem;
+            width: 8.5rem;
+            // top: %;
+            right: 20%;
         }
     }
 
     &-4 {
         background: linear-gradient(180deg, black 4.12%, black 100%);
-        max-width: 70%;
+        width: 5rem;
+        height: 5rem;
+
+        img {
+            max-width: 60%;
+        }
+
         @include media-breakpoint-down(sm){
-            width: 5.5rem;
-            height: 5.5rem;
-            top: 30.25rem;
+            bottom: 10%;
+            left: 2%;
         }
         @include media-breakpoint-up(sm){
-            width: 6.25rem;
-            height: 6.25rem;
-            top: 30rem;
+            // width: 5rem;
+            // height: 4rem;
+            bottom: 12%;
+            left: 3%;
         }
         @include media-breakpoint-up(md){
-            width: 6.25rem;
-            height: 6.25rem;
-            top: 32.5rem;
+            width: 6rem;
+            height: 6rem;
+            bottom: 10%;
+            left: 0%;
         }
         @include media-breakpoint-up(lg){
-            width: 9rem;
-            height: 9rem;
-            top:37.5rem
+            height: 8rem;
+            width: 8rem;
+            bottom: -2%;
+            left: 2%;
         }
         @include media-breakpoint-up(xl){
-            width: 9rem;
             height: 9rem;
-            top: 39.25rem;
+            width: 9rem;
+            bottom: -1%;
+            left: 3%;
         }
     }
+
     &-5 {
         background: linear-gradient(180deg, #DDFFE7 4.12%, #ECBAF0 100%);
-        
-        @include media-breakpoint-down(sm){
-            width: 6.25rem;
-            height: 6.25rem;
-            top: 26.25rem;
-            right: 1.5rem;
+        width: 6rem;
+        height: 6rem;
+
+        img {
+            max-width: 60%;
         }
-        @include media-breakpoint-between(432, 553){
-            top: 1rem;
+
+        @include media-breakpoint-down(sm){
+            bottom: 10%;
+            right: 5%;
         }
         @include media-breakpoint-up(sm){
-            width: 6.25rem;
-            height: 6.25rem;
-            top: 30rem;
-            right: 5rem;
+            width: 8rem;
+            height: 8rem;
+            bottom: 15%;
+            right: 0%;
         }
         @include media-breakpoint-up(md){
-            width: 7.5rem;
-            height: 7.5rem;
-            top: 30rem;
-            right: 5rem;
+            width: 8.5rem;
+            height: 8.5rem;
+            bottom: 10%;
+            right: 3%;
         }
         @include media-breakpoint-up(lg){
-            width: 9.5rem;
-            height: 9.5rem;
-            top: 32rem;
-            right: 4rem;
+            height: 10rem;
+            width: 10rem;
+            bottom: 0%;
+            right: 5%;
         }
         @include media-breakpoint-up(xl){
-            width: 10rem;
-            height: 10rem;
-            top: 35rem;
-            right: 6rem;
+            height: 12rem;
+            width: 12rem;
+            // bottom: %;
+            right: 3%;
         }
     }
+    // AVATAR 2
+    // &-2 {
+    //     display: none;
+        
+    //     @include media-breakpoint-up(none){
+    //         width: 4rem;
+    //         height: 4rem;
+    //         top: 5rem;
+    //         right: 2.5rem;
+    //     }
+    //     @include media-breakpoint-up(sm){
+    //         width: 6.25rem;
+    //         height: 6.25rem;
+    //         right: 5rem;
+    //     }
+    //     @include media-breakpoint-up(md){
+    //         width: 6.25rem;
+    //         height: 6.25rem;
+    //         right: 8.75rem;
+    //     }
+    //     @include media-breakpoint-up(lg){
+    //         width: 7.5rem;
+    //         height: 7.5rem;
+    //         right: 15rem;
+    //     }
+    //     @include media-breakpoint-up(xl){
+    //         width: 7.5rem;
+    //         height: 7.5rem;
+    //         right: 15rem;
+    //     }
+    // }
+
+    // &-4 {
+    //     display: none;
+    //     background: linear-gradient(180deg, black 4.12%, black 100%);
+    //     max-width: 70%;
+    //     @include media-breakpoint-down(sm){
+    //         width: 5.5rem;
+    //         height: 5.5rem;
+    //         top: 30.25rem;
+    //     }
+    //     @include media-breakpoint-up(sm){
+    //         width: 6.25rem;
+    //         height: 6.25rem;
+    //         top: 30rem;
+    //     }
+    //     @include media-breakpoint-up(md){
+    //         width: 6.25rem;
+    //         height: 6.25rem;
+    //         top: 32.5rem;
+    //     }
+    //     @include media-breakpoint-up(lg){
+    //         width: 9rem;
+    //         height: 9rem;
+    //         top:37.5rem
+    //     }
+    //     @include media-breakpoint-up(xl){
+    //         width: 9rem;
+    //         height: 9rem;
+    //         top: 39.25rem;
+    //     }
+    // }
+    // &-5 {
+    //     display: none;
+    //     background: linear-gradient(180deg, #DDFFE7 4.12%, #ECBAF0 100%);
+        
+    //     @include media-breakpoint-down(sm){
+    //         width: 6.25rem;
+    //         height: 6.25rem;
+    //         top: 26.25rem;
+    //         right: 1.5rem;
+    //     }
+    //     @include media-breakpoint-between(432, 553){
+    //         top: 1rem;
+    //     }
+    //     @include media-breakpoint-up(sm){
+    //         width: 6.25rem;
+    //         height: 6.25rem;
+    //         top: 30rem;
+    //         right: 5rem;
+    //     }
+    //     @include media-breakpoint-up(md){
+    //         width: 7.5rem;
+    //         height: 7.5rem;
+    //         top: 30rem;
+    //         right: 5rem;
+    //     }
+    //     @include media-breakpoint-up(lg){
+    //         width: 9.5rem;
+    //         height: 9.5rem;
+    //         top: 32rem;
+    //         right: 4rem;
+    //     }
+    //     @include media-breakpoint-up(xl){
+    //         width: 10rem;
+    //         height: 10rem;
+    //         top: 35rem;
+    //         right: 6rem;
+    //     }
+    // }
 }
 
 .avatar-3-wrapper {

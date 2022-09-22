@@ -4,7 +4,7 @@
             <h1 class="display-3">Meet IRL</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Excepturi, quis quas? Dignissimos, ex cumque. Quasi excepturi 
-                accusamus assumenda aliquid.
+                accusamus assumenda aliquid. ?
             </p>
         </div>
         <div class="row ribbons w-100">

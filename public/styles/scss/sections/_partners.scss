@@ -1,0 +1,18 @@
+@use '../custom' as *;
+
+.partners {
+	.container {
+		.partner {
+
+			img {
+                width: 4rem;
+            }
+    	}
+	}
+
+    &--logos {
+        @include media-breakpoint-up(md) {
+            padding: 0 20%;
+        }
+    }
+}

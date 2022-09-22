@@ -30,8 +30,8 @@
                 accusamus assumenda aliquid.
             </p>
         </div>
-        <div class="row ribbons w-100">
-
+        <div class="row text-center mt-5">
+            <x-button.perspective text="Buy Tickets" />
         </div>
     </div> 
 </section>

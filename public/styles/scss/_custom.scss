@@ -17,9 +17,9 @@ $gray-900: #1E1E1E;
 $black:    #000;
 
 // APP FONT-SIZES
-$intro-size-xs: 2rem;
-$intro-size-sm: 3rem;
-$intro-size-md: 3.5rem;
+$intro-size-xs: 2.625rem;
+$intro-size-sm: 3.5rem;
+$intro-size-md: 4rem;
 $intro-size-lg: 5.2rem;
 $intro-size-xl: 6.5rem;
 
@@ -28,5 +28,8 @@ $attend-size-sm: 2rem;
 $attend-size-md: 2.5rem;
 $attend-size-lg: 3rem;
 $attend-size-xl: 4rem;
+
+// BUTTONS
+$btn-link-hover-color: rgba($purple, 0.8);
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
