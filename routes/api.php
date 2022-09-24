@@ -14,6 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('activities', [\App\Http\Controllers\ActivityController::class, 'index']);
+Route::get('event-days', [\App\Http\Controllers\EventDayController::class, 'index']);

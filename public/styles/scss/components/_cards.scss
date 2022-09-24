@@ -50,6 +50,26 @@
     }	
 }
 
+.schedule-card-alt {
+	background-color: $gray-700;
+	border-radius: 1.5rem;
+	padding-top: 1rem;
+	padding-left: 1rem;
+
+	h1 {
+		font-weight: 800;
+		font-size: 4rem;
+		font-family: 'Monument Extended', sans-serif;
+		line-height: 3.5rem;
+	}
+
+	.activities {
+		.activity {
+			font-family: 'DM Sans', sans-serif;
+		}
+	}
+}
+
 .special-guest-card {
     //background-color: $green;
     border-radius: 1rem;
