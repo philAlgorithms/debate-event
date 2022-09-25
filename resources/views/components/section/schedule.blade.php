@@ -4,12 +4,16 @@
             <h1 class="display-3">Event Schedule</h1>
 	</div>
 	<div class="row d-flex activities">
-        <div class="col-sm-6 col-md-4 col-lg-3 activity"><x-card.event.schedule-alt /></div>
-	    <div class="col-sm-6 col-md-4 col-lg-3 activity"><x-card.event.schedule-alt /></div>
-	    <div class="col-sm-6 col-md-4 col-lg-3 activity"><x-card.event.schedule-alt /></div>
-        <div class="col-sm-6 col-md-4 col-lg-3 activity"><x-card.event.schedule-alt /></div>
-        <div class="col-sm-6 col-md-4 col-lg-3 activity"><x-card.event.schedule-alt /></div>
-	    <div class="col-sm-6 col-md-4 col-lg-3 activity"><x-card.event.schedule-alt /></div>
+	@foreach ($eventDays as $day)
+	    <div class="col-sm-6 col-md-4 col-lg-3 activity">
+		<x-card.event.schedule-alt
+		    :month="date('M', strtotime($day->date))"
+		    :day="date('d', strtotime($day->date))"
+		    :activities="$day->activities"
+		    :color="$day->color"
+		    />
+	    </div>
+	@endforeach
 	</div>
     </div> 
 </section>

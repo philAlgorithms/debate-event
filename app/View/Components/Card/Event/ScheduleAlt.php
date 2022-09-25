@@ -15,7 +15,7 @@ class ScheduleAlt extends Component
      *
      * @return void
      */
-    public function __construct(string $month, string $day, array $activities, string $color)
+    public function __construct(string $month, string $day,$activities, string $color)
     {
         $this->month = $month;
         $this->day = $day;

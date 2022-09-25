@@ -3,6 +3,11 @@
 .event-schedule {
     .activity {
 		padding: 0.25rem;
+
+		@include media-breakpoint-down(sm) {
+		    padding-left: 1rem;
+		    padding-right: 1rem;
+		}
 		//padding: 0.25rem;
 		// &:nth-child(1n + 0) {
 		// 	.card-header {
