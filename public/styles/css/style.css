@@ -11975,6 +11975,17 @@ textarea.form-control-lg {
   object-fit: cover;
   overflow: hidden;
 }
+.menu .logo {
+  width: 3rem;
+}
+.menu li {
+  padding: 0 0.7rem;
+}
+.menu li a {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
 .hero .container {
   position: relative;
   height: 100%;
@@ -12286,6 +12297,7 @@ textarea.form-control-lg {
 }
 
 .meet {
+  margin-top: -15%;
   padding: 0;
 }
 .meet .container {
@@ -12328,6 +12340,7 @@ textarea.form-control-lg {
 }
 .meet .container .ribbons {
   position: absolute;
+  z-index: -9999;
   height: 100%;
   top: 0;
 }

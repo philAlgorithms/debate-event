@@ -2,7 +2,7 @@
 @use '../components/mixins' as *;
 
 .meet {
-    //width: 100vw;
+    margin-top: -15%;
     padding: 0;
 
     .container {
@@ -52,7 +52,7 @@
 
         .ribbons {
             position: absolute;
-            //min-width: 100vw;
+            z-index: -9999;
             height: 100%;
             top: 0;
 
