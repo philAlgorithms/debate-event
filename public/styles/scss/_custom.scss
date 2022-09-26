@@ -52,7 +52,11 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  //	GRAY COLORS
+  "gray-600":	$gray-600,
+  "gray-700":	$gray-700,
+  "gray-800":   $gray-800,
 );
 // APP FONT-SIZES
 $intro-size-xs: 2.625rem;
@@ -68,6 +72,6 @@ $attend-size-lg: 3rem;
 $attend-size-xl: 4rem;
 
 // BUTTONS
-$btn-link-hover-color: rgba($purple, 0.8);
+//$btn-link-hover-color: rgba($purple, 0.8);
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";

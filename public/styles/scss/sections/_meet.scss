@@ -11,14 +11,14 @@
         $margin-sm: 25%;
 
         position: relative;
-        //width: 100%;
+        width: 100%;
         height: 100%;
         
         .meet--register {
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-48%, -50%);
 
             .participants-card {
                 width: 17.5rem;
@@ -62,10 +62,11 @@
             z-index: -9999;
             height: 100%;
             top: 0;
+	    display: none;
 
             @include media-breakpoint-down(sm){
-                width: 100%;
-                overflow: hidden;
+                //width: 100%;
+                //overflow: hidden;
             }
 
             .ribbon {
@@ -80,7 +81,7 @@
 		            @include media-breakpoint-down(sm) {
 			            transform: rotate(-47.5deg);
                         top: 5%;
-                        right: -$margin-sm;
+                        right: 0;//-$margin-sm;
 			            width: 70%;
                     }
 
@@ -208,7 +209,7 @@
 		            @include media-breakpoint-down(sm) {
 			            transform: rotate(45deg);
                         bottom: 7.5%;
-                        right: calc(-1 * ($margin-xs - 5px));
+                        right: 0;//calc(-1 * ($margin-xs - 5px));
 			            width: 65%;
                     }
 
@@ -304,7 +305,8 @@
 		            @include media-breakpoint-down(sm) {
 			            display: none;
                         top: 10%;
-                        right: -$margin-xl;
+                        right: 0;//-$margin-xl;
+
                     }
 
                     @include media-breakpoint-up(sm) {
@@ -394,7 +396,7 @@
                     @include media-breakpoint-down(sm) {
                         transform: rotate(45deg);
                         bottom: 17.5%;
-                        right: calc(-1 * ($margin-xs));
+                        right: 0;//calc(-1 * ($margin-xs));
 			            width: 30%;
                     }
 
@@ -423,7 +425,7 @@
 		            @include media-breakpoint-down(sm) {
                         display: none;
                         top: 10%;
-                        right: -$margin-xl;
+                        right: 0;//-$margin-xl;
                     }
 
                     @include media-breakpoint-up(sm) {

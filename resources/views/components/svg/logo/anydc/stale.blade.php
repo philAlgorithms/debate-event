@@ -1,4 +1,4 @@
-<svg viewBox="0 0 105 100">
+<svg viewBox="0 0 85 93">
     <defs>
 	<style>
 	    @import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
@@ -26,14 +26,8 @@
     </defs>
 
     <g id="logo">
-	<path 
-	    d="M 55,50 m 0, 50 a 50,50 180 0,0 0,-100
-		H0 V100"
-	    fill="url(#background)"
-	/>
-	<path d="M21.9126,59.0587 Q55,73 53,40  C54,25 62,31 69.7916,18.2792"  stroke="white" stroke-width="5.5" fill="none" />
-	<path d="M21.9126,59.0587 C73,73 41,35 55,28 Q62,28 69.7916,18.2792"  stroke="white" stroke-width="5.5" fill="none" class="d-none" />
-	<path d="M67.5,81.667 C57,62 70,71 70.5,55 C73,45 67,40 84.8892,36.029"  stroke="white" stroke-width="5.5" fill="none" />
-	<circle cx="55" cy="50" r="35" stroke="white" stroke-width="6.25" fill="none" />
+		<path d="M67.5,81.667 C45,62 70,71 70.5,55 C73,45 67,40 84.8892,36.029"  stroke="white" stroke-width="5.5" fill="none" class="d-none" />
+	<circle cx="21.5" cy="21.5" r="21" fill="#6ac18a" />
+	<path d="M5,41 Q40,125 85,65 C43.5,55 87,15 67.5,0.5 C57,-2 40,80 9,41 Q6,39 5,41" fill="#132f56"/>
     </g>
 </svg>
