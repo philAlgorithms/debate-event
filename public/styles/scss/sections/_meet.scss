@@ -14,39 +14,46 @@
         //width: 100%;
         height: 100%;
         
-        .meet--text {
-            height: 100%;
+        .meet--register {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
 
-            h1 {
-                font-size: 2.5rem;
-                 font-family: 'DM Sans', sans-serif;
-                font-weight: 400;
-            }
-                        
-            p {
-                font-size: 1.375rem;
-                font-family: 'DM Sans', sans-serif;
-                font-weight: 400;
-            }
-            
-            @include media-breakpoint-up(md) {
-                padding: 0 25%;
-            
+            .participants-card {
+                width: 17.5rem;
+
                 h1 {
                     font-size: 4rem;
+                    font-family: 'Monument Extended', sans-serif;
+                    font-weight: 900;
                 }
                             
                 p {
                     font-size: 1.25rem;
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 400;
                 }
-            }
+                
+            //     @include media-breakpoint-up(md) {
+            //         padding: 0 25%;
+                
+            //         h1 {
+            //             font-size: 4rem;
+            //         }
+                                
+            //         p {
+            //             font-size: 1.25rem;
+            //         }
+            //     }
 
-            @include media-breakpoint-up(xl) {
-                padding: 0 25%;
-            }
+            //     @include media-breakpoint-up(xl) {
+            //         padding: 0 25%;
+            //     }
 
-            @include media-breakpoint-up(xl) {
-                padding: 0 28.75%;
+            //     @include media-breakpoint-up(xl) {
+            //         padding: 0 28.75%;
+            //     }
             }
         }
 

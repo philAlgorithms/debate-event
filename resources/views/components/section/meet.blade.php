@@ -1,11 +1,13 @@
 <section id="meet" class="meet">
     <div class="container position-relative">
-        <div class="row flex-column justify-content-center align-items-center text-white text-center meet--text">
-            <h1 class="display-3">Meet IRL</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Excepturi, quis quas? Dignissimos, ex cumque. Quasi excepturi 
-                accusamus assumenda aliquid. ?
-            </p>
+        <div class="row flex-column justify-content-center align-items-center text-white text-center meet--register">
+            <div class="card bg-purple participants-card mh-100 rounded-lg mb-4">
+                <div class="card-body px-0">
+                    <h1 class="card-title">9,544</h1>
+                    <p>people have registered</p>
+                </div>
+            </div>
+            <x-button.perspective text="Register Here" />
         </div>
         <div class="row ribbons w-100">
             <img src="/images/ribbons/Vector 35.svg" class="ribbon ribbon-1" />

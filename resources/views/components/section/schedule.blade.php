@@ -5,7 +5,7 @@
 	</div>
 	<div class="row d-flex activities">
 	@foreach ($eventDays as $day)
-	    <div class="col-sm-6 col-md-4 col-lg-3 activity">
+	    <div class="col-6 col-sm-6 col-md-4 col-lg-3 activity">
 		<x-card.event.schedule-alt
 		    :month="date('M', strtotime($day->date))"
 		    :day="date('d', strtotime($day->date))"
