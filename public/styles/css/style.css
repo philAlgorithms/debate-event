@@ -11281,6 +11281,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 .perspective {
   perspective: 17.5rem;
 }
@@ -12294,6 +12299,39 @@ textarea.form-control-lg {
   .attend {
     height: 400px;
   }
+}
+
+.about .container .about-card {
+  background-color: #25252d;
+  border-radius: 1.5rem;
+}
+.about .container .about-card .about--title {
+  font-weight: 900;
+  font-family: "Monument Extended", sans-serif;
+}
+@media (max-width: 575.98px) {
+  .about .container .about-card .about--title {
+    font-size: 1.75rem;
+  }
+}
+@media (min-width: 576px) {
+  .about .container .about-card .about--title {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .about .container .about-card .about--title {
+    font-size: 2.75rem;
+  }
+}
+@media (min-width: 992px) {
+  .about .container .about-card .about--title {
+    font-size: 3rem;
+  }
+}
+.about .container .about-card .about--text p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
 }
 
 .meet {
