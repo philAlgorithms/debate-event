@@ -7,7 +7,8 @@
                     <p>people have registered</p>
                 </div>
             </div>
-            <x-button.perspective text="Register Here" />
+            <x-button.perspective text="Register Here" toggleTarget="#registerModal" />
+            <x-modal.register />
         </div>
         <div class="row ribbons w-100">
             <img src="/images/ribbons/Vector 35.svg" class="ribbon ribbon-1" />

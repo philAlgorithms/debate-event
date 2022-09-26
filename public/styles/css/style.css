@@ -11979,6 +11979,10 @@ textarea.form-control-lg {
   object-fit: cover;
   overflow: hidden;
 }
+.modal-backdrop {
+  z-index: 9999;
+}
+
 .menu .logo {
   width: 3rem;
 }
