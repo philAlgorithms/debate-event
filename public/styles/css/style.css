@@ -12236,6 +12236,36 @@ textarea.form-control-lg {
   display: none;
 }
 
+.modal-register .modal-body .register-title {
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+  font-family: "Monument Extended", sans-serif;
+  font-size: 2rem;
+}
+
+input {
+  height: 50px;
+}
+
+.modal-register input, .modal-register .input-group-text {
+  background-color: #25252d;
+  color: #fff;
+  border: 0;
+}
+.modal-register input {
+  height: 50px;
+}
+.modal-register input:focus {
+  background-color: rgba(37, 37, 45, 0.7);
+  color: #f8f9fa;
+}
+.modal-register .input-group-text {
+  color: #fff;
+}
+.modal-register .input-group-text i {
+  color: #fff;
+}
+
 .menu .logo {
   width: 3rem;
 }

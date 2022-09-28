@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
@@ -26,6 +27,10 @@ return new class extends Migration
                   ->onDelete('cascade')
                   ->onDelete('cascade');
         });
+
+        Artisan::call('db:seed', [
+            '--class' => 'EventDaySeeder'
+        ]);
     }
 
     /**

@@ -8,18 +8,23 @@
 		<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 	    </div>
 	    <div class="row flex-col justify-content-center text-white p-1 p-sm-3">
-		<h2 class="text-center">Register For ANYDC</h2>
+		<h2 class="text-center register-title">Register For ANYDC</h2>
 		<form>
-		    <div class="mb-2">
 			<label for="name" class="col-form-label text-start">Full Name</label>
-			<input type="text" class="form-control bg-gray-700 opacity-100 border border-0 rounded-2" id="name">
-		    </div>
-		    <div class="mb-2">
-			<label for="email" class="col-form-label text-start">Email</label>
-			<input type="email" class="form-control bg-gray-700 opacity-100 border rounded-2 border-0 text-white" id="email">
-		    </div>
+			<div class="input-group mb-3">
+				<input type="text" class="form-control" id="name" placeholder="Enter full name" aria-label="Full name" aria-describedby="email-addon">
+				<span class="input-group-text" id="name-addon"><i class="fas fa-user text-white"></i></span>
+				<div id="invalidName" class="invalid-feedback"></div>
+			</div>
+
+			<label for="name" class="col-form-label text-start">Email</label>
+			<div class="input-group mb-3">
+				<input type="email" class="form-control" id="email" placeholder="Enter email" aria-label="Email" aria-describedby="email-addon">
+				<span class="input-group-text" id="email-addon">&#64;</span>
+				<div id="invalidEmail" class="invalid-feedback"></div>
+			</div>
 		    <div class="text-center text-white mt-4">
-		    <button type="button" class="btn btn-purple mb-3 px-4 py-1 text-white">Register</button>
+		    <button type="button" id="register" class="btn btn-purple mb-3 px-4 py-1 text-white">Register</button>
 		    </div>
 
     		</form>
