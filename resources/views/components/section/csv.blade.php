@@ -5,7 +5,7 @@
                 <div class="card-body px-4 py-5">
                     <h1 class="card-title text-white about--title mb-4">Download CSV</h1>
                     <div class="about--text text-white">
-                       <button id="download-csv" class="btn btn-purple btn-lg rounded-4 text-white">Download CSV</button>
+                       <a href="/get-csv" id="download-csv" class="btn btn-purple btn-lg rounded-4 text-white">Download CSV</a>
                     </div>
                 </div>
             </div>

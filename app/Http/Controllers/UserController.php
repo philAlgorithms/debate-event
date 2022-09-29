@@ -11,7 +11,7 @@ class UserController extends Controller
     {
         $participants = User::role('participant')->select(['name', 'email'])->get()->toArray();
 
-        $filename = 'storage/app/participants.csv';
+        $filename = 'participants.csv';
 
         // openfile for writing
         $f = fopen($filename, 'w');
@@ -30,6 +30,13 @@ class UserController extends Controller
 
         fclose($f);
 
-        return $filename;
+        header('Content-Description: File Transfer');
+	header('Content-Disposition: attachment; filename='.basename($filename));
+	header('Expires: 0');
+	header('Cache-Control: must-revalidate');
+	header('Pragma: public');
+	header('Content-Length: ' . filesize($filename));
+	header("Content-Type: text/csv");
+	readfile($filename);
     }
 }
