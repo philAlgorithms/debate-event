@@ -11,7 +11,7 @@
             <div class="card bg-gray-700 w-100 mh-100 rounded-4">
                 <div class="card-body p-md-5">
                     <div class="row text-white text-start link-groups">
-                        <div class="col-md-4 company mb-5 mb-md-0 pr-3 pr-md-auto">
+                        <div class="col-md-4 company mb-2 mb-md-5 mb-md-0 pr-3 pr-md-auto">
                             <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
                                 <x-svg.logo.anydc.stale />
                               </a>
