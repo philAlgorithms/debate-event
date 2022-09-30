@@ -1,6 +1,7 @@
 // THEME COLORS
 $blue:  #5656FF;
 $purple: #867DE1;
+$purple-500: #716DEE;
 $green: #67B98D;
 $yellow: #F8D74B;
 $cyan: #62CCED;
@@ -44,6 +45,7 @@ $theme-colors: (
   "yellow":     $yellow,
   "cyan":       $cyan,
   "green-500":  $green-500,
+  "purple-500":      $purple-500,
   //   BOOTSTRAP'S
   "primary":    $primary,
   "secondary":  $secondary,
@@ -62,8 +64,8 @@ $theme-colors: (
 $intro-size-xs: 2.625rem;
 $intro-size-sm: 3.5rem;
 $intro-size-md: 4rem;
-$intro-size-lg: 5.2rem;
-$intro-size-xl: 6.5rem;
+$intro-size-lg: 5.75rem;
+$intro-size-xl: 7rem;
 
 $attend-size-xs: 1.5rem;
 $attend-size-sm: 2rem;

@@ -2,6 +2,29 @@
 
 .partners {
 	.container {
+        .sponsor {
+            font-family: 'Monument Extended', sans-serif;
+            &--text {
+                font-size: 2rem;
+                color: $white;
+
+                .logo {
+                    width: 12.5rem;
+                }
+                span {
+                    font-family: 'Monument Extended', sans-serif;
+                    &:nth-child(1) {
+                        font-weight: 800;
+                    }
+                    &:nth-child(2) {
+                        font-weight: 600;
+                    }
+                }
+                @include media-breakpoint-up(md) {
+                    font-size: 2.5rem;
+                }
+            }
+        }
 		.partner {
 
 			img {

@@ -1,0 +1,88 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.footer {
+    .container {
+        .footer-enquiries {
+            // margin-top: 3rem;
+            // margin-bottom: 3rem;
+
+            h1 {
+                //font-size: 3.5rem;
+                font-family: 'Raleway', sans-serif;
+            }
+            a {
+                font-size: 0.625rem;
+                font-family: 'DM Sans', sans-serif;
+            }
+        }
+        .footer-links {
+            font-family: 'DM Sans', sans-serif;
+            .link-group {
+                h6 {
+                    font-weight: 600;
+
+                    @include media-breakpoint-up(md) {
+                        font-size: 1.375rem;
+                    }
+                }
+                li {
+                    a {
+                        font-size: 1rem;
+                        font-weight: 400;
+                        color: $white;
+
+                        @include media-breakpoint-down(sm) {
+                            font-size: 0.875rem;
+                        }
+                    }
+
+                    span {
+                        i {
+                            font-size: 1.125rem;
+                        }
+                    }
+                }
+            }
+
+            .company {
+                a {
+                    width: 2rem;
+                }
+                p {
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    width: 90%;
+                }
+            }
+        }
+
+        .footer-socials {
+            @include media-breakpoint-down(sm) {
+                width: 80%;
+            }
+
+            @include media-breakpoint-up(sm) {
+                width: 80%;
+            }
+
+            @include media-breakpoint-up(md) {
+                width: 30%;
+            }
+
+            @include media-breakpoint-up(lg) {
+                width: 30%;
+            }
+
+            @include media-breakpoint-up(xl) {
+                width: 25%;
+            }
+
+            span {
+                i {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

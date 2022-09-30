@@ -8,4 +8,5 @@
     <x-section.partners />
     <x-section.prizes />
     <x-section.special-guests />
+    <x-navigation.footer />
 </x-layout.main>

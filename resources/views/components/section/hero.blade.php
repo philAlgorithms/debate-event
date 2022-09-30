@@ -1,6 +1,6 @@
 <section id="hero" class="hero">
     <div class="container pb-sm-5">
-        <div class="row text-white hero--text">
+        <div class="row text-white hero--text mx-0">
             <h1 class="display-2">
                 <span class="display-2--intro">
                     Nigeria's<br/> Largest 
@@ -20,6 +20,8 @@
         <div class="row ribbons w-100">
             <p class="year year-text d-flex align-items-center justify-content-center">'22</p>
             <img src="/images/ribbons/Vector 22.svg" class="ribbon ribbon-15" />
+            <img src="/images/ribbons/Vector 20.svg" class="ribbon ribbon-16" />
+         
            {{-- <img src="/images/ribbons/Vector 31.svg" class="ribbon ribbon-2" />
             <img src="/images/ribbons/Vector 28.svg" class="ribbon ribbon-3" />
             <img src="/images/ribbons/Vector 33.svg" class="ribbon ribbon-4" />

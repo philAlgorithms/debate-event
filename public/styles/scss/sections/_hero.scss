@@ -2,13 +2,14 @@
 @use '../components/mixins' as *;
 
 .hero {
+    margin-top: 5%;
     .container {
         position: relative;
         height: 100%;
 
         .hero--text {
             position: absolute;
-            top: 50%;
+            top: 40%;
             transform: translateY(-50%);
 
             @include media-breakpoint-down(sm) {
@@ -16,9 +17,9 @@
                 padding-left: 5%;
             }
 
-            @include media-breakpoint-up(lg) {
+            @include media-breakpoint-up(md) {
                 padding-right: 10%;
-                padding-left: 5%;
+                padding-left: 10%;
             }
         }
 
@@ -29,14 +30,14 @@
         }
 
         .ribbons {
-            //position: absolute;
+            //overflow: hidden;
 
             .year {
-                $year-size-xs: 15rem;
+                $year-size-xs: 13.5rem;
                 $year-size-sm: 20rem;
-                $year-size-md: 20rem;
-                $year-size-lg: 24rem;
-                $year-size-xl: 26.25rem;
+                $year-size-md: 15rem;
+                $year-size-lg: 17.5rem;
+                $year-size-xl: 22.5rem;
 
                 position: absolute;
                 z-index: -999;
@@ -57,9 +58,9 @@
                     width: calc($year-size-xs * 1.4);
                     height: $year-size-xs;
                     font-size: $year-size-xs;
-                    bottom: 10%;
+                    bottom: 20%;
                     left: 50%;
-                    transform: translateX(-60%);
+                    transform: translateX(-50%);
                     letter-spacing: -0.5rem;
                 }
                 @include media-breakpoint-up(sm) {
@@ -80,15 +81,15 @@
                     width: calc($year-size-lg * 1.4);
                     height: $year-size-lg;
                     font-size: $year-size-lg;
-                    bottom: 0%;
-                    right: 7.5%;
+                    bottom: 22.5%;
+                    right: 10%;
                 }
                 @include media-breakpoint-up(xl) {
                     font-size: $year-size-xl;
                     width: calc($year-size-xl * 1.4);
                     height: $year-size-xl;
-                    right: 10%;
-                    bottom: 5%;
+                    right: 15%;
+                    bottom: 20%;
                 }
             }
 
@@ -112,10 +113,11 @@
                     @include media-breakpoint-up(md){
                         width: 10%;
                         right: 0%;
-                        top: 25%;                    
+                        top: 35%;                    
                     }
                     @include media-breakpoint-up(lg){
-                        
+                        right: 5%;
+                        bottom: 30%;
                     }
                     @include media-breakpoint-up(xl){
                         
@@ -124,16 +126,23 @@
 
                 &-16 {
                     @include media-breakpoint-down(sm){
-
+                        left: 50%;
+                        bottom: 17.5%;
+                        transform: translateX(-50%);
+                        width: 12.5%;
                     }
                     @include media-breakpoint-up(sm){
-
+                        left: 50%;
+                        bottom: 16.5%;
+                        transform: translateX(-50%);
+                        width: 12.5%;
                     }
                     @include media-breakpoint-up(md){
-                        
+                        transform: translateX(-100%);
+                        width: 7.5%;
                     }
                     @include media-breakpoint-up(lg){
-                        
+                        width: 5%;
                     }
                     @include media-breakpoint-up(xl){
                         

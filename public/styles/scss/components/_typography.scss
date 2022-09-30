@@ -40,15 +40,16 @@
         }
         @include media-breakpoint-up(xl) {
             font-size: $intro-size-xl;
+            line-height: $intro-size-xl;
         }
 
         //  NON-CONFORMING DEVICE-WIDTHS
-        @media (min-width: 986px) and (max-width: 1175px) {
-            font-size: calc(($intro-size-md + $intro-size-lg)/2);
-        }
-        @media (min-width: 1180px) and (max-width: 1267px) {
-            font-size: $intro-size-lg;
-        }
+        // @media (min-width: 986px) and (max-width: 1175px) {
+        //     font-size: calc(($intro-size-md + $intro-size-lg)/2);
+        // }
+        // @media (min-width: 1180px) and (max-width: 1267px) {
+        //     font-size: $intro-size-lg;
+        // }
 
         
 
@@ -85,21 +86,24 @@
             max-width: 80%;
             font-size: 1.2rem;
             display: inline-block;
+            padding-right: 20%;
         }
 
         @include media-breakpoint-up(xl) {
             max-width: 70%;
             font-size: 1.5rem;
             display: inline-block;
+            padding-right:20%;
         }
     }
 }
 
 .display-3 {
     text-transform: 'capitalise';
-    font-size: 3.25rem;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 800;
+    font-size: 4.5rem;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: 900;
+    letter-spacing: -0.25rem;
 
     @include media-breakpoint-down(sm){
         font-size: 1.75rem;
