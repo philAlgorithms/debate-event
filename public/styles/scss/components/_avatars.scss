@@ -192,10 +192,12 @@
         }
 
         @include media-breakpoint-down(sm){
+            display: none;
             bottom: 13%;
             right: 4%;
         }
         @include media-breakpoint-up(sm){
+            display: none;
             width: 8rem;
             height: 8rem;
             bottom: 15%;
@@ -230,10 +232,12 @@
         }
 
         @include media-breakpoint-down(sm){
+            display: none;
             top: 13%;
             right: 0%;
         }
         @include media-breakpoint-up(sm){
+            display: none;
             width: 6rem;
             height: 6rem;
             top: 15%;

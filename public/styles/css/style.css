@@ -11739,7 +11739,7 @@ textarea.form-control-lg {
   font-size: 4.5rem;
   font-family: "Monument Extended", sans-serif;
   font-weight: 900;
-  letter-spacing: -0.25rem;
+  letter-spacing: -0.2rem;
 }
 @media (max-width: 575.98px) {
   .display-3 {
@@ -11950,12 +11950,14 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .avatar-7 {
+    display: none;
     bottom: 13%;
     right: 4%;
   }
 }
 @media (min-width: 576px) {
   .avatar-7 {
+    display: none;
     width: 8rem;
     height: 8rem;
     bottom: 15%;
@@ -11994,12 +11996,14 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .avatar-8 {
+    display: none;
     top: 13%;
     right: 0%;
   }
 }
 @media (min-width: 576px) {
   .avatar-8 {
+    display: none;
     width: 6rem;
     height: 6rem;
     top: 15%;
