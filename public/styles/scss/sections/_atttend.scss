@@ -163,14 +163,51 @@
                     padding-right: 12rem;
                 }
             }
+
+            .activities {
+                ul {
+                    li {
+                        font-family: 'DM Sans', sans-serif;
+                        font-weight: 400;
+                        margin-bottom: 0.5rem;
+                        
+                        @include media-breakpoint-down(sm) {
+                            //padding: 0 12.5%;
+                            font-size: 0.875rem;
+                        }
+        
+                        @include media-breakpoint-up(sm) {
+                        
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+                @include media-breakpoint-down(sm){
+                    padding: 0 10%;
+                }
+                @include media-breakpoint-up(sm){
+                }
+                @include media-breakpoint-up(md){
+                    padding-left: 6rem;
+                    padding-right: 6rem;
+                }
+                @include media-breakpoint-up(lg){
+                    padding-left: 10rem;
+                    padding-right: 10rem;
+                }
+                @include media-breakpoint-up(xl){
+                    padding-left: 10rem;
+                    padding-right: 10rem;
+                }
+            }
         }
     }
 
-    @include fullHeight;
-    @include media-breakpoint-down(sm){
-        height: 500px;
-    }
-    @include media-breakpoint-between(sm, md){
-        height: 400px;
-    }
+    // @include fullHeight;
+    // @include media-breakpoint-down(sm){
+    //     height: 500px;
+    // }
+    // @include media-breakpoint-between(sm, md){
+    //     height: 400px;
+    // }
 }

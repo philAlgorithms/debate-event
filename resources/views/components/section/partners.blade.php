@@ -32,7 +32,7 @@
             </div>
             @endforeach
         </div>
-        <div class="row text-center partners--logos my-5">
+        <div class="row text-center partners--logos my-5 d-none">
             <x-button.perspective text="Become a Partner" />
         </div>
     </div> 

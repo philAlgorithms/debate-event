@@ -6,6 +6,7 @@
     <x-section.about />
     <x-section.schedule :eventDays=$event_days/>
     <x-section.partners />
+    <x-section.ctr />
     <x-section.prizes />
     <x-section.special-guests />
     <x-navigation.footer />

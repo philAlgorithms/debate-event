@@ -11631,7 +11631,7 @@ textarea.form-control-lg {
   }
 }
 .perspective {
-  perspective: 25rem;
+  perspective: 35rem;
 }
 
 .btn-perspective {
@@ -11743,7 +11743,12 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .display-3 {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .display-3 {
+    font-size: 3rem;
   }
 }
 
@@ -12777,39 +12782,42 @@ input {
     padding-right: 12rem;
   }
 }
+.attend .container .attend--text .activities ul li {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
 @media (max-width: 575.98px) {
-  .attend {
-    height: 667px;
+  .attend .container .attend--text .activities ul li {
+    font-size: 0.875rem;
   }
 }
 @media (min-width: 576px) {
-  .attend {
-    height: 780px;
-  }
-}
-@media (min-width: 768px) {
-  .attend {
-    height: 500px;
-  }
-}
-@media (min-width: 992px) {
-  .attend {
-    height: 600px;
-  }
-}
-@media (min-width: 1200px) {
-  .attend {
-    height: 800px;
+  .attend .container .attend--text .activities ul li {
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 575.98px) {
-  .attend {
-    height: 500px;
+  .attend .container .attend--text .activities {
+    padding: 0 10%;
   }
 }
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .attend {
-    height: 400px;
+@media (min-width: 768px) {
+  .attend .container .attend--text .activities {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+@media (min-width: 992px) {
+  .attend .container .attend--text .activities {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+@media (min-width: 1200px) {
+  .attend .container .attend--text .activities {
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 }
 

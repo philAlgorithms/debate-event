@@ -7,9 +7,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
     <title>The All Nigerian Youths Debate Championships and National Youth Conference 2022.</title>
-
-    <link rel="stylesheet" href="styles/css/style.css" />
-    <link rel="stylesheet" href="styles/css/fontawesome.css" />
+    <link rel="icon" href="/images/anydc.png" type="img/png">
+    <link rel="stylesheet" href="/styles/css/style.css" />
+    <link rel="stylesheet" href="/styles/css/fontawesome.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
 

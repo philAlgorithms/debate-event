@@ -6,19 +6,42 @@
                     <h1 class="card-title text-white about--title mb-4">About <span class="text-blue">the Event</span></h1>
                     <div class="about--text text-white">
                         <p>
-                            The All Nigerian Youths Debate Championship will be the first youth themed event focused on actually hearing the youths of Nigeria out. The event is focused on providing young Nigerians with an opportunity to connect and network, share ideas, discuss pressing national issues and most importantly, HAVE FUN.
+                            The All Nigerian Youths Debate Championship is the first event in Nigeria focused on one thing.
                         </p>
                         <p>
-                            Convened by The DebaterVerse and Happivibe Services, two organizations focused on growing large communities of young persons and helping them use their voice and talents to create real change, this event will involve over 1,000 young persons from all parts of the country sharing the same accommodation for 5 days, casually interacting, having fun and creating long lasting memories.
+                            Giving you the freedom to express yourselves
                         </p>
                         <p>
-                            In order to create a healthy balance of social and intellectual excitement, the event will feature lots of exciting activities like concerts, games, celebrity meet and greets, talent shows, picnics, etc.
+                            The brainchild of The DebaterVerse and Happivibe Services, two organizations focused on growing large communities of young people and helping them use their voices and talents to create real change.
                         </p>
                         <p>
-                            The activities are structured to be inclusive, casual and informal; no restrictions with regards to dressing, language or mannerism; an exhibition of the freedom of youth especially in a country like Nigeria where young persons are faced with multiple glass ceilings and limitations to their rights and creativity.</p>
-                        <p>
-                            To cap off a week of exciting activities, The National Youth Conference will grant participants an opportunity to aggregate ideas, listen to and interact with experienced social and business leaders and compete for exciting rewards.
+                            The ANYDC provides young Nigerians with an opportunity and the freedom to
+                            <ul class="mt-2">
+                                <li>Connect And Network</li>
+                                <li>Share Ideas</li>
+                                <li>Discuss Pressing National Issues</li>
+                                <li>And Most Importantly</li>
+                                <li>Have Fun!</li>
+                            </ul>
                         </p>
+                        <p>
+                            Involving over 1,000 young people from all parts of the country sharing the same accommodation for 5 days. The ANYDC is the place to create ideas, friends, and memories that last a lifetime.
+                        </p>
+                        <p>
+                            The activities, featuring everything from debating to movies and games are structured to be inclusive, casual, and informal.
+                        </p>
+                        <p>
+                            Giving you a healthy balance of social and intellectual excitement with no restrictions with regards to dressing, language, or mannerisms. An exhibition of freedom. Something seriously lacking in Nigeria today.
+                        </p>
+                        <p>
+                            And to cap it all, after a week of excitement and cruise. The National Youth Conference gives you a chance to hear ideas, listen to and interact with experienced social and business leaders and compete for even more exciting rewards.
+                        </p>
+                        <p>
+                            So what do you say, interested in being a part of the ANYDC?
+                        </p>
+                    </div>
+                    <div class="text-center mt-4">
+                        <x-button.perspective text="Register Here" toggleTarget="#registerModal" />
                     </div>
                 </div>
             </div>
