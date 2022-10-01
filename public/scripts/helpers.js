@@ -7,12 +7,12 @@ $(document).ready(function(){
     });
 });
 
-function showItem(item, hideItem){
-    hideItem = hideItem || undefined;
+function showItem(item, hideToItem){
+    hideToItem = hideToItem || undefined;
 
     item.removeClass('d-none');
-    if(hideItem !== undefined)
-        hideItem.addClass('d-none');
+    if(hideToItem != undefined)
+        hideToItem.addClass('d-none');
 }
 
 function checkErrors (response)

@@ -24,7 +24,11 @@
 				<div id="invalidEmail" class="invalid-feedback"></div>
 			</div>
 		    <div class="text-center text-white mt-4">
-		    <button type="button" id="register" class="btn btn-purple mb-3 px-4 py-1 text-white">Register</button>
+		    	<button type="button" id="register" class="btn btn-purple mb-3 px-4 py-1 text-white">Register</button>
+				<button type="button" id="register--spinning" class="btn btn-purple mb-3 px-4 py-1 text-white d-none">
+					<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+					<span>Please wait...</span>
+				</button>
 		    </div>
 
     		</form>

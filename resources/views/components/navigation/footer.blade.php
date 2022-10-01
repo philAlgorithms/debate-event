@@ -42,16 +42,24 @@
                 <div class="card-body px-3 py-3">
                     <div class="row justify-content-between text-white text-start link-groups">
                         <span class="col-3">
-                            <i class="fa-brands fa-twitter"></i>
+                            <a href="https://" target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
                         </span>
                         <span class="col-3">
-                            <i class="fa-brands fa-tiktok"></i>
+                            <a href="https://" target="_blank">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
                         </span>
                         <span class="col-3">
-                            <i class="fa-brands fa-linkedin"></i>
+                            <a href="https://" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
                         </span>
                         <span class="col-3">
-                            <i class="fa-brands fa-instagram"></i>
+                            <a href="https://" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
                         </span>
                     </div>
                 </div>

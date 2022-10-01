@@ -2,11 +2,11 @@
     <div class="container position-relative d-flex flex-column justify-content-center">
         <div class="row text-center text-white mb-5 attend--heading">
             <h1 class=""> 
-                <span class="date date-start">Dec  
-                    <span class="day"><x-svg.vector7 />04</span>
+                <span class="date date-start">Nov 
+                    <span class="day"><x-svg.vector7 />27</span>
                 </span>&nbsp; - &nbsp; 
                 <span class="date date-end">Dec   
-                    <span class="day"><x-svg.vector8 />10</span>
+                    <span class="day"><x-svg.vector8 />03</span>
                 </span>
             </h1>
         </div>
@@ -30,7 +30,7 @@
         <div class="row text-center mt-5">
             <x-button.perspective text="Buy Tickets" />
         </div>
-        <div class="row avatars">
+        <div class="row avatars d-none d-md-block">
             <span class="avatar avatar-7"><img src="/images/avatars/avatar-7.png" alt="memoji 1"></span>
             <span class="avatar avatar-8"><img src="/images/avatars/avatar-8.png" alt="memoji 2"></span>
         </div>

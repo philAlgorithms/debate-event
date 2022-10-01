@@ -1,20 +1,19 @@
 <?php
 
-namespace App\View\Components\Column;
+namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class Partner extends Component
+class ToBeAnnounced extends Component
 {
-    public $image;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct(string $image)
+    public function __construct()
     {
-        $this->image = $image;
+        //
     }
 
     /**
@@ -24,6 +23,6 @@ class Partner extends Component
      */
     public function render()
     {
-        return view('components.column.partner');
+        return view('components.to-be-announced');
     }
 }

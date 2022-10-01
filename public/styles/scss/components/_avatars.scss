@@ -17,6 +17,7 @@
         transform: rotate(-10.22deg);
         width: 4.5rem;
         height: 4.5rem;
+        z-index: -499;
 
         @include media-breakpoint-down(sm){
             top: 10%;
@@ -68,6 +69,7 @@
         background: linear-gradient(180deg, #E2DAFD 0%, #D6CBFC 100%);
         width: 5rem;
         height: 5rem;
+        z-index: -499;
 
         img {
             max-width: 60%;
@@ -95,13 +97,13 @@
             height: 7.5rem;
             width: 7.5rem;
             top: 17.5%;
-            right: 18.75%;
+            right: 13.75%;
         }
         @include media-breakpoint-up(xl){
             height: 9rem;
             width: 9rem;
             top: 17.5%;
-            right: 18.75%;
+            right: 13.75%;
         }
     }
 
@@ -192,12 +194,10 @@
         }
 
         @include media-breakpoint-down(sm){
-            display: none;
             bottom: 13%;
             right: 4%;
         }
         @include media-breakpoint-up(sm){
-            display: none;
             width: 8rem;
             height: 8rem;
             bottom: 15%;
@@ -232,12 +232,10 @@
         }
 
         @include media-breakpoint-down(sm){
-            display: none;
             top: 13%;
             right: 0%;
         }
         @include media-breakpoint-up(sm){
-            display: none;
             width: 6rem;
             height: 6rem;
             top: 15%;

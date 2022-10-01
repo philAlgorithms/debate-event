@@ -2,7 +2,7 @@
 @use '../components/mixins' as *;
 
 .meet {
-    margin-top: -15%;
+    margin-top: -50px;
     padding: 0;
 
     .container {
@@ -18,7 +18,7 @@
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-48%, -50%);
+            transform: translate(-45%, -50%);
 
             .participants-card {
                 width: 17.5rem;
@@ -54,6 +54,10 @@
             //     @include media-breakpoint-up(xl) {
             //         padding: 0 28.75%;
             //     }
+            }
+
+            @include media-breakpoint-up(md) {
+                transform: translate(-45%, -50%);
             }
         }
 
@@ -510,18 +514,18 @@
 
     @include fullHeight;
     @include media-breakpoint-down(sm) {
-        margin-top: -35%;
+        margin-top: -130px;
         height: 600px;
     }
     @include media-breakpoint-up(md) {
-        margin-top: -20%;
+        margin-top: -190px;
     }
     @include media-breakpoint-up(lg) {
-        margin-top: -16.75%;
+        margin-top: -160px;
         height: 520px;
     }
     @include media-breakpoint-up(xl) {
-        margin-top: -18.75%;
+        margin-top: -235px;
         height: 700px;
     }
 }

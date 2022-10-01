@@ -2,13 +2,15 @@
     <div class="container pb-sm-5">
         <div class="row text-white hero--text mx-0">
             <h1 class="display-2">
-                <span class="display-2--intro">
-                    Nigeria's<br/> Largest 
+                <span class="display-2--intro h6">
+                    {{-- Nigeria's<br/> Largest 
                     <span class="avatar-3-wrapper">Y<span><img src="/images/avatars/avatar-3.png" alt="memoji 3"></span>uth</span><br/>
-                    Gathering</span>
-                    <span class="display-2--description">
-                        Connect with hundreds of like minded young persons at Naija&apos;s first ever blend of youth, positive discourse and fun!
-                    </span>
+                    Gathering</span> --}}
+                    Find the freedom to express yourself and your opinion!
+                </span>
+                <span class="display-2--description lh-md">
+                    Connect with hundreds of people just like you at Naija&apos;s first-ever blend of youth, positive discourse, and fun! running from the 24th of November to the 3rd of December
+                </span>
             </h1>
         </div>
         <div class="row avatars">

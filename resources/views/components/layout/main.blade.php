@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-    <title>ANYDC Event</title>
+    <title>The All Nigerian Youths Debate Championships and National Youth Conference 2022.</title>
 
     <link rel="stylesheet" href="styles/css/style.css" />
     <link rel="stylesheet" href="styles/css/fontawesome.css" />

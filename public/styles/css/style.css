@@ -11654,7 +11654,7 @@ textarea.form-control-lg {
 }
 .display-2--intro {
   display: inline;
-  font-weight: 900;
+  font-weight: 800;
   font-family: "Raleway", sans-serif;
   font-stretch: extra-expanded;
 }
@@ -11670,18 +11670,18 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .display-2--intro {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 @media (min-width: 992px) {
   .display-2--intro {
-    font-size: 5.75rem;
+    font-size: 4.5rem;
   }
 }
 @media (min-width: 1200px) {
   .display-2--intro {
-    font-size: 7rem;
-    line-height: 7rem;
+    font-size: 5rem;
+    line-height: 5rem;
   }
 }
 @media (min-width: 993px) and (max-width: 1070px) {
@@ -11770,6 +11770,7 @@ textarea.form-control-lg {
   transform: rotate(-10.22deg);
   width: 4.5rem;
   height: 4.5rem;
+  z-index: -499;
 }
 @media (max-width: 575.98px) {
   .avatar-1 {
@@ -11809,6 +11810,7 @@ textarea.form-control-lg {
   background: linear-gradient(180deg, #E2DAFD 0%, #D6CBFC 100%);
   width: 5rem;
   height: 5rem;
+  z-index: -499;
 }
 .avatar-2 img {
   max-width: 60%;
@@ -11840,7 +11842,7 @@ textarea.form-control-lg {
     height: 7.5rem;
     width: 7.5rem;
     top: 17.5%;
-    right: 18.75%;
+    right: 13.75%;
   }
 }
 @media (min-width: 1200px) {
@@ -11848,7 +11850,7 @@ textarea.form-control-lg {
     height: 9rem;
     width: 9rem;
     top: 17.5%;
-    right: 18.75%;
+    right: 13.75%;
   }
 }
 .avatar-4 {
@@ -11950,14 +11952,12 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .avatar-7 {
-    display: none;
     bottom: 13%;
     right: 4%;
   }
 }
 @media (min-width: 576px) {
   .avatar-7 {
-    display: none;
     width: 8rem;
     height: 8rem;
     bottom: 15%;
@@ -11996,14 +11996,12 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .avatar-8 {
-    display: none;
     top: 13%;
     right: 0%;
   }
 }
 @media (min-width: 576px) {
   .avatar-8 {
-    display: none;
     width: 6rem;
     height: 6rem;
     top: 15%;
@@ -12073,12 +12071,12 @@ textarea.form-control-lg {
 @media (min-width: 768px) {
   .avatar-3-wrapper {
     display: inline-flex;
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .avatar-3-wrapper span {
     background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-    width: 2.2857142857rem;
-    height: 2.2857142857rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     transform: translate(-5%, 75%);
   }
@@ -12092,12 +12090,12 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .avatar-3-wrapper {
     display: inline-flex;
-    font-size: 5.75rem;
+    font-size: 4.5rem;
   }
   .avatar-3-wrapper span {
     background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-    width: 3.2857142857rem;
-    height: 3.2857142857rem;
+    width: 2.5714285714rem;
+    height: 2.5714285714rem;
     border-radius: 50%;
     transform: translate(-5%, 75%);
   }
@@ -12111,12 +12109,12 @@ textarea.form-control-lg {
 @media (min-width: 1200px) {
   .avatar-3-wrapper {
     display: inline-flex;
-    font-size: 7rem;
+    font-size: 5rem;
   }
   .avatar-3-wrapper span {
     background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
-    width: 4rem;
-    height: 4rem;
+    width: 2.8571428571rem;
+    height: 2.8571428571rem;
     border-radius: 50%;
     transform: translate(-5%, 75%);
   }
@@ -12849,7 +12847,7 @@ input {
 }
 
 .meet {
-  margin-top: -15%;
+  margin-top: -50px;
   padding: 0;
 }
 .meet .container {
@@ -12861,7 +12859,7 @@ input {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-48%, -50%);
+  transform: translate(-45%, -50%);
 }
 .meet .container .meet--register .participants-card {
   width: 17.5rem;
@@ -12882,6 +12880,11 @@ input {
   }
   .meet .container .meet--register .participants-card p {
     font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .meet .container .meet--register {
+    transform: translate(-45%, -50%);
   }
 }
 .meet .container .ribbons {
@@ -13386,24 +13389,24 @@ input {
 }
 @media (max-width: 575.98px) {
   .meet {
-    margin-top: -35%;
+    margin-top: -130px;
     height: 600px;
   }
 }
 @media (min-width: 768px) {
   .meet {
-    margin-top: -20%;
+    margin-top: -190px;
   }
 }
 @media (min-width: 992px) {
   .meet {
-    margin-top: -16.75%;
+    margin-top: -160px;
     height: 520px;
   }
 }
 @media (min-width: 1200px) {
   .meet {
-    margin-top: -18.75%;
+    margin-top: -235px;
     height: 700px;
   }
 }
@@ -13443,7 +13446,7 @@ input {
   }
 }
 .partners .container .partner img {
-  width: 4rem;
+  width: 85%;
 }
 @media (min-width: 768px) {
   .partners--logos {
@@ -13563,6 +13566,7 @@ input {
 }
 .footer .container .footer-socials span i {
   font-size: 1.5rem;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
