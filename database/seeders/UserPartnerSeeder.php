@@ -4,9 +4,8 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 
-class ActivitySeeder extends Seeder
+class UserPartnerSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,10 +14,6 @@ class ActivitySeeder extends Seeder
      */
     public function run()
     {
-        $path = resource_path('sql/activities.sql');
-
-        DB::unprepared(
-            file_get_contents($path)
-        );
+        //
     }
 }

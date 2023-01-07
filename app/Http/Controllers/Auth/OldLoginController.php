@@ -1,14 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\BaseController;
-use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\ValidationException;
 use Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful;
 
-class LoginController extends BaseController
+class LoginController extends Controller
 {
     public function __invoke()
     {
@@ -17,12 +15,23 @@ class LoginController extends BaseController
             'password' => ['required'],
         ]);
 
-        return $this->authenticate();
+        /**
+         * We are authenticating a request from our frontend.
+         */
+        if (EnsureFrontendRequestsAreStateful::fromFrontend(request())) {
+            $this->authenticateFrontend();
+        }
+        /**
+         * We are authenticating a request from a 3rd party.
+         */
+        else {
+            // Use token authentication.
+        }
     }
 
-    private function authenticate()
+    private function authenticateFrontend()
     {
-        if (!Auth::guard('web')
+        if (! Auth::guard('web')
             ->attempt(
                 request()->only('email', 'password'),
                 request()->boolean('remember')
@@ -30,11 +39,6 @@ class LoginController extends BaseController
             throw ValidationException::withMessages([
                 'email' => __('auth.failed'),
             ]);
-        }else {
-            $link = User::find(auth()->user()->id)->hasRole('admin') ? '/admin' : '/';
-            return [
-                "dashboard" => $link
-            ];
         }
     }
 }

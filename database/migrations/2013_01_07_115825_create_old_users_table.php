@@ -2,7 +2,6 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
@@ -14,14 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        // Create and copy old data
-        Artisan::call('db:seed', [
-            '--class' => 'OldUserSeeder'
-        ]);
-        // remove table
-        Schema::dropIfExists('users');
-        // Recreate table for fresh IDs
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('old_users', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('email')->unique();
@@ -39,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('old_users');
     }
 };

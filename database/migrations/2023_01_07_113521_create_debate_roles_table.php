@@ -14,15 +14,15 @@ return new class extends Migration
      */
     public function up()
     {
-        // Schema::create('event_days', function (Blueprint $table) {
-        //     $table->bigIncrements('id');
-        //     $table->date('date');
-        //     $table->string('color')->default('cyan');
-        //     $table->timestamps();
-        // });
+        Schema::create('debate_roles', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('name');
+            $table->string('icon')->nullable();
+            $table->timestamps();
+        });
 
         Artisan::call('db:seed', [
-            '--class' => 'EventDaySeeder'
+            '--class' => 'DebateRoleSeeder'
         ]);
     }
 
@@ -33,8 +33,6 @@ return new class extends Migration
      */
     public function down()
     {
-        
-        Schema::dropIfExists('activities');
-        Schema::dropIfExists('event_days');
+        Schema::dropIfExists('debate_roles');
     }
 };

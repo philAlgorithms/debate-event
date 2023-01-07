@@ -4,6 +4,7 @@ namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\{BelongsTo, BelongsToMany, HasOne};
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
@@ -42,4 +43,35 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function partnerOnRegistration(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'partner_id');
+    }
+    /**
+     * Gets this user's partners
+     * 
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|\Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function partner(): BelongsTo|HasOne
+    {
+        $referred_partner = $this->partnerOnRegistration;
+
+       if(is_null($referred_partner))
+       {
+            return $this->hasOne(User::class, 'partner_id');
+       }
+
+        return $this->partnerOnRegistration();
+    }
+
+    /**
+     * Gets this user's debate role
+     * 
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function debateRole(): BelongsTo
+    {
+        return $this->belongsTo(DebateRole::class);
+    }
 }

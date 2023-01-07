@@ -15,21 +15,21 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('activities', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->unsignedBigInteger('event_day_id');
-            $table->string('title');
-            $table->timestamps();
+        // Schema::create('activities', function (Blueprint $table) {
+        //     $table->bigIncrements('id');
+        //     $table->unsignedBigInteger('event_day_id');
+        //     $table->string('title');
+        //     $table->timestamps();
 
-            $table->foreign('event_day_id')
-                  ->references('id')
-                  ->on('event_days')
-                  ->onDelete('cascade')
-                  ->onDelete('cascade');
-        });
+        //     $table->foreign('event_day_id')
+        //           ->references('id')
+        //           ->on('event_days')
+        //           ->onDelete('cascade')
+        //           ->onDelete('cascade');
+        // });
 
         Artisan::call('db:seed', [
-            '--class' => 'EventDaySeeder'
+            '--class' => 'ActivitySeeder'
         ]);
     }
 

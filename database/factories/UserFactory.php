@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\DebateRole;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 
@@ -17,10 +18,14 @@ class UserFactory extends Factory
      */
     public function definition()
     {
+        $debate_roles = DebateRole::get('id')->pluck('id')->toArray();
+
         return [
             'name' => fake()->name(),
             'email' => fake()->unique()->safeEmail(),
+            'school' => fake()->words(4, true),
             'email_verified_at' => now(),
+            'debate_role_id' => fake()->randomElement($debate_roles),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'remember_token' => Str::random(10),
         ];
