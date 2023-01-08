@@ -7,7 +7,7 @@
                     <div class="about--text text-white">
                         <p>
                             Imagine missing out on a chance to be yourself, 
-                            to meet people to understand how you think and 
+                            to meet people who understand how you think and 
                             vibe with you. Imagine missing a chance to make 
                             friends and memories that last forever, to build 
                             ideas that stand the test of time. Imagine missing a chance to have fun!

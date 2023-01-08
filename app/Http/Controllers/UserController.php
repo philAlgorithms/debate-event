@@ -2,41 +2,25 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\{OldUserResource, UserResource};
+use App\Models\OldUser;
 use App\Models\User;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function getCsv()
+    public function getUsersCsv()
     {
-        $participants = User::role('participant')->select(['name', 'email'])->get()->toArray();
+        $participants = UserResource::collection(User::role('participant')->get())->toArray(request());
 
         $filename = 'participants.csv';
+        downloadFile($filename, $participants);
+    }
+    public function getOldUsersCsv()
+    {
+        $participants = OldUserResource::collection(OldUser::all())->toArray(request());
 
-        // openfile for writing
-        $f = fopen($filename, 'w');
-        file_put_contents($filename, "");
-
-        if($f === false)
-        {
-            die('Error opening file {$filename}');
-        }
-
-        fputcsv($f, ['name', 'email']);
-        foreach ($participants as $participant)
-        {
-            fputcsv($f, $participant);
-        }
-
-        fclose($f);
-
-        header('Content-Description: File Transfer');
-	header('Content-Disposition: attachment; filename='.basename($filename));
-	header('Expires: 0');
-	header('Cache-Control: must-revalidate');
-	header('Pragma: public');
-	header('Content-Length: ' . filesize($filename));
-	header("Content-Type: text/csv");
-	readfile($filename);
+        $filename = 'old-participants.csv';
+        downloadFile($filename, $participants);
     }
 }

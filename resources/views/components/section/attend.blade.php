@@ -2,16 +2,16 @@
     <div class="container position-relative d-flex flex-column justify-content-center">
         <div class="row text-center text-white mb-5 attend--heading">
             <h1 class=""> 
-                <span class="date date-start">Nov 
-                    <span class="day"><x-svg.vector7 />27</span>
+                <span class="date date-start">Jan  
+                    <span class="day"><x-svg.vector7 />21</span>
                 </span>&nbsp; - &nbsp; 
-                <span class="date date-end">Dec   
-                    <span class="day"><x-svg.vector8 />03</span>
+                <span class="date date-end">Jan   
+                    <span class="day"><x-svg.vector8 />25</span>
                 </span>
             </h1>
         </div>
         <div class="row flex-column justify-content-center align-items-center text-white text-center attend--text">
-            <h1 class="">
+            <h1 class="">Over 
                 <span class="total-prize avatar-6-wrapper">
                     $1,000
                     <div class="total-prize--vectors">

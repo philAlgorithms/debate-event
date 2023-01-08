@@ -15,7 +15,8 @@ Route::post('/login', LoginController::class);
 
 Route::middleware(['role:admin'])->group(function(){
     Route::get('/admin', [AppController::class, 'admin']);
-    Route::get('/get-csv', [UserController::class, 'getCsv']);
+    Route::get('/get-users-csv', [UserController::class, 'getUsersCsv']);
+    Route::get('/get-old-users-csv', [UserController::class, 'getOldUsersCsv']);
 
     Route::get('/test', function () {
         return view('test');

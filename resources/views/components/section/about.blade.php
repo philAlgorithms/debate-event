@@ -17,11 +17,10 @@
                         <p>
                             The ANYDC provides young Nigerians with an opportunity and the freedom to
                             <ul class="mt-2">
-                                <li>Connect And Network</li>
-                                <li>Share Ideas</li>
-                                <li>Discuss Pressing National Issues</li>
-                                <li>And Most Importantly</li>
-                                <li>Have Fun!</li>
+                                <li>Connect and network</li>
+                                <li>Share ideas</li>
+                                <li>Discuss pressing national issues</li>
+                                <li>And most importantly, have Fun!</li>
                             </ul>
                         </p>
                         <p>

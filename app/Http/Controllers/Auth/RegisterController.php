@@ -14,14 +14,14 @@ class RegisterController extends BaseController
     public function __invoke(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'role' => ['required', 'numeric', 'exists:debate_roles,id'],
             'school' => ['nullable', 'string', 'max:255'],
+            'partner_school' => ['nullable', 'string', 'max:255'],
+            'partner_role' => ['nullable', 'numeric', 'exists:debate_roles,id', 'required_with:partner_name,partner_email'],
             'partner_name' => ['nullable', 'string', 'max:255', 'required_with:partner_email'],
             'partner_email' => ['nullable', 'string', 'email', 'max:255', 'required_with:partner_name'],
-            'partner_role' => ['nullable', 'numeric', 'exists:debate_roles,id', 'required_with:partner_name,partner_email'],
-            'partner_school' => ['nullable', 'string', 'max:255'],
+            'role' => ['required', 'numeric', 'exists:debate_roles,id'],
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
         ]);
 // return $request->all();
         if($validator->fails())
@@ -33,7 +33,7 @@ class RegisterController extends BaseController
 
         if($user_wants_partner and $partner_is_registered and !is_null($possible_partner->partner)){
             return $this->sendError([
-                'partner_email' => $possible_partner->name." has already partnered with someone else",
+                'partner_email' => [$possible_partner->name." has already partnered with someone else"],
                 ],[], 302
             );
         }

@@ -74,4 +74,24 @@ class User extends Authenticatable
     {
         return $this->belongsTo(DebateRole::class);
     }
+
+    /**
+     * User's institution
+     * 
+     * @return string
+     */
+    public function getInstitutionAttribute(): string
+    {
+        return $this->school ?? 'N/A';
+    }
+
+    /**
+     * Get old details
+     * 
+     * @return \App\Models\OldUser|null
+     */
+    public function getOldAccountAttribute(): ?OldUser
+    {
+        return OldUser::firstWhere('email', $this->email);
+    }
 }
