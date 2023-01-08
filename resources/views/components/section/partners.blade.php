@@ -2,7 +2,7 @@
     $partners = [
         'happivibe.png',
         'serve.png',
-        //'centaville.png',
+        'centaville.png',
         'tixhive-white.svg'
     ]
 ?>
