@@ -33,11 +33,11 @@
                 </ul>
             </div>
             <div class="youtube-video">
-            <iframe width="670" height="377" src="https://www.youtube.com/embed/P6FORpg0KVo" title="How to Make Learning as Addictive as Social Media | Luis Von Ahn | TED" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/P6FORpg0KVo" title="How to Make Learning as Addictive as Social Media | Luis Von Ahn | TED" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="row text-center mt-5 d-none">
-            <x-button.perspective text="Buy Tickets" />
+        <div class="row text-center mt-5 ">
+            <x-button.perspective text="View more media from ANYDC'23" />
         </div>
         <div class="row avatars d-none d-md-block">
             <span class="avatar avatar-7"><img src="/images/avatars/avatar-7.png" alt="memoji 1"></span>

@@ -12793,7 +12793,9 @@ input {
   font-weight: 400;
   margin-bottom: 0.5rem;
   width: 100%;
+  list-style-type: none;
 }
+
 @media (max-width: 575.98px) {
   .attend .container .attend--text .activities ul li {
     font-size: 0.875rem;
@@ -12860,6 +12862,13 @@ input {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .about .container .about-card .about--text p {
+    font-size: 0.9rem;
+    text-align: left;
+  }
 }
 
 .meet {
@@ -13474,6 +13483,32 @@ input {
     padding: 0 20%;
   }
 }
+
+@media (max-width: 768px) {
+  .partners .container {
+    width: 90%;
+  }
+  
+  .display-3 {
+    font-size: 2rem;
+  }
+
+  .partners .container .partners--logos {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  /* .partners .container .partners--logos .img-box {
+    width: 25%;
+    border: 1px solid red;
+  } */
+
+  .partner .img-responsive{
+    width: 80%;
+  }
+
+}
+
 
 .prizes {
   margin-top: 5rem;
