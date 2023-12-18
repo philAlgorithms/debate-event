@@ -1,0 +1,23 @@
+.meet-description {
+    width: 70vw;
+    height: 25vh;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    background-color: rgb(30, 30, 30);
+}
+
+.meet-description .meet-head-text {
+    line-height: 3px;
+    height: 100%;
+}
+
+.meet-description .meet-head-text .meet-text {
+    width: 100%;
+    font-size: 1.3rem;
+    line-height: 3px;
+    font-weight: 400;
+}
+
+.youtube-video > iframe{
+    border-radius: 12px;
+}

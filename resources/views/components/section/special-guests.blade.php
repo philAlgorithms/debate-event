@@ -1,7 +1,7 @@
 <section id="special-guests" class="special-guests mt-5">
     <div class="container position-relative">
         <div class="row text-center text-white">
-            <h1 class="display-3">Special Guests</h1>
+            <h1 class="display-3">Speakers</h1>
         </div>
         <x-to-be-announced />
         <div class="row d-flex justify-content-center d-none">

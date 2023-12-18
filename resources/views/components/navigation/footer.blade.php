@@ -5,7 +5,7 @@
                 ANYDC team at <br/>
                 <u>team&#64;anydc.xyz</u>
             </h1>
-            <a href="mailto:team@anydc.xyz" class="text-muted"><u>Contact the team</u>  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a href="mailto:team@anydc.xyz" class="text-muted" style="font-size: 1rem;"><u>Contact the team</u>  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
         <div class="row footer-links mb-4">
             <div class="card bg-gray-700 w-100 mh-100 rounded-4">
@@ -20,7 +20,6 @@
                         <div class="col-6 col-md-4 link-group">
                             <h6 class="mb-3">Important Links</h6>
                             <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#register" class="nav-link p-0">Register</a></li>
                                 <li class="nav-item mb-2"><a href="#about" class="nav-link p-0">About Event</a></li>
                                 <li class="nav-item mb-2"><a href="#special-guests" class="nav-link p-0">Speakers</a></li>
                                 <li class="nav-item mb-2"><a href="#event-schedule" class="nav-link p-0">Schedule</a></li>
@@ -30,7 +29,7 @@
                         <div class="col-6 col-md-4 link-group">
                             <h6 class="mb-3">Event Details</h6>
                             <ul class="nav flex-column">
-                                <li class="nav-item mb-4"><span><i class="fas fa-calendar text-green-500"></i> &nbsp;January 21st - 25th, 2023</span></li>
+                                <li class="nav-item mb-4"><span><i class="fas fa-calendar text-green-500"></i> &nbsp;March 27th - April 1st, 2024</span></li>
                                 <li class="nav-item"><span><i class="fas fa-map-marker-alt text-green-500"></i> &nbsp;Lagos, Nigeria</span></li>
                             </ul>
                         </div>

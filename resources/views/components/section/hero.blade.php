@@ -20,7 +20,7 @@
             <span class="avatar avatar-5"><img src="/images/avatars/avatar-5.png" alt="memoji 5"></span>
         </div>
         <div class="row ribbons w-100">
-            <p class="year year-text d-flex align-items-center justify-content-center">'22</p>
+            <p class="year year-text d-flex align-items-center justify-content-center">'24</p>
             <img src="/images/ribbons/Vector 22.svg" class="ribbon ribbon-15" />
             <img src="/images/ribbons/Vector 20.svg" class="ribbon ribbon-16" />
          

@@ -12782,10 +12782,17 @@ input {
     padding-right: 12rem;
   }
 }
+.attend .container .attend--text .activities {
+  width: 90%;
+}
+.attend .container .attend--text .activities ul {
+  width: 100%;
+}
 .attend .container .attend--text .activities ul li {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   margin-bottom: 0.5rem;
+  width: 100%;
 }
 @media (max-width: 575.98px) {
   .attend .container .attend--text .activities ul li {
@@ -12852,6 +12859,7 @@ input {
 .about .container .about-card .about--text p {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
+  font-size: 1.3rem;
 }
 
 .meet {
@@ -13428,6 +13436,11 @@ input {
     padding-right: 0.25rem;
   }
 }
+
+.partners .container {
+  width: 100%;
+}
+
 
 .partners .container .sponsor {
   font-family: "Monument Extended", sans-serif;

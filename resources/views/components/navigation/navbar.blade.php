@@ -10,22 +10,16 @@
             <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#register">Register</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#about">About The Event</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#event-schedule">Schedule</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#partners">Partners</a>
+            <a class="nav-link" href="#special-guests">Speakers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#prizes">Prizes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#special-guests">Guests</a>
+            <a class="nav-link" href="#blog">Blog</a>
           </li>
         </ul>
       </div>
