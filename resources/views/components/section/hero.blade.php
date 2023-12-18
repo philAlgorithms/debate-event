@@ -9,8 +9,7 @@
                     Find the freedom to express yourself and your opinion!
                 </span>
                 <span class="display-2--description lh-md">
-                    Connect with hundreds of people just like you at Naija&apos;s first-ever blend of youth, positive discourse, and fun! running from the 27th of November to the 3rd of December
-                </span>
+                    Connect with hundreds of people just like you at Naija&apos;s first-ever blend of youth, positive discourse, and fun!               </span>
             </h1>
         </div>
         <div class="row avatars">
