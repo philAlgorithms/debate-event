@@ -33,7 +33,7 @@
                 </ul>
             </div>
             <div class="youtube-video">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/P6FORpg0KVo" title="How to Make Learning as Addictive as Social Media | Luis Von Ahn | TED" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/OevWZGbnZ48" title="How to Make Learning as Addictive as Social Media | Luis Von Ahn | TED" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
         <div class="row text-center mt-5 ">

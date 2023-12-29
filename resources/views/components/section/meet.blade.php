@@ -1,13 +1,7 @@
 <section id="meet" class="meet">
     <div class="container position-relative">
         <div class="row flex-column justify-content-center align-items-center text-white text-center meet--register">
-        {{-- <div class="text-white mx-0 meet-description">
-            <h1 class="display-2 meet-head-text">
-                <span class="meet-text">
-                At ANYDC, we provide a dynamic platform for young minds to engage in structured, issue-based debates, empowering them to shape Nigeria's political and economic landscape. Our mission is to refine communication skills and nurture critical thinking abilities, transforming participants into articulate and informed leaders. Since our inception, we've seen over 500 enthusiastic participants, all eager to ignite change and contribute to a thriving Nigeria.
-                </span>
-            </h1>
-        </div> --}}
+
             <div class="card bg-purple-500 participants-card mh-100 rounded-lg mb-4">
                 <div class="card-body px-0">
                     <h1 class="card-title">{{ \App\Models\User::role('participant')->count() }}</h1>
@@ -34,5 +28,16 @@
             <img src="/images/ribbons/Vector 40.svg" class="ribbon ribbon-14" />
         </div>
     </div>
-    <x-modal.register /> 
+    <x-modal.register />
+    {{-- <div class="text-white mx-0 meet-description">
+        <h1 class="display-2 meet-head-text">
+            <span class="meet-text">
+                At ANYDC, we provide a dynamic platform for young minds to engage in structured, issue-based debates,
+                empowering them to shape Nigeria's political and economic landscape. Our mission is to refine
+                communication skills and nurture critical thinking abilities, transforming participants into articulate
+                and informed leaders. Since our inception, we've seen over 500 enthusiastic participants, all eager to
+                ignite change and contribute to a thriving Nigeria.
+            </span>
+        </h1>
+    </div> --}}
 </section>
