@@ -17,7 +17,7 @@ function downloadFile(string $filename, array $data)
         die('Error opening file {$filename}');
     }
 
-    fputcsv($f, array_keys($data[0]));
+    fputcsv($f, count($data) > 0 ? array_keys($data[0]) : []);
     foreach ($data as $k=>$datum)
     {
         fputcsv($f, $datum);

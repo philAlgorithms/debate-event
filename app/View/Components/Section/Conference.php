@@ -1,10 +1,10 @@
 <?php
 
-namespace App\View\Components\Button;
+namespace App\View\Components\Section;
 
 use Illuminate\View\Component;
 
-class Perspective extends Component
+class Conference extends Component
 {
     /**
      * Create a new component instance.
@@ -13,6 +13,7 @@ class Perspective extends Component
      */
     public function __construct()
     {
+        //
     }
 
     /**
@@ -22,6 +23,6 @@ class Perspective extends Component
      */
     public function render()
     {
-        return view('components.button.perspective');
+        return view('components.section.conference');
     }
 }

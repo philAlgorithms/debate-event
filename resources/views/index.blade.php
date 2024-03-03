@@ -6,6 +6,7 @@
     <!-- <x-section.contact /> -->
     <x-section.about />
     <x-section.special-guests />
+    <x-section.conference id="conference" />
     <x-section.schedule :eventDays=$event_days/>
     <x-section.partners />
     <!-- <x-section.ctr /> -->

@@ -29,8 +29,8 @@
                         <div class="col-6 col-md-4 link-group">
                             <h6 class="mb-3">Event Details</h6>
                             <ul class="nav flex-column">
-                                <li class="nav-item mb-4"><span><i class="fas fa-calendar text-green-500"></i> &nbsp;March 27th - April 1st, 2024</span></li>
-                                <li class="nav-item"><span><i class="fas fa-map-marker-alt text-green-500"></i> &nbsp;Lagos, Nigeria</span></li>
+                                <li class="nav-item mb-4"><span><i class="fas fa-calendar text-green-500"></i> &nbsp;April 18th - April 23rd, 2024</span></li>
+                                <li class="nav-item"><span><i class="fas fa-map-marker-alt text-green-500"></i> &nbsp;Awka, Nigeria</span></li>
                             </ul>
                         </div>
                     </div>

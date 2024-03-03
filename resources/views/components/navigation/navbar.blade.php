@@ -19,7 +19,7 @@
             <a class="nav-link" href="#special-guests">Speakers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#blog">Blog</a>
+            <a class="nav-link" href="#conference">Conference</a>
           </li>
         </ul>
       </div>
