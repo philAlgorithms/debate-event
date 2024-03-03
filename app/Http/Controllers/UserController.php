@@ -13,14 +13,14 @@ class UserController extends Controller
     {
         $participants = UserResource::collection(User::role('participant')->get())->toArray(request());
 
-        $filename = 'participants.csv';
+        $filename = storage_path('participants.csv');
         downloadFile($filename, $participants);
     }
     public function getOldUsersCsv()
     {
         $participants = OldUserResource::collection(OldUser::all())->toArray(request());
 
-        $filename = 'old-participants.csv';
+        $filename = storage_path('old-participants.csv');
         downloadFile($filename, $participants);
     }
 }
