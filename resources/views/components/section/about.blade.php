@@ -19,14 +19,12 @@
                             discourse.
                         </p>
                         <p>
-                            The second part of this event features a national youth conference where our participants
-                            will get the opportunity to learn from experienced professional speakers and panels on
-                            relevant political, economic and socio-cultural issues. The conference will also include an
-                            Award ceremony, to celebrate individuals who have performed exceptionally in areas relevant
-                            to youth and nation building.
-                            In order to create a healthy balance of social and intellectual excitement, the event will
-                            feature lots of exciting activities like concerts, games, celebrity meet and greets, talent
-                            shows, picnics, etc.
+                            The debate tournament will adopt the British Parliamentary Debate Format, featuring
+                            two-person teams competing against 3 other teams in a full debate room. Participants shall
+                            receive the debate topics on the spot, and have 15 minutes of preparation prior to the
+                            commencement of the debate round. Participants will compete for 7 preliminary rounds, after
+                            which the top ranked teams will proceed to the quarterfinals, semifinals, and grand finals
+                            respectively.
                         </p>
                     </div>
                     <div class="text-center mt-4">
