@@ -1,0 +1,31 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+input {
+    height: 50px;
+}
+
+.modal-register {
+    input, .input-group-text {
+        background-color: $gray-700;
+        color: $white;
+        border: 0;
+    }
+    
+    input {
+        height: 50px;
+
+        &:focus {
+            background-color: rgba($gray-700, 0.7);
+            color: $gray-100;
+        }
+    }
+
+    .input-group-text {
+        color: $white;
+
+        i {
+            color: $white;
+        }
+    }
+}

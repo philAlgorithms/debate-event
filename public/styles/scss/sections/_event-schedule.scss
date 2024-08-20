@@ -1,0 +1,28 @@
+@use '../custom' as *;
+
+.event-schedule {
+    .activity {
+		padding: 0.25rem;
+
+		@include media-breakpoint-down(sm) {
+		    padding-left: 0.25rem;
+		    padding-right: 0.25rem;
+		}
+		//padding: 0.25rem;
+		// &:nth-child(1n + 0) {
+		// 	.card-header {
+		// 	background-color: $purple;
+		// 	}
+		// }
+		// &:nth-child(2n + 0) {
+		// 	.card-header {
+		// 	background-color: $green;
+		// 	}
+		// }
+		// &:nth-child(3n + 0) {
+		// 	.card-header {
+		// 	background-color: $blue;
+		// 	}
+		// }
+    }
+}

@@ -1,0 +1,123 @@
+@use '../custom' as *;
+
+//ABSOLUTE POSITION
+@mixin absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin fullHeight {
+    @include media-breakpoint-down(sm) {
+        height: 667px;
+    }
+
+    @include media-breakpoint-up(sm) {
+        height: 780px;
+    }
+
+    @include media-breakpoint-up(md) {
+        height: 500px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        height: 600px;
+    }
+
+    @include media-breakpoint-up(xl) {
+        height: 800px;
+    }
+}
+@mixin image-o ($font-size) {
+    display: inline-flex;
+    font-size: $font-size;
+    span {
+        background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
+        width: calc($font-size/1.75);
+        height: calc($font-size/1.75);
+        border-radius: 50%;
+        transform: translate(-5%, 100%);
+        //vertical-align: bottom;
+
+        img {
+            display: inline;
+            max-width: 80%;
+            min-width: 80%;
+            transform: translate(12.5%, -132.5%);
+        }
+    }
+}
+
+
+@mixin image-o ($font-size, $line-height:$font-size) {
+    display: inline-flex;
+    font-size: $font-size;
+
+    span {
+        //position: relative;
+        //display: inline;
+        background: linear-gradient(180deg, #FFF4E3 0%, #FFD499 100%);
+        width: calc($font-size/1.75);
+        height: calc($font-size/1.75);
+        border-radius: 50%;
+        transform: translate(-5%, 75%);
+        //vertical-align: bottom;
+
+        img {
+            display: inline;
+            max-width: 80%;
+            min-width: 80%;
+            transform: translate(12.5%, -85%);
+        }
+    }
+}
+
+@mixin avatar-6-wrap ($font-size) {
+    display: inline-flex;
+    font-size: $font-size;
+
+    span {
+        //position: relative;
+        //display: inline;
+        background: linear-gradient(180deg, #E3D7D2 0%, #CDB9B0 100%);
+        width: calc($font-size/1.5);
+        height: calc($font-size/1.5);
+        border-radius: 50%;
+        transform: translate(-5%, 42.5%);
+        margin-left: 3.75px;
+
+        img {
+            display: inline;
+            max-width: 80%;
+            min-width: 80%;
+            transform: translate(2.5%, -70%);
+        }
+    }
+}
+
+@mixin shinyText {
+    background-image: linear-gradient(
+        -225deg,
+        $yellow 0%,
+        $cyan 29%,
+        $green-500 67%,
+        $purple 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+}
+    @keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+    
+}

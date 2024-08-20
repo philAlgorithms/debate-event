@@ -1,0 +1,176 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.hero {
+    margin-top: 5%;
+    .container {
+        position: relative;
+        height: 100%;
+
+        .hero--text {
+            position: absolute;
+            top: 40%;
+            transform: translateY(-50%);
+
+            @include media-breakpoint-down(sm) {
+                //padding-right: 10%;
+                padding-left: 5%;
+            }
+
+            @include media-breakpoint-up(md) {
+                padding-right: 10%;
+                padding-left: 10%;
+            }
+        }
+
+        .avatars, .ribbons {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+
+        .ribbons {
+            //overflow: hidden;
+
+            .year {
+                $year-size-xs: 13.5rem;
+                $year-size-sm: 20rem;
+                $year-size-md: 15rem;
+                $year-size-lg: 17.5rem;
+                $year-size-xl: 22.5rem;
+
+                position: absolute;
+                z-index: -999;
+                padding: 0;
+                margin: 0;
+
+                &-text {
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 1000;
+                    background: linear-gradient(94.54deg, $purple 0.43%, $blue 48.4%, $green 102.77%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    letter-spacing: -1rem;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    width: calc($year-size-xs * 1.4);
+                    height: $year-size-xs;
+                    font-size: $year-size-xs;
+                    bottom: 20%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    letter-spacing: -0.5rem;
+                }
+                @include media-breakpoint-up(sm) {
+                    width: calc($year-size-sm * 1.4);
+                    height: $year-size-sm;
+                    font-size: $year-size-sm;
+                    bottom: 25%;
+                    right: 0%;
+                }
+                @include media-breakpoint-up(md) {
+                    width: calc($year-size-md * 1.4);
+                    height: $year-size-md;
+                    font-size: $year-size-md;
+                    bottom: 30%;
+                    right: 2%;
+                }
+                @include media-breakpoint-up(lg) {
+                    width: calc($year-size-lg * 1.4);
+                    height: $year-size-lg;
+                    font-size: $year-size-lg;
+                    bottom: 22.5%;
+                    right: 10%;
+                }
+                @include media-breakpoint-up(xl) {
+                    font-size: $year-size-xl;
+                    width: calc($year-size-xl * 1.4);
+                    height: $year-size-xl;
+                    right: 15%;
+                    bottom: 20%;
+                }
+            }
+
+            .ribbon {
+                position: absolute;
+                z-index: -9999;
+
+                &-15 {
+                    @include media-breakpoint-down(sm){
+                        width: 15%;
+                        right: 50%;
+                        transform: translateX(50%);
+                        top: 12.5%;
+                    }
+                    @include media-breakpoint-up(sm){
+                        width: 15%;
+                        right: 50%;
+                        transform: translateX(50%);
+                        top: 10%;
+                    }
+                    @include media-breakpoint-up(md){
+                        width: 10%;
+                        right: 0%;
+                        top: 35%;                    
+                    }
+                    @include media-breakpoint-up(lg){
+                        right: 5%;
+                        bottom: 30%;
+                    }
+                    @include media-breakpoint-up(xl){
+                        
+                    }
+                }
+
+                &-16 {
+                    @include media-breakpoint-down(sm){
+                        left: 50%;
+                        bottom: 17.5%;
+                        transform: translateX(-50%);
+                        width: 12.5%;
+                    }
+                    @include media-breakpoint-up(sm){
+                        left: 50%;
+                        bottom: 16.5%;
+                        transform: translateX(-50%);
+                        width: 12.5%;
+                    }
+                    @include media-breakpoint-up(md){
+                        transform: translateX(-100%);
+                        width: 7.5%;
+                    }
+                    @include media-breakpoint-up(lg){
+                        width: 5%;
+                    }
+                    @include media-breakpoint-up(xl){
+                        
+                    }
+                }
+                &-17 {
+                    @include media-breakpoint-down(sm){
+
+                    }
+                    @include media-breakpoint-up(sm){
+
+                    }
+                    @include media-breakpoint-up(md){
+                        
+                    }
+                    @include media-breakpoint-up(lg){
+                        
+                    }
+                    @include media-breakpoint-up(xl){
+                        
+                    }
+                }
+            }
+        }
+    }
+    @include fullHeight;
+
+    @include media-breakpoint-between(md, lg) {
+        height: 700px;
+    }
+}

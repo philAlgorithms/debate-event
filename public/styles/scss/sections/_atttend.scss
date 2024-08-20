@@ -1,0 +1,213 @@
+@use  '../custom' as *;
+@use '../components/mixins' as *;
+
+.attend {
+    //width: 100vw;
+    padding: 0;
+
+    .container {
+	    $margin-xs: 40px;
+        $margin-xl: 80px;
+
+        position: relative;
+        //width: 100%;
+        height: 100%;
+
+        .attend--heading {
+            h1 {
+                font-family: 'Monument Exended', sans-serif;
+                font-weight: 700;
+                font-size: 2.5rem;
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 1.5rem;
+                }
+
+                @include media-breakpoint-up(md) {
+                    font-size: 3rem;
+                }
+            }
+            .date {
+                .day {
+                    position: relative;
+                    color: $dark;
+                    &--background {
+                        position: absolute;
+                        top: 2.5%;
+                        left: -10%;
+                        z-index: -999;
+                    }
+                }
+
+                &-start {
+                    .day--background {
+                        width: 125%;
+                    }
+                }
+
+                &-end {
+                    .day--background {
+                        width: 130%;
+                        left: -12.5%
+                    }
+                }
+            }
+        }
+
+        .attend--text {
+            //height: 100%;
+
+            h1 {
+                display: block;
+                font-size: 1.5rem;
+                 font-family: 'DM Sans', sans-serif;
+                font-weight: 400;
+
+                .total-prize {
+                    position: relative;
+                    color: $green;
+
+                    &--vectors {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+
+                        .vector {
+                            position: absolute;
+
+                            &-1 {
+                                width: 15%;
+                                left: 22.5%;
+                                top: -40%;
+                            }
+
+                            &-2 {
+                                width: 11.5%;
+                                right: -7.5%;
+                                top: -20%
+                            }
+
+                            &-3 {
+                                width: 10%;
+                                left: 12%;
+                                bottom: -30%;
+                            }
+
+                            &-4 {
+                                width: 10%;
+                                left: -13.5%;
+                                top: 5%;
+                            }
+
+                            &-5 {
+                                width: 8.75%;
+                                right: 10%;
+                                bottom: -5.625%;
+                            }
+
+                            &-6 {
+                                width: 6.25%;
+                                right: 27.5%;
+                                top: -25%;
+                            }
+                        }
+                    }
+                }
+
+                @include media-breakpoint-down(sm){
+                    font-size: $attend-size-xs;
+                    padding: 0 10%;
+                }
+                @include media-breakpoint-up(sm){
+                    font-size: $attend-size-sm;
+                }
+                @include media-breakpoint-up(md){
+                    font-size: $attend-size-md;
+                    padding-left: 6rem;
+                    padding-right: 6rem;
+                }
+                @include media-breakpoint-up(lg){
+                    font-size: $attend-size-lg;
+                    padding-left: 10rem;
+                    padding-right: 10rem;
+                }
+                @include media-breakpoint-up(xl){
+                    font-size: $attend-size-xl;
+                    padding-left: 10rem;
+                    padding-right: 10rem;
+                }
+            }
+                        
+            p {
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 400;
+
+                
+                @include media-breakpoint-down(sm) {
+                    padding: 0 12.5%;
+                    font-size: 0.875rem;
+                }
+
+                @include media-breakpoint-up(sm) {
+                    padding: 0 15%;
+                    font-size: 1.2rem;
+                }
+
+                @include media-breakpoint-up(md) {
+                    padding-left: 9rem;
+                    padding-right: 9rem;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    padding-left: 12rem;
+                    padding-right: 12rem;
+                }
+            }
+
+            .activities {
+                ul {
+                    li {
+                        font-family: 'DM Sans', sans-serif;
+                        font-weight: 400;
+                        margin-bottom: 0.5rem;
+                        
+                        @include media-breakpoint-down(sm) {
+                            //padding: 0 12.5%;
+                            font-size: 0.875rem;
+                        }
+        
+                        @include media-breakpoint-up(sm) {
+                        
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+                @include media-breakpoint-down(sm){
+                    padding: 0 10%;
+                }
+                @include media-breakpoint-up(sm){
+                }
+                @include media-breakpoint-up(md){
+                    padding-left: 6rem;
+                    padding-right: 6rem;
+                }
+                @include media-breakpoint-up(lg){
+                    padding-left: 10rem;
+                    padding-right: 10rem;
+                }
+                @include media-breakpoint-up(xl){
+                    padding-left: 10rem;
+                    padding-right: 10rem;
+                }
+            }
+        }
+    }
+
+    // @include fullHeight;
+    // @include media-breakpoint-down(sm){
+    //     height: 500px;
+    // }
+    // @include media-breakpoint-between(sm, md){
+    //     height: 400px;
+    // }
+}

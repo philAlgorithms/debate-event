@@ -1,0 +1,120 @@
+@use '../custom' as *;
+
+// DECLARE FONTS
+@font-face {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../fonts/monument-extended/MonumentExtended-Regular.otf') format('tof');
+}
+@font-face {
+    font-family: 'Monument Extended'; 
+    font-style: normal;
+    font-weight: 800;
+    src: url('../../fonts/monument-extended/MonumentExtended-Ultrabold.otf') format('tof');
+}
+
+// CONCERNING TEXTS
+.display-2 {
+    //text-transform: capitalize;
+    
+    &--intro {
+        display: inline;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        font-stretch: extra-expanded;
+        //line-height: 4rem;
+
+        @include media-breakpoint-down(sm) {
+            font-size: $intro-size-xs;
+        }
+        @include media-breakpoint-up(sm) {
+            font-size: $intro-size-sm;
+        }
+        @include media-breakpoint-up(md) {
+            font-size: $intro-size-md;
+            //line-height: -1rem;
+        }
+        @include media-breakpoint-up(lg) {
+            font-size: $intro-size-lg;
+        }
+        @include media-breakpoint-up(xl) {
+            font-size: $intro-size-xl;
+            line-height: $intro-size-xl;
+        }
+
+        //  NON-CONFORMING DEVICE-WIDTHS
+        // @media (min-width: 986px) and (max-width: 1175px) {
+        //     font-size: calc(($intro-size-md + $intro-size-lg)/2);
+        // }
+        // @media (min-width: 1180px) and (max-width: 1267px) {
+        //     font-size: $intro-size-lg;
+        // }
+
+        
+
+        @media (min-width: 993px) and (max-width: 1070px) {
+            font-size: 4.5rem;
+        }
+        @media (min-width: 1201px) and (max-width: 1300px) {
+            font-size: 6rem;
+        }
+    }
+
+    &--description {
+        font-size: 1.25rem;
+        font-family: 'DM Sans', sans-serif;
+        display: block;
+        margin-top: 1.2rem;
+        text-transform: none;
+
+	    @include media-breakpoint-down(sm) {
+            max-width: 95%;
+            font-size: 1rem;
+            display: inline-block;
+            padding-right: 5%;
+        }
+
+        @include media-breakpoint-up(sm) {
+            max-width: 80%;
+            font-size: 1.4rem;
+            display: inline-block;
+            padding-right: 7.5%;
+        }
+
+        @include media-breakpoint-up(md) {
+            max-width: 80%;
+            font-size: 1.2rem;
+            display: inline-block;
+            padding-right: 20%;
+        }
+
+        @include media-breakpoint-up(xl) {
+            max-width: 70%;
+            font-size: 1.5rem;
+            display: inline-block;
+            padding-right:20%;
+        }
+    }
+}
+
+.display-3 {
+    text-transform: 'capitalise';
+    font-size: 4.5rem;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: 900;
+    letter-spacing: -0.2rem;
+
+    @include media-breakpoint-down(sm){
+        font-size: 2.5rem;
+    }
+
+    @include media-breakpoint-between(sm, md){
+        font-size: 3rem;
+    }
+}
+
+.lead {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+}

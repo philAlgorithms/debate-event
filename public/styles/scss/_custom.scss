@@ -1,0 +1,88 @@
+// THEME COLORS
+$blue:  #5656FF;
+$purple: #867DE1;
+$purple-500: #716DEE;
+$green: #67B98D;
+$yellow: #F8D74B;
+$cyan: #62CCED;
+$green-500: #75F7A3;
+
+// BOOTSTRAP THEME COLORS
+$indigo:  #6610f2;
+$pink:    #d63384;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$teal:    #20c997;
+
+// OVERRIDE GRAY COLORS
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #25252d;//#495057;
+$gray-800: #343a40;
+$gray-900: #1E1E1E;
+$black:    #000;
+
+$primary:       $blue;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-900;
+
+$btn-close-color:     $white;
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "purple":      $purple,
+  "blue":       $blue,
+  "green":      $green,
+  "yellow":     $yellow,
+  "cyan":       $cyan,
+  "green-500":  $green-500,
+  "purple-500":      $purple-500,
+  //   BOOTSTRAP'S
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  //	GRAY COLORS
+  "gray-600":	$gray-600,
+  "gray-700":	$gray-700,
+  "gray-800":   $gray-800,
+);
+// APP FONT-SIZES
+$intro-size-xs: 2.625rem;
+$intro-size-sm: 3.5rem;
+$intro-size-md: 3.5rem;
+$intro-size-lg: 4.5rem;
+$intro-size-xl: 5rem;
+
+$attend-size-xs: 1.5rem;
+$attend-size-sm: 2rem;
+$attend-size-md: 2.5rem;
+$attend-size-lg: 3rem;
+$attend-size-xl: 4rem;
+
+// BUTTONS
+//$btn-link-hover-color: rgba($purple, 0.8);
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// INPUT GROUP
+
+$input-height: 70px;
+
+//$input-group-addon-color:               $input-color;
+$input-group-addon-bg:                  transparent;
+$input-group-addon-border-color:        transparent;

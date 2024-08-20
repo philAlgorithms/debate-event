@@ -1,0 +1,20 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.modal {
+    &-backdrop {
+	display:none;
+    }
+}
+
+.modal-register {
+    .modal-body {
+        .register-title {
+            margin-bottom: 1.5rem;
+            font-weight: 800;
+            font-family: 'Monument Extended', sans-serif;
+            font-size: 2rem;
+        }
+    }
+}
